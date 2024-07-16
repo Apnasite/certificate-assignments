@@ -1,0 +1,350 @@
+@font-face {
+	font-family: ctitle;
+	src: url("../fonts/WorkSans-SemiBold.ttf");
+  }
+ @font-face {
+	font-family: cname;
+	src: url("../fonts/CrystalSymphonyPersonalUseOnlyRegular-15wL.ttf");
+  }
+
+@media all{
+		body.printView, body.printView:before, body.printView:after { 
+		border : none !important;
+  }
+
+	.certificate-wrapper {
+		overflow: hidden;
+		width: 297mm;
+		height: 210mm;
+		position: relative;
+		background: white!important;
+		line-height: normal;
+  	}
+
+  /*.certificate-wrapper.watermark {
+	position: relative;
+	}
+
+	.watermark::after {
+		content: '';
+		background-image: url('./watermark.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.3; /* Adjust the transparency */
+		/*pointer-events: none; /* Allow clicks through the watermark */
+		/*z-index: 2;
+	}*/
+  .certificate-wrapper .certificate-background {
+		left: 0mm;
+		top: auto;
+		width: 297mm;
+		height: 210mm;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.certificate-border-outer {
+		position: absolute;
+		left: 13mm;
+		top: 11mm;
+		width: 270mm;
+		height: 188mm;
+		overflow: hidden;
+		border: 3pt solid rgb(251 181 2 / 43%);
+		box-shadow: inset 0px 0px 20px 0px #8080804f;	
+		z-index: 2;	
+	}
+
+	.certificate-border-inner {
+		position: absolute;
+		left: 19mm;
+		top: 17mm;
+		width: 258mm;
+		height: 176mm;
+		overflow: hidden;
+		border: 3pt solid rgb(251 181 2 / 43%);
+		box-shadow: inset 0px 0px 20px 0px #8080804f;
+		z-index: 2;
+	}
+	
+	.certificate-wrapper .certificate-background .triangle-top-right-corner{
+		position: absolute;
+		right: -28mm;
+		top: -44mm;
+		width: 77mm;
+		height: 106mm;
+		background-color: aqua;
+		transform: rotateZ(-45deg);
+		/*background-image:linear-gradient(to bottom, #02d8ed8a, #530ca1fc);*/
+		background-image: linear-gradient(to bottom, cyan, rgb(96 3 193 / 98%));
+		z-index: 3;
+	}
+
+	.certificate-wrapper .certificate-background .triangle-top-right-shadow {
+		position: absolute;
+		right: 34mm;
+		top: -32mm;
+		width: 12mm;
+		height: 146mm;
+		transform: rotateZ(-45deg);
+		background-image: linear-gradient(to left, #808080a6, #ffffff);
+		opacity: 0.5;
+	}
+
+	.certificate-wrapper .certificate-background .triangle-top-left-corner {
+		position: absolute;
+		left: -28mm;
+		top: -44mm;
+		width: 77mm;
+		height: 104mm;
+		background-color: aqua;
+		transform: rotateZ(45deg);
+		/*background-image: linear-gradient(to top,  #02d8ed8a, #530ca1fc);*/
+		background-image: linear-gradient(to top, cyan, rgb(96 3 193 / 98%));
+		opacity: 0.8;
+	}
+	
+	.certificate-wrapper .certificate-background .triangle-top-left-shadow {
+		position: absolute;
+		left: 34mm;
+		top: -32mm;
+		width: 12mm;
+		height: 146mm;
+		transform: rotateZ(45deg);
+		background-image: linear-gradient(to right, #808080a6, #ffffff);
+		opacity: 0.5;
+    }
+
+	.certificate-wrapper .certificate-background .triangle-bottom-right-corner {
+		position: absolute;
+		right: -28mm;
+		bottom: -44mm;
+		width: 77mm;
+		height: 106mm;
+		background-color: aqua;
+		transform: rotateZ(45deg);
+		/*background-image: linear-gradient(to top,  #02d8ed8a, #530ca1fc);*/
+		background-image: linear-gradient(0.99turn, cyan, rgb(96 3 193 / 98%));
+		opacity: 0.8;
+	}
+
+	.certificate-wrapper .certificate-background .triangle-bottom-right-shadow {
+		position: absolute;
+		right: 34mm;
+		bottom: -32mm;
+		width: 12mm;
+		height: 146mm;
+		transform: rotateZ(45deg);
+		background-image: linear-gradient(to left, #808080a6, #ffffff);
+		opacity: 0.5;
+	}
+
+	.certificate-wrapper .certificate-background .triangle-bottom-left-corner {
+		position: absolute;
+		left: -28mm;
+		bottom: -44mm;
+		width: 77mm;
+		height: 104mm;
+		background-color: aqua;
+		transform: rotateZ(-45deg);
+		/*background-image: linear-gradient(to bottom, aqua, rgb(50, 5, 97));*/
+		background-image: linear-gradient(to bottom, cyan, rgb(101 10 197 / 98%));
+		z-index: 3;
+	}	
+
+	.certificate-wrapper .certificate-background .triangle-bottom-left-shadow{
+		position: absolute;
+		left: 34mm;
+		bottom: -32mm;
+		width: 12mm;
+		height: 146mm;
+		transform: rotateZ(-45deg);
+		background-image: linear-gradient(to right, #808080a6, #ffffff);
+		opacity: 0.5;
+	}
+	.certificate-wrapper .certificate-background .line-bottom-left {
+		position: absolute;
+		left: 55mm;
+		top: 180mm;
+		width: 61mm;
+		height: 1pt;
+		background: black;
+	}
+	.certificate-wrapper .certificate-background .line-bottom-right {
+		position: absolute;
+		left: 184mm;
+		top: 180mm;
+		width: 61mm;
+		height: 1pt;
+		background: black;
+	}
+
+    .certificate-wrapper .certificate-content {
+		top: 20mm;
+		right: 20mm;
+		bottom: 20mm;
+		left: 20mm;
+		position: absolute;
+	}
+
+	.certificate-wrapper .certificate-content .title {
+		position: absolute;
+		left: 0mm;
+		top: 12mm;
+		right: 0mm;
+		font-size: 63pt;
+		font-family: ctitle;
+		/* text-shadow: 2mm 2mm 2mm #DB7093 !important; */
+		text-align: center;
+		margin: auto;
+		line-height: normal;
+		background: linear-gradient(to right, #02d8ed, rgb(96 3 193 / 98%));
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+		/* background-image: linear-gradient(0.25turn, #02d8ed, rgb(96 3 193 / 98%));
+		background-clip: text;
+		-webkit-text-fill-color: transparent; */
+	}
+	
+	.certificate-wrapper .certificate-content .sr-no {
+		position: absolute;
+		left: 0mm;
+		top: 0mm;
+		font-size: 16pt;
+	  }
+
+	.certificate-wrapper .certificate-content .date {
+		position: absolute;
+		left: auto;
+		top: 1mm;
+		right: 1mm;
+		font-size: 14pt;
+		z-index: 3;
+	  }
+
+	  .certificate-wrapper .certificate-content .org-logo {
+		position: absolute;
+		left: 105mm;
+		top: 0mm;
+		z-index: 2;
+		width: 79mm;
+		height: 20mm;
+	  }
+	  .certificate-wrapper .certificate-content .org-logo img {
+		width: auto;
+		max-height: 22mm;
+		max-width: 100%;
+	}
+
+    .certificate-wrapper .certificate-content .subtitle {
+		position: absolute;
+		left:0mm;
+		top:37mm;
+		right:0mm;
+		font-size: 30pt;
+		font-family: sub;
+		text-align: center;
+		margin: auto;
+ 	}
+
+	 .certificate-wrapper .certificate-content .subtitle p{
+		position: absolute;
+		left: 0mm;
+		top: 3mm;
+		right: 0mm;
+		font-size: 22pt;
+		font-family: sub;
+		text-transform: uppercase;
+		text-align: center;
+		margin: auto;
+ 	}
+
+	 .certificate-wrapper .certificate-content .initial-content {
+		position: absolute;
+		left: 0mm;
+		top: 64mm;
+		right: 0mm;
+		font-size: 14pt;
+		text-align: center;
+		margin: auto;
+		position: absolute;
+	  }
+
+    .certificate-wrapper .certificate-content .candidate-name {
+		position: absolute;
+		left: 57mm;
+		top: 73mm;
+		right: 59mm;
+		font-size: 78pt;
+		font-family: cname;
+		font-weight: 500;
+		/* text-align: center; */
+		margin: auto;
+		border-bottom: 1px solid rgb(206, 162, 50);
+		box-shadow: 2px 0px 33px -43px rgb(251 181 2 / 57%);
+		line-height: 29mm;
+  	}
+
+  	.certificate-wrapper .certificate-content .main-content {
+		position: absolute;
+		left: 15mm;
+		top: 107mm;
+		right: 15mm;
+		font-size: 14pt;
+		text-align: center;
+		margin: auto;
+		border : none;
+		line-height : normal;
+	}
+
+	.certificate-wrapper .certificate-content .sign-president-img
+	{
+		top: 140mm;
+		left: 46mm;
+		width : 40mm;
+		height : 20mm;
+		position : absolute;
+	}
+	.certificate-wrapper .certificate-content .sign-director-img
+	{
+		top : 139mm;
+		left: 174mm;
+		width : 40mm;
+		height : 20mm;
+		position : absolute;
+	}
+
+   .certificate-wrapper .certificate-content .sign-president {
+		position: absolute;
+		left: 33mm;
+		top: 132mm;
+		font-size: 14pt;
+	}
+
+   .certificate-wrapper .certificate-content .sign-director{
+		position: absolute;
+		left: 164mm;
+		top: 132mm;
+		font-size: 14pt;
+	}
+
+   .certificate-wrapper .certificate-content .certificate-logo{
+	  position: absolute;
+	  left: auto;
+	  top: 121mm;
+      right: 97mm;
+	  position: absolute;
+	  z-index: 1;
+	}
+
+	.certificate-wrapper .certificate-content .certificate-logo img {
+		width: auto;
+		height: 50mm;
+		max-width: 60mm;
+	} 
+}
