@@ -1,0 +1,275 @@
+@font-face {
+    font-family: sub;
+    src: url("./font/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family: candName;
+    src: url("./font/AbrilFatface-Regular.ttf");
+}
+body {
+    background-color:black;
+    color: black;
+}
+.certificate-wrapper {
+    overflow: hidden;
+    width: 392mm;
+    height: 301mm;
+    position: relative;
+    background-color: gainsboro;
+    line-height: normal;
+}
+.certificate-background {
+    position: absolute;
+    top: 43mm;
+    left: 43mm;
+    width: 297mm;
+    height: 210mm;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0pt 13pt 5pt 3pt #c5c4c4;;
+
+}
+.upper-left-box {
+    position: absolute;
+    width: 60mm;
+    height: 168mm;
+    background-color: black;
+}
+.lower-left-box {
+    position: absolute;
+    bottom: 0mm;
+    width: 60mm;
+    height: 42mm;
+    background-color:gold;
+}
+.upper-right-box {
+    position: absolute;
+    top: 30mm;
+    right: 0mm;
+    width: 221mm;
+    height: 28mm;
+    background-color: gold;
+    box-shadow: -5pt 4pt 4pt 3pt #eeeeee80;
+}
+.inner-right-box {
+    position: absolute;
+    top: 43.5mm;
+    right: 0mm;
+    width: 221mm;
+    height: 12mm;
+    background-color: black;
+}
+.liner-right-box {
+    position: absolute;
+    top: 107mm;
+    right: 31mm;
+    width: 189mm;
+    height: 1mm;
+    background-color: black;
+}
+.middle-right-box {
+    position: absolute;
+    top: 108mm;
+    right: 62mm;
+    width: 158mm;
+    height: 11mm;
+    background-color: gold;
+    box-shadow: 3pt 3pt 4pt 3pt #eeeeee80;
+}
+.lower-right-box {
+    position: absolute;
+    bottom: 14mm;
+    right: 0mm;
+    width: 72mm;
+    height: 18mm;
+    background-color: black;
+}
+.line-1 {
+    position: absolute;
+    top: 181mm;
+    left: 77mm;
+    width: 58mm;
+    height: 2pt;
+    background-color: gold;
+}
+.line-2 {
+    position: absolute;
+    top: 181mm;
+    left: 150mm;
+    width: 58mm;
+    height: 2pt;
+    z-index: 1;
+    background-color: gold;
+}
+
+.certificate-wrapper .certificate-content {
+    top: 51mm;
+    right: 51mm;
+    bottom: 51mm;
+    left: 51mm;
+    position: absolute;
+}
+.certificate-wrapper .certificate-content .title {
+    position: absolute;
+    top: 4mm;
+    left: 78mm;
+    font-size: 71pt;
+    letter-spacing: 2mm;
+    margin: auto;
+    font-family: sub;
+    line-height : normal;
+}
+.certificate-wrapper .certificate-content .sr-no {
+    position: absolute;
+    top: -5mm;
+    left: 55mm;
+    font-family: "Poppins", sans-serif;
+    font-size: 14pt;
+}
+.certificate-wrapper .certificate-content .date {
+    position: absolute;
+    left: auto;
+    top: -5mm;
+    right: 4mm;
+    font-family: "Poppins", sans-serif;
+    font-size: 14pt;
+}
+.certificate-wrapper .certificate-content .subtitle {
+    position: absolute;
+    top: 36mm;
+    left: 75mm;
+    font-family: "Poppins", sans-serif;
+    font-size: 25pt;
+    letter-spacing: 2pt;
+    color: white;
+    margin: auto;
+}
+.certificate-wrapper .certificate-content .initial-content {
+    position: absolute;
+    top: 60mm;
+    left: 75mm;
+    font-family: 'sub';
+    font-size: 15pt;
+    letter-spacing: 1.3pt;
+    margin: auto;
+}
+.certificate-wrapper .certificate-content .candidate-name {
+    position: absolute;
+    top: 73mm;
+    left: 71mm;
+    font-family: candName;
+    font-size: 46pt;
+    letter-spacing: 1pt;
+    margin: auto;
+}
+.certificate-wrapper .certificate-content .main-content  {
+    position: absolute;
+    top: 119mm;
+    left: 76mm;
+    font-family: sub;
+    font-size: 17pt;
+    font-weight: 700;
+    letter-spacing: 0.5pt;
+}
+.certificate-wrapper .certificate-content .certificate-logo img {
+    width: auto;
+    height: 47mm;
+    max-width: 60mm;
+}
+.certificate-wrapper .certificate-content .certificate-logo {
+    position: absolute;
+    top: 3mm;
+    left: -6mm;
+}
+.certificate-wrapper .certificate-content .sign-president-img {
+    position : absolute;
+    top: 155mm;
+    left: 75mm;
+}
+.certificate-wrapper .certificate-content .sign-president-img img {
+    width: 47mm;
+    height: 18mm;
+}
+.certificate-wrapper .certificate-content .sign-president {
+    position: absolute;
+    left: 69mm;
+    top: 175mm;
+    font-family: sub;
+    font-size: 14pt;
+}
+.certificate-wrapper .certificate-content .sign-director-img {
+    position: absolute;
+    top: 153mm;
+    left: 155mm;  
+}
+.certificate-wrapper .certificate-content .sign-director-img img {
+    width: 30mm;
+    height: 20mm;
+}
+.certificate-wrapper .certificate-content .sign-director {
+    position: absolute;
+    top: 175mm;
+    left: 144mm;
+    font-family: sub;
+    font-size: 14pt;
+    font-weight: 900;
+}
+.certificate-wrapper .certificate-content .org-logo {
+    position: absolute;
+    right: 10mm;
+    bottom: -12mm;
+    z-index: 1;
+}
+.certificate-wrapper .certificate-content .org-logo img {
+    width: 58mm;
+    height: 57mm;
+}
+.certificate-wrapper .certificate-content .org-name {
+    position: absolute;
+    left: -63mm;
+    right: 183mm;
+    bottom: 22mm;
+    text-align: center;
+    font-family: sub;
+    font-size: 13pt;
+    font-weight: bold;
+}
+.certificate-wrapper .certificate-content .org-address {
+    position: absolute;
+    left: -2mm;
+    right: 244mm;
+    bottom: -1mm;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 9pt;
+    line-height: 14pt;
+}
+.certificate-wrapper .certificate-content .org-address p {
+    margin-bottom: 0mm;
+    margin-top : 0mm;
+}
+.certificate-wrapper .certificate-content .star-group {
+    position: absolute;
+    top: 54mm;
+    left: 4mm;
+}
+.certificate-wrapper .certificate-content .star-group img {
+    width: auto;
+    height: 25mm;
+    mix-blend-mode: hard-light;
+}
+.certificate-wrapper .certificate-content .logo-text {
+    position: absolute;
+    top: 74mm;
+    left: 0mm;
+    right: 248mm;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 6pt;
+    color: white;
+    line-height: 16pt;
+}
+
+
+
+
