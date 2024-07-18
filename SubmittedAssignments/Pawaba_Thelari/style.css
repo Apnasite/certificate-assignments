@@ -251,19 +251,20 @@
     font-family: Arial, sans-serif;
     font-size: 21pt;
 }
-.certificate-wrapper .certificate-content .award-logo img {
-	width: 40mm;
-    height: 40mm;
-    left: 34mm;
-    top: 35mm;
+.certificate-wrapper .certificate-content .certificate-logo img {
+	width: 51mm;
+    height: 45mm;
+    left: 28.5mm;
+    top: 28mm;
     position: absolute;
 }
 .certificate-wrapper .certificate-content .org-logo img {
 	width: 40mm;
-    height: 35mm;
-    left: 140mm;
+    height: 40mm;
+    left: 142mm;
     top: 153mm;
     position: absolute;
+    mix-blend-mode: multiply;
 }
 .certificate-wrapper .certificate-content .initial-content {
 	position: absolute;
