@@ -357,6 +357,7 @@
 		position: absolute;
 	}
 	.certificate-wrapper .certificate-content .org-name {
+	  position: absolute;
 	  top: 182mm;
       left: auto;
       bottom: 10mm;
