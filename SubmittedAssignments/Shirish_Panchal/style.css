@@ -65,6 +65,13 @@
         position: absolute;
     }
 
+    .certificate-wrapper .certificate-content .certificate-logo{
+        position: absolute;
+        left:10mm;
+        top:30mm;
+        z-index: 6;
+    }
+
     .certificate-wrapper .certificate-content .title{
         position: absolute;
         left:75mm;
@@ -107,11 +114,11 @@
         z-index: 3;
     }
 
-    .certificate-wrapper .certificate-content .Para{
+    .certificate-wrapper .certificate-content .initial-content{
         position: absolute;
-        left:110mm;
-        top: 70mm;
-        font-size: 12pt;
+        left:80mm;
+        top: 62mm;
+        font-size: 15pt;
         font-family:"Noto Sans", sans-serif;
         color: white;
         z-index:4;
@@ -120,7 +127,7 @@
     .certificate-wrapper .certificate-content .Name{
         position: absolute;
         left: 85mm;
-        top:77mm;
+        top:66mm;
         font-family: "Square Peg", cursive;
         font-weight: 400;
         font-style: normal;          
@@ -129,23 +136,21 @@
         z-index:4;
     }
 
-    .certificate-wrapper .certificate-content .line{
+    .certificate-wrapper .certificate-background .line01{
         position: absolute;
-        left:75mm;
-        top:145mm;
-        color: white;
+        left:60mm;
+        top:90mm;
+        border: 0.1mm solid white;
         width:135mm;
-        height:0mm;
-        z-index: 8;
-
+        z-index: 9;
     }
 
     .certificate-wrapper .certificate-content .Para01{
         position: absolute;
-        left:56mm;
-        top:102mm;
+        left:50mm;
+        top:85mm;
         color:white;
-        font-size:9pt;
+        font-size:19pt;
         text-align: center;
         font-family: "Roboto", sans-serif;
         z-index: 4;
@@ -154,7 +159,7 @@
 
     .certificate-wrapper .certificate-content .sign-president{
         position: absolute;
-        left:62mm;
+        left:15mm;
         top:145mm;
         color:white;
         font-family: "Roboto", sans-serif;
@@ -185,26 +190,26 @@
 
     .certificate-wrapper .certificate-background .line1{
         position: absolute;
-        left:60mm;
+        left:15mm;
         top:142mm;
         border: 0.3px solid white;
-        width:60mm;
+        width:40mm;
         z-index:8;
     }
 
     .certificate-wrapper .certificate-background .line2{
         position: absolute;
-        left:138mm;
+        left:80mm;
         top:142mm;
         border: 0.3px solid white;
-        width:60mm;
-        z-index:8;
+        width:40mm;
+        z-index:9;
     }
 
     .certificate-wrapper .certificate-content .sign-president-img{
         position: absolute;
-        left:70mm;
-        top: 120mm;
+        left:23mm;
+        top: 125mm;
         width:30mm;
         height:20mm;
         z-index:9;
@@ -212,7 +217,7 @@
 
     .certificate-wrapper .certificate-content .sign-director{
         position: absolute;
-        left:142mm;
+        left:80mm;
         top: 145.5mm;
         color: white;
         font-family: "Roboto", sans-serif;
@@ -220,11 +225,41 @@
     }
     .certificate-wrapper .certificate-content .sign-director-img{
         position: absolute;
-        left:145mm;
+        left:80mm;
         top:120mm;
         width:40mm;
         height:20mm;
         z-index: 9;
-        
+    }
+
+    .certificate-wrapper .certificate-content .org-logo{
+        position: absolute;
+        left:165mm;
+        top:105mm;
+        z-index:9;
+    }
+
+    .certificate-wrapper .certificate-content .org-name{
+        position: absolute;
+        left:135mm;
+        top:131mm;
+        color:yellow;
+        text-decoration: underline;       
+        font-family: "IM Fell Great Primer SC", serif;
+        font-weight: 400;
+        font-style: normal;
+
+        font-size: 16pt;
+        text-align: center;
+        z-index: 6;
+    }
+
+    .certificate-wrapper .certificate-content .org-address{
+        position: absolute;
+        left:137mm;
+        top:137mm;
+        font-size: 10pt;
+        font-family: "Montserrat", sans-serif;  
+        z-index: 6;
     }
 }
