@@ -46,7 +46,7 @@ body{
     height: 90mm;
     overflow: hidden;
     position: absolute;
-    background-image: linear-gradient(to top right,  rgb(115 60 0), #d2aa42);
+    background-image: linear-gradient(to top right,  rgb(115 60 0), #e5c061);
     transform: rotate(2deg) skew(-45deg, -1deg);
 }
 
@@ -57,7 +57,7 @@ body{
     height: 95mm;
     overflow: hidden;
     position: absolute;
-    background-image: linear-gradient(to bottom right, rgb(115 60 0), #d2aa42);
+    background-image: linear-gradient(to bottom right, rgb(115 60 0), #e5c061);
     transform: rotate(-23deg) skew(-157deg, 23deg);
 }
 
@@ -68,7 +68,7 @@ body{
     height: 80mm;
     overflow: hidden;
     position: absolute;
-    background-image: linear-gradient(to bottom left, rgb(115 60 0), #d2aa42);
+    background-image: linear-gradient(to bottom left, rgb(115 60 0), #efce77);
     transform: rotate(9deg) skew(-36deg, -8deg);
  }
 
@@ -79,7 +79,7 @@ body{
     height: 70mm;
     overflow: hidden;
     position: absolute;
-    background-image: linear-gradient(to top left, rgb(115 60 0), #d2aa42);
+    background-image: linear-gradient(to top left, rgb(115 60 0), #efce77);
     transform: rotate(-6deg) skew(-144deg, 2deg);
 }
 .certificate-background .certificate-border {
@@ -89,7 +89,7 @@ body{
     height: 200mm;
     overflow: hidden;
     position: absolute;
-    border: 1pt solid #c28d08;
+    border: 2pt solid #c28d08;
 }
 
 /* content-of-certificate design */
@@ -120,7 +120,7 @@ body{
 }
 .certificate-content .date {
     position: absolute;
-    left: 214mm;
+    left: 216mm;
     top: -10mm;
     font-size: 17pt;
 }
@@ -147,9 +147,9 @@ body{
 
 .certificate-content .certificate-logo img {
     position: absolute;
-    left: 225mm;
-    top: -5mm;
-    width: 40mm;
+    left: 80mm;
+    bottom: 13mm;
+    width: 45mm;
 }
 
 /* content design */
@@ -194,14 +194,22 @@ body{
 .sign-president-img {
     position: absolute;
     right: 210mm;
-    bottom: 15mm;
+    bottom: 27mm;
     width: 40mm;
     height: 15mm;
+}
+.president-underline {
+    position: absolute;
+    right: 230mm;
+    bottom: 32mm;
+    width: 25mm;
+    font-size: 7mm;
+    height: 2mm;
 }
 .sign-president {
     position: absolute;
     right: 205mm;
-    bottom: 10mm;
+    bottom: 19mm;
     font-size: 15pt;
     width: 51mm;
     height: 7mm;
@@ -209,43 +217,52 @@ body{
 
 .sign-director-img {
     position: absolute;
-    right: 45mm;
-    bottom: 15mm;
+    right: 60mm;
+    bottom: 28mm;
     width: 40mm;
     height: 15mm;
 }
+.director-underline {
+    position: absolute;
+    right: 96mm;
+    bottom: 32mm;
+    width: 8mm;
+    font-size: 7mm;
+    height: 1mm;
+}
+
 .sign-director {
     position: absolute;
-    right: 40mm;
-    bottom: 10mm;
+    right: 55mm;
+    bottom: 19mm;
     font-size: 15pt;
     width: 48mm;
     height: 7mm;
 }
 .org-logo {
     position: absolute;
-    left: 0mm;
-    bottom: -10mm;
+    left: -5mm;
+    bottom: -15mm;
     width: 60mm;
     height: 15mm;
 }
 .org-name {
     position: absolute;
     left: 0mm;
-    right: 0mm;
-    bottom: 0mm;
-    font-size: 21pt;
+    right: 17mm;
+    bottom: -5mm;
+    font-size: 15pt;
     text-align: right;
     font-weight: bold;
 }
 
 .org-address {
     position: absolute;
-    right: 0mm;
+    right: 23mm;
     bottom: -16mm;
-    font-size: 15pt;
+    font-size: 10pt;
     line-height: 1mm;
-    text-align: right;
+    text-align: left;
     font-weight: 600;
 }
 
