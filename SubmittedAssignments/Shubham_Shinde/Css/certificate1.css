@@ -223,10 +223,10 @@
       }
       .certificate-wrapper .certificate-content .certificate-logo
       {
-        margin: 101mm 0mm 0mm 206mm;
+        margin: 100mm 0mm 0mm 209mm;
       }
       .certificate-wrapper .certificate-content img{
-        height: 90mm;
+        height: 76mm;
       }
 
       .certificate-wrapper .sign-director {
@@ -311,13 +311,13 @@
     z-index: 2;
     width: 43mm;
     height: 16mm;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
   }
   .certificate-wrapper .org-logo img {
     width: auto;
     max-height: 38mm;
     max-width: 100%;
-    margin: -8mm 0mm 0mm 2mm;
+    margin: -7mm 0mm 0mm 46mm;
   }
 
   /* Extra Sign Content  */
@@ -326,18 +326,20 @@
           left: 80mm;
           top: 166mm;
           width : 40mm;
-          height : 20mm;
+          height : 17mm;
           position : absolute;
           background-color: #ffffff;
-      }
+          /* mix-blend-mode:color-burn; */
+        }
       .certificate-wrapper .sign-director-img
       {
           left: 180mm;
           top: 166mm;   
           width : 40mm;
-          height : 20mm;
+          height : 17mm;
           position : absolute;
           background-color: #ffffff;
+          /* mix-blend-mode:color-burn; */
       }
       .certificate-wrapper .sign-director {
           left: 180mm;
