@@ -143,15 +143,16 @@
         font-size: 16pt;
         position: absolute;
       }
-      .certificate-wrapper .certificate-content .Date {
+      .certificate-wrapper .certificate-content .date {
         position: absolute;
         left: auto;
         top: -10mm;
         right: 1mm;
         font-size: 16pt;
         position: absolute;
+        width: auto;
       }
-      .certificate-wrapper .content-info{
+      .certificate-wrapper .main-content{
         position: absolute;
         top: 120mm;
         /* text-align: center; */
@@ -162,7 +163,7 @@
         text-align: center;
       
       }
-      .certificate-wrapper .content-info .info{
+      .certificate-wrapper .main-content .info{
         /* border: 3px solid red; */
         /* width: 200mm; */
         /* text-align: center; */
