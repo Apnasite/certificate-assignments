@@ -1,0 +1,285 @@
+@font-face {
+	font-family: 'sub';
+    src: url('../fonts/old-english-text-mt.ttf');
+}
+@font-face {
+  font-family: cname;
+  src: url("../fonts/New Walt Disney.ttf");
+}
+
+@media all{
+	body.printView, body.printView:before, body.printView:after { 
+		border : none !important;
+	}
+	  
+	   body {
+		  font-family: 'Arial', sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f0f0f0dd;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;  
+	  
+		  }
+	.certificate-wrapper {
+	  overflow: hidden;
+	  width: 297mm;
+	  height: 210mm;
+	  position: relative;
+	  background: #faf9f9 !important;
+	  line-height: normal;
+	}
+	.certificate-wrapper .certificate-background {
+	  /*position : absolute;*/
+	  left: 0mm;
+	  top: auto;
+	  width: 297mm;
+	  height: 210mm;
+	  overflow: hidden;
+	  position: relative;
+	}
+	.certificate-wrapper .certificate-background .recttop {
+		/*position: absolute; */
+	left: -74mm;
+    top: 61mm;
+    width: 142.5mm;
+    height: 9mm;
+    background: #f6be05 !important;
+    transform: skewX(27deg);
+    position: relative;
+	}
+	
+	.certificate-wrapper .certificate-background .rectbtm {
+		/*position: absolute; */
+		left: 229mm;
+		top: 130mm;
+		width: 160mm;
+		height: 12mm;
+		background: #f6be05 !important;
+		transform: skewX(27deg);
+		position: absolute;
+	}
+	
+	.certificate-wrapper .certificate-content {
+	  top: 20mm;
+	  right: 20mm;
+	  bottom: 20mm;
+	  left: 20mm;
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-content .title {
+		position: absolute;
+		left: 0mm;
+		top: -11mm;
+		right: 0mm;
+		font-size: 33pt;
+		text-align: center;
+		margin: auto;
+		line-height: normal;
+		font-family: "Raleway", sans-serif;
+  		font-optical-sizing: auto;
+  		font-style: normal;
+	}
+
+	.certificate-wrapper .certificate-content .title1 {
+		position: absolute;
+		left: -5mm;
+		top: -0mm;
+		right: 0mm;
+		font-size: 12pt;
+		text-align: center;
+		margin: auto;
+		line-height: normal;
+	}
+	.certificate-wrapper .certificate-content .sr-no {
+	  position: absolute;
+	  left: 0mm;
+	  top: -5mm;
+	  font-size: 16pt;
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-content .org-logo {
+	  left: 101mm;
+	  bottom: 18mm;
+	  position: absolute;
+	  z-index: 2;
+	  width: 79mm;
+	  height: 20mm;
+	}
+	.certificate-wrapper .certificate-content .org-logo img {
+	  width: auto;
+	  max-height: 22mm;
+	  max-width: 100%;
+	}
+	.certificate-wrapper .certificate-content .subtitle {
+	  position: absolute;
+	  left: 5mm;
+	  top: 10mm;
+	  right: 0mm;
+	  color: rgb(0, 0, 0) !important;
+	  font-family: sub;
+	  font-size: 42pt;
+	  font-weight:50pt;
+	  text-align: center;
+
+	}
+	.certificate-wrapper .certificate-content .initial-content {
+	  position: absolute;
+	  left: 0mm;
+	  top:29mm;
+	  right: 0mm;
+	  font-size: 16pt;
+	  text-align: center;
+	  margin: auto;
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-content .background {
+		position: absolute;
+		width: 307mm;
+		height: 62mm;
+		top: 50mm;
+		left: -24mm;
+		background-color: #083c77;
+	}
+	.certificate-wrapper .certificate-content .candidate-name {
+	  position: absolute;
+	  left: 0mm;
+	  top: 50mm;
+	  right: 0mm;
+	  font-family: cname;
+	  font-size: 55pt;
+	  color: #deab04 !important;
+	  text-align: center;
+	  margin: auto;
+	  position: absolute;
+	  font-family:'Brush Script MT', cursive;
+	  
+	}
+	.certificate-wrapper .certificate-content .main-content {
+	  position: absolute;
+	  left: 15mm;
+	  top: 74mm;
+	  right: 15mm;
+	  font-size: 13pt;
+	  text-align: center;
+	  margin: auto;
+	  position: absolute;
+	  border : none;
+	  line-height : normal;
+	  color:white;
+	}
+
+	.certificate-wrapper .certificate-content .main-content p {
+		margin-top: 3mm;
+	}
+	.certificate-wrapper .certificate-content .box{
+		position:absolute;
+		left:108mm;
+		top:99mm;
+		width:32mm;
+		height:7mm;
+		color: white;
+		background-color:#0A4D99;
+		border-style: solid;
+		border-width: 0.5mm;
+		border-color: #F7AF2A;
+		z-index:9;
+		
+  }
+  	.certificate-wrapper .certificate-content.date1 { 
+		position:absolute;
+		left:90mm;
+		top:104mm;        
+		font-size: 18px;
+		font-weight: bold;
+		margin-bottom: 20px;
+		color:white;
+		z-index:3;
+	
+  }
+	
+	.certificate-wrapper .certificate-content .certificate-logo {
+	  position: absolute;
+	  left: 94mm;
+	  top: -9mm;
+	  right: 140mm;
+	  position: absolute;
+	  z-index:1;
+	  width:50mm;
+	  height:50mm;
+	}
+	.certificate-wrapper .certificate-content .certificate-logo img {
+	  width: 16mm;
+	  height: 11mm;
+	  max-width: 18mm;
+	}
+	.certificate-wrapper .certificate-content .date {
+	  position: absolute;
+	  left: auto;
+	  top: -5mm;
+	  right: 1mm;
+	  font-size: 14pt;
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-content .sign-president-img
+	{
+		top: 131mm;
+		left: 11mm;
+		width : 40mm;
+		height : 20mm;
+		position : absolute;
+	}
+	.certificate-wrapper .certificate-content .sign-director-img
+	{
+		top : 131mm;
+		left: 173mm;
+		width : 40mm;
+		height : 20mm;
+		position : absolute;
+	}
+
+	
+	.certificate-wrapper .certificate-content .sign-director {
+	  left: 173mm;
+	  top: 150mm;
+	  font-size: 12pt;
+	  border-top: 0.5pt solid;
+	  line-height : 8mm;
+	  position: absolute;
+	}
+
+	
+	.certificate-wrapper .certificate-content .sign-president {
+	  left: 11mm;
+	  top: 150mm;
+	  font-size: 12pt;
+	  border-top: 0.5pt solid;
+	  line-height : 8mm;
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-content .org-name {
+	  position: absolute;
+	  left: auto;
+	  bottom: -5mm;
+	  right: -5mm;
+	  text-align: right;
+	  font-size: 15pt;
+	  font-weight: bold;
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-content .org-address {
+	  right: -5mm;
+	  bottom: -16mm;
+	  width: 170mm;
+	  text-align: right;
+	  font-size: 11pt;
+	  font-weight: bold;
+	  position: absolute;
+	}
+	.certificate-wrapper .certificate-content .org-address p {
+	  margin-bottom: 0mm;
+	  margin-top : 0mm;
+	}
+}
