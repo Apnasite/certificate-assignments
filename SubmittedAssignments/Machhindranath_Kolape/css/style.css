@@ -1,10 +1,10 @@
 @font-face {
     font-family: sub;
-    src: url("./font/Poppins-Bold.ttf");
+    src: url("../font/Poppins-Bold.ttf");
 }
 @font-face {
     font-family: candName;
-    src: url("./font/AbrilFatface-Regular.ttf");
+    src: url("../font/AbrilFatface-Regular.ttf");
 }
 body {
     background-color:black;
