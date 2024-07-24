@@ -1,0 +1,300 @@
+@font-face {
+	font-family: myFont;
+	src: url("../fonts/playball.ttf");
+}
+
+@font-face {
+	font-family: myFont2;
+	src: url("../fonts/Philosopher-Regular.ttf");
+}
+
+@font-face {
+	font-family: myFont3;
+	src: url("../fonts/roadgeek\ 2005\ transport\ medium.ttf");
+}
+
+@media all {
+
+	body {
+		border: none !important;
+		background:  #afaeac !important;
+	}
+
+	.certificate-wrapper {
+		overflow: hidden;
+		width: 297mm;
+		height: 210mm;
+		margin: 35mm;
+		position: relative;
+		background-color:  #afaeac !important;
+		line-height: normal;
+		color: rgb(91, 68, 54) !important;
+	}
+
+	.certificate-wrapper .certificate-background {
+		position: absolute;
+		height: 150mm;
+		width: 200mm;
+		background-color: rgb(255, 255, 255);
+	}
+
+	.certificate-wrapper .certificate-background .box1 {
+		position: absolute;
+		height: 140mm;
+		width: 190mm;
+		border: 1mm solid rgb(91, 68, 54);
+		top: 4mm;
+		left: 4mm;
+	}
+
+	.certificate-wrapper .certificate-background .box2 {
+		position: absolute;
+		height: 7mm;
+		width: 136mm;
+		top: 41.5mm;
+		left: 31mm;
+		border: 1mm solid rgb(91, 68, 54);
+	}
+
+	.certificate-wrapper .certificate-background .box3 {
+		position: absolute;
+		height: 8mm;
+		width: 9mm;
+		top: 41.9mm;
+		left: 19.5mm;
+		background-color: rgb(91, 68, 54);
+		border-radius: 50% 0 0 50%;
+	}
+
+	.certificate-wrapper .certificate-background .box4 {
+		position: absolute;
+		height: 8mm;
+		width: 9mm;
+		top: 41.9mm;
+		right: 19.5mm;
+		background-color: rgb(91, 68, 54);
+		border-radius: 0 50% 50% 0;
+	}
+
+	.certificate-wrapper .certificate-background .box5 {
+		position: absolute;
+		width: 20mm;
+		border-bottom: 0.4mm solid rgb(91, 68, 54);
+		top: 30mm;
+		left: 45mm;
+	}
+
+	.certificate-wrapper .certificate-background .box6 {
+		position: absolute;
+		width: 30mm;
+		border-bottom: 0.4mm solid rgb(91, 68, 54);
+		top: 31.5mm;
+		left: 35mm;
+	}
+
+	.certificate-wrapper .certificate-background .box7 {
+		position: absolute;
+		width: 20mm;
+		border-bottom: 0.4mm solid rgb(91, 68, 54);
+		top: 33mm;
+		left: 45mm;
+	}
+
+	.certificate-wrapper .certificate-background .box8 {
+		position: absolute;
+		width: 20mm;
+		border-bottom: 0.4mm solid rgb(91, 68, 54);
+		top: 33mm;
+		right: 45mm;
+	}
+
+	.certificate-wrapper .certificate-background .box9 {
+		position: absolute;
+		width: 30mm;
+		border-bottom: 0.4mm solid rgb(91, 68, 54);
+		top: 31.5mm;
+		right: 35mm;
+	}
+
+	.certificate-wrapper .certificate-background .box10 {
+		position: absolute;
+		width: 20mm;
+		border-bottom: 0.4mm solid rgb(91, 68, 54);
+		top: 30mm;
+		right: 45mm;
+	}
+
+	.certificate-wrapper .certificate-background .box11 {
+		position: absolute;
+		width: 115mm;
+		border-bottom: 0.4mm solid rgb(91, 68, 54);
+		top: 74mm;
+		left: 42mm;
+	}
+
+	.certificate-wrapper .certificate-background .box12 {
+		position: absolute;
+		width: 50mm;
+		border-bottom: 0.4mm solid rgb(91, 68, 54);
+		bottom: 17mm;
+		left: 15mm;
+	}
+
+	.certificate-wrapper .certificate-background .box13 {
+		position: absolute;
+		width: 50mm;
+		border-bottom: 0.4mm solid rgb(91, 68, 54);
+		bottom: 17mm;
+		right: 70mm;
+	}
+
+	.certificate-wrapper .certificate-content {
+		top: 0mm;
+		left: 0mm;
+		position: absolute;
+		height: 150mm;
+		width: 200mm;
+	}
+
+	.certificate-wrapper .certificate-content .title {
+		position: absolute;
+		font-size: 35pt;
+		font-family: "myFont2";
+		letter-spacing: 2mm;
+		top: 11mm;
+		left: 54mm;
+	}
+	.certificate-content .certificate-logo{
+		display: none;
+	}
+	.certificate-wrapper .certificate-content .sr-no {
+		position: absolute;
+		left: 7mm;
+		top: 6mm;
+		font-size: 12pt;
+	}
+
+	.certificate-wrapper .certificate-content .org-logo {
+		left: 5mm;
+		bottom: 0mm;
+		position: absolute;
+		z-index: 2;
+		width: 79mm;
+		height: 20mm;
+		display: none;
+	}
+
+	.certificate-wrapper .certificate-content .org-logo img {
+		width: auto;
+		max-height: 22mm;
+		max-width: 100%;
+		display: none;
+	}
+
+	.certificate-wrapper .certificate-content .subtitle {
+		position: absolute;
+		font-size: 16pt;
+		font-family: "myFont3";
+		letter-spacing: 1.2mm;
+		width: 100mm;
+		top: 29mm;
+		left: 67mm;
+	}
+
+	.certificate-wrapper .certificate-content .initial-content {
+		position: absolute;
+		font-size: 15pt;
+		font-family: "myFont2";
+		letter-spacing: 0.6mm;
+		width: 200mm;
+		top: 43mm;
+		left: 32mm;
+	}
+
+	.certificate-wrapper .certificate-content .candidate-name {
+		position: absolute;
+		font-size: 50pt;
+		font-family: "myFont";
+		top: 56mm;
+		left: 47mm;
+		width: 150mm;
+	}
+
+	.certificate-wrapper .certificate-content .main-content {
+		position: absolute;
+		font-size: 13pt;
+		top: 84mm;
+		left: 16mm;
+		width: 170mm;
+	}
+
+	.certificate-wrapper .certificate-content .main-content p {
+		margin-top: -3mm;
+	}
+
+	.certificate-wrapper .certificate-content .date {
+		position: absolute;
+		left: auto;
+		top: 6mm;
+		right: 6mm;
+		font-size: 12pt;
+		position: absolute;
+	}
+
+	.certificate-wrapper .certificate-content .sign-president-img {
+		top: 119mm;
+		left: 89mm;
+		width: 35mm;
+		height: 14mm;
+		position: absolute;
+	}
+
+	.certificate-wrapper .certificate-content .sign-director-img {
+		top: 117mm;
+		left: 25mm;
+		width: 30mm;
+		height: 15mm;
+		position: absolute;
+	}
+
+	.certificate-wrapper .certificate-content .sign-director {
+		position: absolute;
+		font-size: 11pt;
+		top: 135mm;
+		left: 15mm;
+		width: 50mm;
+	}
+
+	.certificate-wrapper .certificate-content .sign-president {
+		position: absolute;
+		font-size: 11pt;
+		top: 135mm;
+		left: 80mm;
+		width: 50mm;
+	}
+
+	.certificate-wrapper .certificate-content .org-name {
+		position: absolute;
+		left: auto;
+		bottom: 23mm;
+		right: 9mm;
+		text-align: right;
+		font-size: 12pt;
+		font-weight: bold;
+		width: 46mm;
+	}
+
+	.certificate-wrapper .certificate-content .org-address {
+		right: 8mm;
+		bottom: 8mm;
+		width: 52mm;
+		text-align: right;
+		font-size: 10pt;
+		position: absolute;
+	}
+
+	.certificate-wrapper .certificate-content .org-address p {
+		margin-bottom: 0mm;
+		margin-top: 0mm;
+	}
+}
