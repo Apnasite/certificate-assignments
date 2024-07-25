@@ -29,10 +29,10 @@
 
     .certificate-wrapper .certificate-background .hrline{
         position: absolute;
-        left:0mm;
-        top:12mm;
+        left:-10mm;
+        top:9mm;
         width:250mm;
-        height:0.8mm;
+        height:0.6mm;
         background-color: gold;
         
     }
@@ -159,7 +159,7 @@
 
     .certificate-wrapper .certificate-content .sign-president{
         position: absolute;
-        left:15mm;
+        left:18mm;
         top:145mm;
         color:white;
         font-family: "Roboto", sans-serif;
@@ -190,7 +190,7 @@
 
     .certificate-wrapper .certificate-background .line1{
         position: absolute;
-        left:15mm;
+        left:20mm;
         top:142mm;
         border: 0.3px solid white;
         width:40mm;
@@ -199,7 +199,7 @@
 
     .certificate-wrapper .certificate-background .line2{
         position: absolute;
-        left:80mm;
+        left:190mm;
         top:142mm;
         border: 0.3px solid white;
         width:40mm;
@@ -208,7 +208,7 @@
 
     .certificate-wrapper .certificate-content .sign-president-img{
         position: absolute;
-        left:23mm;
+        left:26mm;
         top: 125mm;
         width:30mm;
         height:20mm;
@@ -217,7 +217,7 @@
 
     .certificate-wrapper .certificate-content .sign-director{
         position: absolute;
-        left:80mm;
+        left:190mm;
         top: 145.5mm;
         color: white;
         font-family: "Roboto", sans-serif;
@@ -225,8 +225,8 @@
     }
     .certificate-wrapper .certificate-content .sign-director-img{
         position: absolute;
-        left:80mm;
-        top:120mm;
+        left:190mm;
+        top:118mm;
         width:40mm;
         height:20mm;
         z-index: 9;
@@ -234,14 +234,14 @@
 
     .certificate-wrapper .certificate-content .org-logo{
         position: absolute;
-        left:165mm;
+        left:99mm;
         top:105mm;
         z-index:9;
     }
 
     .certificate-wrapper .certificate-content .org-name{
         position: absolute;
-        left:135mm;
+        left:72mm;
         top:131mm;
         color:yellow;
         text-decoration: underline;       
@@ -256,8 +256,9 @@
 
     .certificate-wrapper .certificate-content .org-address{
         position: absolute;
-        left:137mm;
+        left:73mm;
         top:137mm;
+        text-align: center;
         font-size: 10pt;
         font-family: "Montserrat", sans-serif;  
         z-index: 6;
