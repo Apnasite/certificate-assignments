@@ -1,0 +1,266 @@
+  @media all{
+      body.printView, body.printView:before, body.printView:after { 
+          border : none !important;
+      } 
+
+    .certificate-wrapper{
+        /*position: absolute;*/
+        overflow:hidden;
+        left:90mm;
+        top:90mm;
+        width:250mm;
+        height:160mm;
+        position: relative;
+        background-color: rgb(239, 239, 239);
+        line-height:normal;
+        padding:70px;
+        margin:10px;
+    }
+    .certificate-wrapper .certificate-background{
+        /*position:absolute;*/
+        overflow: hidden;
+        width:250mm;
+        height:160mm;
+        position: relative;
+        background-color: white;
+        box-shadow: 0px 19px 38px -25px rgba(0,0,0,0.3);
+
+    }
+
+    .certificate-wrapper .certificate-background .hrline{
+        position: absolute;
+        left:-10mm;
+        top:9mm;
+        width:250mm;
+        height:0.6mm;
+        background-color: gold;
+        
+    }
+
+    .certificate-wrapper .certificate-background .vrline{
+        position: absolute;
+        left:12mm;
+        top:0mm;
+        width:0.8mm;
+        height:170mm;
+        background-color: gold;
+        z-index: 3;
+    }
+
+    .certificate-wrapper .certificate-background .blue_box{
+        position: absolute;
+        left:0mm;
+        top:60mm;
+        height:100mm;
+        width:250mm;
+        background-color:	#00CED1;
+        z-index:2;
+    }
+
+    .certificate-wrapper .certificate-content {
+        top: 20mm;
+        right: 20mm;
+        bottom: 20mm;
+        left: 20mm;
+        position: absolute;
+    }
+
+    .certificate-wrapper .certificate-content .certificate-logo{
+        position: absolute;
+        left:10mm;
+        top:30mm;
+        z-index: 6;
+    }
+
+    .certificate-wrapper .certificate-content .title{
+        position: absolute;
+        left:75mm;
+        top: 25mm;
+        font-size: 40pt;
+        font-family: "Freeman", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: black;
+        z-index:3;
+}
+
+    .certificate-wrapper .certificate-content .subtitle{
+        position: absolute;
+        left:102mm;
+        top:45mm;
+        font-size:16pt;
+        color:black;
+        font-family: "Fredoka", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:weight;
+        font-style: normal;
+        font-variation-settings:"wdth" 100;
+        z-index:3;
+    }
+
+    .certificate-wrapper .certificate-content .sr-no{
+        position: absolute;
+        left:16mm;
+        top:13mm;
+        color:black;
+        font-size:12pt;
+        font-family: 'Anton Bold DB', sans-serif;
+    }
+
+    .certificate-wrapper .certificate-content .certificate-logo{
+        position:absolute;
+        left:195mm;
+        top:40mm;
+        z-index: 3;
+    }
+
+    .certificate-wrapper .certificate-content .initial-content{
+        position: absolute;
+        left:80mm;
+        top: 62mm;
+        font-size: 15pt;
+        font-family:"Noto Sans", sans-serif;
+        color: white;
+        z-index:4;
+    }
+
+    .certificate-wrapper .certificate-content .Candidate-name{
+        position: absolute;
+        left: 85mm;
+        top:66mm;
+        font-family: "Square Peg", cursive;
+        font-weight: 400;
+        font-style: normal;          
+        font-size: 60pt;
+        color:black;
+        z-index:4;
+    }
+
+    .certificate-wrapper .certificate-background .line01{
+        position: absolute;
+        left:60mm;
+        top:90mm;
+        border: 0.1mm solid white;
+        width:135mm;
+        z-index: 9;
+    }
+
+    .certificate-wrapper .certificate-content .Main-content{
+        position: absolute;
+        left:52mm;
+        top:85mm;
+        color:white;
+        font-size:19pt;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        z-index: 4;
+        
+    }
+
+    .certificate-wrapper .certificate-content .sign-president{
+        position: absolute;
+        left:18mm;
+        top:145mm;
+        color:white;
+        font-family: "Roboto", sans-serif;
+        z-index: 5;
+    }
+
+    
+    .certificate-wrapper .certificate-content .date{
+        position: absolute;
+        left:202mm;
+        top: 13.5mm;
+        font-size:15pt;
+        font-family: 'Anton Bold DB', sans-serif;
+        z-index: 10;
+        color:black;
+        text-align:justify ;
+    }
+
+    .certificate-wrapper .certificate-content .date01{
+        position: absolute;
+        left:190mm;
+        top:14mm;
+        color:BLACK;
+        font-size:12pt;
+        font-family: 'Anton Bold DB', sans-serif;
+        z-index: 5;
+    }
+
+    .certificate-wrapper .certificate-background .line1{
+        position: absolute;
+        left:20mm;
+        top:142mm;
+        border: 0.3px solid white;
+        width:40mm;
+        z-index:8;
+    }
+
+    .certificate-wrapper .certificate-background .line2{
+        position: absolute;
+        left:190mm;
+        top:142mm;
+        border: 0.3px solid white;
+        width:40mm;
+        z-index:9;
+    }
+
+    .certificate-wrapper .certificate-content .sign-president-img{
+        position: absolute;
+        left:26mm;
+        top: 125mm;
+        width:30mm;
+        height:20mm;
+        z-index:9;
+    }
+
+    .certificate-wrapper .certificate-content .sign-director{
+        position: absolute;
+        left:190mm;
+        top: 145.5mm;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        z-index:9;
+    }
+    .certificate-wrapper .certificate-content .sign-director-img{
+        position: absolute;
+        left:190mm;
+        top:118mm;
+        width:40mm;
+        height:20mm;
+        z-index: 9;
+    }
+
+    .certificate-wrapper .certificate-content .org-logo{
+        position: absolute;
+        left:99mm;
+        top:105mm;
+        z-index:9;
+    }
+
+    .certificate-wrapper .certificate-content .org-name{
+        position: absolute;
+        left:72mm;
+        top:131mm;
+        color:yellow;
+        text-decoration: underline;       
+        font-family: "IM Fell Great Primer SC", serif;
+        font-weight: 400;
+        font-style: normal;
+
+        font-size: 16pt;
+        text-align: center;
+        z-index: 6;
+    }
+
+    .certificate-wrapper .certificate-content .org-address{
+        position: absolute;
+        left:73mm;
+        top:137mm;
+        text-align: center;
+        font-size: 10pt;
+        font-family: "Montserrat", sans-serif;  
+        z-index: 6;
+    }
+}
