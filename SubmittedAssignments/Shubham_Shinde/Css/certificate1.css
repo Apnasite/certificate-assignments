@@ -45,16 +45,16 @@
         box-shadow: 10px 15px 20px rgb(28, 27, 27);
         /* border: 2px solid red; */
     }
-    .certificate-wrapper .certificate-background {
-        /*position : absolute;*/
-        /* border: 12px solid red; */
+    /* .certificate-wrapper .certificate-background {
+        position : absolute;
+        border: 12px solid red;
         left: 0mm;
         top: auto;
         width: 297mm;
         height: 170mm;
         overflow: hidden;
         position: relative;
-      }
+      } */
       
       .certificate-wrapper .boxx {
         /* position : absolute; */
@@ -66,7 +66,7 @@
         /* opacity: 0.2; */
         position: relative;
       }
-      .certificate-wrapper .boxx2 {
+      .certificate-wrapper .rectbtm {
         /* position : absolute; */
         /* left: 14mm; */
         top: 0mm;
@@ -183,7 +183,7 @@
         word-spacing: 2mm;
         /* text-transform: uppercase; */
       }
-      .certificate-wrapper .square {
+      .certificate-wrapper .tri1 {
         /*position : absolute;*/
         left: 40mm;
         top: 102mm;
@@ -198,7 +198,7 @@
         position: absolute;
         z-index: 1;
       }
-      .certificate-wrapper .square2 {
+      .certificate-wrapper .tri2 {
         /*position : absolute;*/
         left: 240mm;
         top: 103mm;
@@ -210,7 +210,7 @@
         position: absolute;
         z-index: 1;
       }
-      .certificate-wrapper .square3 {
+      .certificate-wrapper .tri3 {
         left: -13mm;
         top: 171mm;
         width: 50mm;
