@@ -38,7 +38,7 @@
 		height: 210mm;
 		overflow: hidden;
 		position: relative;
-		background-image: url("../img/bacground 1.jpg") !important;
+		background-image: url("./img/bacground 1.jpg") !important;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -52,7 +52,8 @@
 		top: 13mm;
 		width: 267mm;
 		height: 180mm;
-		background-color: #3b3838 !important;
+		background-color:#3b3838bf!important;
+		
 		opacity: 2.2;
 		position: relative;
 	}
@@ -63,7 +64,7 @@
 		top: -154mm;
 		width: 253mm;
 		height: 159mm;
-		background-color: #000000f2 !important;
+		background-color:#00000087!important;
 		opacity: 0.9;
 		position: relative;
 		border-radius: 9mm;
@@ -72,11 +73,11 @@
 
 	.certificate-wrapper .certificate-background .rect1 {
 
-		top: 0mm;
+		top: 13mm;
 		left: 101mm;
 		position: absolute;
 		/* transform: rotate(90deg); */
-		height: 33mm;
+		height: 26mm;
 		background: #9272A3;
 		opacity: 4.1;
 		width: 87mm;
@@ -119,28 +120,28 @@
 
 	.certificate-wrapper .certificate-background .rect5 {
 
-		top: -266mm;
-		left: 66mm;
-		position: absolute;
-		transform: rotate(90deg);
-		height: 103mm;
-		background: white;
-		width: 11mm;
-		position: relative;
-		border: 2px solid #eeeeee;
-		border-top-left-radius: 20px;
-		border-top-right-radius: 20px;
-	}
+	top: -255mm;
+    left: 58mm;
+    position: absolute;
+    transform: rotate(90deg);
+    height: 98mm;
+    background: white;
+    width: 21mm;
+    position: relative;
+    border: 2px solid #eeeeee;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 
 	.certificate-wrapper .certificate-background .rect6 {
 
-		top: -371mm;
-		left: 215mm;
+		top: -357mm;
+		left: 209mm;
 		position: absolute;
 		transform: rotate(90deg);
-		height: 103mm;
+		height: 104mm;
 		background: white;
-		width: 11mm;
+		width: 22mm;
 		position: relative;
 		border: 2px solid #eeeeee;
 		border-bottom-left-radius: 20px;
@@ -148,14 +149,7 @@
 		overflow: hidden;
 	}
 
-	.certificate-wrapper .certificate-background .line {
-		width: 672px;
-		height: 3px;
-		top: 552px;
-		left: 218px;
-		position: absolute;
-		background: #3b3838;
-	}
+	
 
 	.certificate-wrapper .certificate-content {
 		top: 20mm;
@@ -168,7 +162,7 @@
 	.certificate-wrapper .certificate-content .title {
 		position: absolute;
 		left: -11mm;
-		top: -20mm;
+		top: -6mm;
 		right: 0mm;
 		font-size: 31pt;
 		color: white !important;
@@ -181,18 +175,16 @@
 
 	.certificate-wrapper .certificate-content .sr-no {
 		position: absolute;
-		left: 5mm;
-		top: 8mm;
-		font-size: 9pt;
+		left: 10mm;
+		top: 11mm;
+		font-size: 12pt;
 		position: absolute;
 		color: white;
-	}
-
+}
 	.certificate-wrapper .certificate-content .org-logo {
-
-		left: 5mm;
-		bottom: 4mm;
 		position: absolute;
+		left: 5mm;
+		bottom: 14mm;
 		z-index: 2;
 		width: 79mm;
 		height: 20mm;
@@ -200,18 +192,17 @@
 
 	.certificate-wrapper .certificate-content .org-logo img {
 		width: auto;
-		max-height: 22mm;
+		max-height: 42mm;
 		max-width: 100%;
 	}
 
 	.certificate-wrapper .certificate-content .subtitle {
 		position: absolute;
 		left: -13mm;
-		top: -7mm;
+		top: 6mm;
 		right: 0mm;
 		color: white !important;
 		font-family: subtitle;
-		
 		font-weight: 100;
 		font-size: 25pt;
 		text-align: center;
@@ -221,7 +212,7 @@
 	.certificate-wrapper .certificate-content .initial-content {
 		position: absolute;
 		left: 0mm;
-		top: 21mm;
+		top: 23mm;
 		right: 0mm;
 		font-size: 24pt;
 		text-align: center;
@@ -233,11 +224,11 @@
 	.certificate-wrapper .certificate-content .candidate-name {
 		position: absolute;
 		left: -14mm;
-		top: 37mm;
+		top: 39mm;
 		right: 0mm;
 		font-family: "Baloo Bhaina 2", sans-serif;
 		font-size: 25pt;
-		color: #000080 !important;
+		color: gray !important;
 		text-align: center;
 		margin: auto;
 		position: absolute;
@@ -274,8 +265,8 @@
 
 .certificate-wrapper .certificate-content .certificate-logo {
 	position: absolute;
-	left: auto;
-	top: 20mm;
+	left: 105mm;
+	top: 99mm;
 	right: 15mm;
 	position: absolute;
 	z-index: 1;
@@ -290,56 +281,55 @@
 .certificate-wrapper .certificate-content .date {
 	position: absolute;
 	left: 213mm;
-	top: 7mm;
+	top: 11mm;
 	right: 1mm;
-	font-size: 10pt;
+	font-size: 13pt;
 	position: absolute;
 	color: white;
 }
 
 .certificate-wrapper .certificate-content .sign-president-img {
-	top: 134mm;
-	left: 42mm;
-	width: 34mm;
-	height: 11mm;
-	position: absolute;
-	color: white;
+    position: absolute;
+    top: 109mm;
+    left: 27mm;
+    width: 51mm;
+    height: 11mm;
+    color: white;
 }
-
 .certificate-wrapper .certificate-content .sign-director-img {
 
-	top: 130mm;
-	left: 154mm;
-	width: 36mm;
-	height: 13mm;
-	position: absolute;
-	color: white;
+	top: 107mm;
+    left: 177mm;
+    width: 56mm;
+    height: 15mm;
+    position: absolute;
+    color: white;
 }
 
 .certificate-wrapper .certificate-content .sign-director {
-	left: 155mm;
-	top: 142mm;
-	font-size: 12pt;
-	border-top: 0.5pt solid;
-	line-height: 8mm;
-	position: absolute;
-	color: white;
+	left: 179mm;
+    top: 129mm;
+    font-size: 15pt;
+    border-top: 0.5pt solid;
+    line-height: 8mm;
+    position: absolute;
+    color: white;
 }
 
 .certificate-wrapper .certificate-content .sign-president {
-	left: 40mm;
-	top: 142mm;
-	font-size: 12pt;
-	border-top: 0.5pt solid;
-	line-height: 8mm;
-	position: absolute;
-	color: white;
+	left: 26mm;
+    top: 129mm;
+    font-size: 15pt;
+    border-top: 0.5pt solid;
+    line-height: 8mm;
+    position: absolute;
+    color: white;
 }
 
 .certificate-wrapper .certificate-content .org-name {
 	position: absolute;
 	left: auto;
-	bottom: 14mm;
+	bottom: 21mm;
 	right: 7mm;
 	text-align: right;
 	font-size: 18pt;
@@ -350,7 +340,7 @@
 
 .certificate-wrapper .certificate-content .org-address {
 	right: 7mm;
-	bottom: 5mm;
+	bottom: 9mm;
 	width: 170mm;
 	text-align: right;
 	font-size: 12pt;
