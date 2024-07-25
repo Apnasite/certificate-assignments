@@ -161,8 +161,8 @@
     max-height: 40mm;
     max-width: 100%;
     position: absolute;
-    top: -27mm;
-    left: 107mm;
+    top: -40mm;
+    left: 46mm;
 	}
 	.subtitle {
 	  position: absolute;
@@ -253,24 +253,44 @@
 	}
 	
 	.certificate-wrapper .certificate-content .sign-director {
-	  left: 180mm;
-	  top: 142mm;
+	  left: 125mm;
+	  top: 41mm;
 	  font-size: 12pt;
 	  border-top: 0.5pt solid;
+	  height: 20mm;
+	  width: 39mm;
 	  line-height : 8mm;
 	  position: absolute;
 	}
 	.certificate-wrapper .certificate-content .sign-president {
-	  left: 37mm;
-	  top: 142mm;
+	  left: -27mm;
+	  top: 41mm;
 	  font-size: 12pt;
 	  border-top: 0.5pt solid;
 	  line-height : 8mm;
 	  position: absolute;
 	}
+
+	.certificate-wrapper .certificate-content .sign-director-img {
+	left: 130mm;
+    top: 30mm;
+    font-size: 12pt;
+    height: 10mm;
+    width: 30mm;
+    line-height: 8mm;
+    position: absolute;
+	  }
+	  .certificate-wrapper .certificate-content .sign-president-img {
+		left: -21mm;
+		top: 30mm;
+		font-size: 12pt;
+		width: 32mm;
+		line-height : 8mm;
+		position: absolute;
+	  }
 	.certificate-wrapper .certificate-content .org-address {
-		right: 45mm;
-		bottom: 42mm;
+		right: -18mm;
+		bottom: 6mm;
 		width: 170mm;
 		text-align: right;
 		font-size: 11pt;
@@ -278,14 +298,13 @@
 		position: absolute;
 	  }
 	  .certificate-wrapper .certificate-content .org-name {
-		position: absolute;
-		left: auto;
-		bottom: 55mm;
+		left: -2mm;
+		bottom: -36mm;
 		right: 67mm;
 		text-align: right;
 		font-size: 18pt;
 		font-weight: bold;
-		position: absolute;
+		position: relative;
 	  }
 	
 	
@@ -294,11 +313,11 @@
 	  left: auto;
 	  bottom: 10mm;
 	  right: 63mm;
-	  text-align: right;
+	  text-align: center;
 	  font-size: 18pt;
 	  font-weight: bold;
 	  position: absolute;
-	  top: 90mm;
+	  top: 86mm;
 	}
 	
 	
