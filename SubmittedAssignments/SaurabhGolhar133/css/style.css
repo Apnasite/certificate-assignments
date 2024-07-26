@@ -1,0 +1,209 @@
+@font-face {
+    font-family: sub;
+    src: url("../fonts/AlexBrush-Regular.ttf");
+}
+
+@media all{
+	body.printView, body.printView:before, body.printView:after { 
+		border : none !important;
+	}
+.certificate-wrapper {
+    overflow: hidden;
+}
+.certificate-border{
+    width: 297mm;
+    height: 210mm;
+    border: 1pt solid rgba(46, 45, 45, 0.316);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    overflow: hidden;
+}
+.certificate-background {
+    width: 275mm;
+    height: 188mm;
+    border: 2.5pt solid rgba(119, 91, 19, 0.583) !important;
+    padding: 5mm;
+    position: absolute;
+}
+
+.bar1 {
+    width: 100mm;
+    height: 4mm;
+    background-color: #082c63;
+    position: relative;
+    left: -31mm;
+    transform: rotate(-48deg);
+    z-index: -22223;
+}
+
+.bar2 {
+    width: 100mm;
+    height: 8mm;
+    background-image: radial-gradient(circle, rgba(225, 220, 201, 0.844), rgb(158, 118, 18));
+    position: relative;
+    left: -32mm;
+    top: 14mm;
+    transform: rotate(-48deg);
+    z-index: -22223;
+}
+
+.bar3 {
+    width: 182mm;
+    height: 4mm;
+    background-color: #163a70;
+    position: relative;
+    left: -49mm;
+    transform: rotate(-48deg);
+    z-index: -22223;
+}
+
+.bar4 {
+    width: 100mm;
+    height: 4mm;
+    background-color: #163a70;
+    position: relative;
+    right: -214mm;
+    bottom: -160mm;
+    transform: rotate(-48deg);
+    z-index: -22223;
+}
+
+.bar5 {
+    width: 130mm;
+    height: 8mm;
+    background-image: radial-gradient(circle, rgba(225, 220, 201, 0.844), rgb(158, 118, 18));
+    position: relative;
+    right: -193mm;
+    bottom: -142mm;
+    transform: rotate(-48deg);
+    z-index: -22223;
+}
+
+.bar6 {
+    width: 182mm;
+    height: 4mm;
+    background-color: #163a70;
+    position: relative;
+    right: -148mm;
+    bottom: -138mm;
+    transform: rotate(-48deg);
+    z-index: -22223;
+}
+
+.certificate-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 30mm;
+}
+
+.certificate-content .title {
+    position: relative;
+    font-size: 70pt;
+    top: -20mm;
+}
+
+.certificate-content .sr-no {
+    position: relative;
+    top: -5mm;
+    left: 146mm;
+    transform: rotate(90deg);
+}
+
+.certificate-content .date {
+    position: relative;
+    top: -61mm;
+    left: 120mm;
+}
+
+.certificate-content .subtitle {
+    position: relative;
+    top: -22mm;
+    font-size: 30pt;
+}
+
+.certificate-content .initial-content {
+    position: relative;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 2pt;
+    top: -25mm;
+}
+
+.certificate-content .candidate-name {
+    position: relative;
+    left: 2mm;
+    font-family: sub;
+    color: rgba(218, 165, 32, 0.844);
+    font-size: 70pt;
+    top: -20mm;
+}
+
+.certificate-content .main-content {
+    position: relative;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 1pt;
+    color: rgba(0, 0, 0, 0.809);
+    top: -20mm;
+}
+.certificate-logo{
+    position: relative;
+    top: -84mm;
+    right: -107mm;
+}
+.certificate-content .sign-president {
+    position: relative;
+    top: -13mm;
+    left: -83mm;
+}
+
+.certificate-content .sign-president-img {
+    width: 30mm;
+    position: relative;
+    top: -12mm;
+    left: -81mm;
+}
+
+.certificate-content .sign-director {
+    z-index: -99999;
+    position: relative;
+    right: -85mm;
+    top: -27mm;
+}
+
+.certificate-content .sign-director-img {
+    position: relative;
+    width: 30mm;
+    top: -30mm;
+    left: 83mm;
+}
+
+.certificate-content .org-logo{
+    position: relative;
+    width: 30mm;
+    top: -114pt;
+}
+
+.certificate-content .org-name {
+    position: relative;
+    top: -42mm;
+    left: 0mm;
+    color: blue;
+    font-family: "Shojumaru", system-ui;
+    font-weight: 400;
+    font-size: 12pt;
+    font-style: normal;
+}
+
+.certificate-content .org-address {
+    position: relative;
+    top: -114pt;
+}
+}
