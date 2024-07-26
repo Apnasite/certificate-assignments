@@ -124,7 +124,7 @@
         z-index:4;
     }
 
-    .certificate-wrapper .certificate-content .Candidate-name{
+    .certificate-wrapper .certificate-content .candidate-name{
         position: absolute;
         left: 85mm;
         top:66mm;
@@ -145,7 +145,7 @@
         z-index: 9;
     }
 
-    .certificate-wrapper .certificate-content .Main-content{
+    .certificate-wrapper .certificate-content .main-content{
         position: absolute;
         left:52mm;
         top:85mm;
