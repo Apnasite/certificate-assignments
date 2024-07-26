@@ -46,218 +46,241 @@
 	
  .rectright {
 	 /*position :absolute;*/
-	  right:0mm;
-	  top: 23mm;
+	 z-index:2;
+	  right:-20mm;
+	  top:46mm;
 	  width: 9mm;
 	  height: 110mm;
 	  background: #0574b9 !important;
-	  transform: skewY(-310deg);
+	  transform: skewY(-324deg);
 	  position:relative;
 	
 	}
 	.rectleft{
-	  right: 0mm;
-	  top: 36mm;
-	  width: 9mm;
-	  height: 110mm;
-	  background: #0574b9 !important;
-	  transform: skewY(230deg);
-	  position: absolute;
+		z-index:2;
+		right:20mm;
+		top:56mm;
+		width: 9mm;
+		height: 110mm;
+		background: #0574b9 !important;
+		transform: skewY(220deg);
+		position: absolute;
+  
 
 	}
 	.tri1 {
 		/*position : absolute;*/
-		left: -12mm;
-		top: 113mm;
-		width: 6mm;
-		height: 4mm;
+		left: 20mm;
+		top: 152mm;
+		width: 12mm;
+		height: 10;
 		border-style: solid;
-		border-width: 20pt 25pt 19pt 0;
-		border-color: transparent #7492cc transparent transparent  !important;
+		border-width: 23pt 26pt 22pt 0;
+		border-color: transparent #7492cc transparent transparent !important;
 		position: absolute;
-		transform:skew(-35deg,73deg);
+		transform: rotate(180deg);
+		z-index: 2;
 	  }
 
 	  .tri2{
 		/*position : absolute;*/
-		right:-1mm;
-		top: 21mm;
+		z-index:2;
+		right:20mm;
+		top:42mm;
 		border-style: solid;
-		border-width: 29pt 29pt 32pt 0;
+		border-width: 27pt 27pt 32pt 0;
 		border-color: transparent #7492cc transparent transparent  !important;
 		position: absolute;
 		transform:roatate(-37deg)
 	  }
 
 	.line{
+		z-index:2;
 		position:absolute;
 		height:44mm;
-		width:2mm;
-		top:28mm;
+		width:1.9mm;
+		top:42mm;
 		bottom:10mm;
-		left:16mm;
+		left:37mm;
 		background-color:#57a5fc;
 	}
 	.line1{
+		z-index:2;
 		position:absolute;
-		height: 46mm;
-		width:2mm;
-		top:92mm;
+		height:44mm;
+		width:1.9mm;
+		top:119mm;
 		bottom:10mm;
-		left:16mm;
+		left:37mm;
 		background-color:#57a5fc;
 	}
 	.line2{
+		z-index:2;
 		position:absolute;
 		height:43mm;
-		width:2mm;
-		top:25mm;
+		width:1.9mm;
+		top:46mm;
 		bottom:10mm;
-		right:15mm;
+		right:37mm;
 		background-color:#57a5fc;
 	}
 	.line3{
+		z-index:2;
 		position:absolute;
-		height:45mm;
-		width:2mm;
-		top:100mm;
+		height:43mm;
+		width:1.9mm;
+		top:124mm;
 		bottom:10mm;
-		right:15mm;
+		right:37mm;
 		background-color:#57a5fc;
 	}
 	.line4{
+		z-index:2;
 		position:absolute;
 		height:49mm;
-		width:2mm;
-		top:57mm;
+		width:1.9mm;
+		top:72mm;
 		bottom:10mm;
-		left:26mm;
+		left:45mm;
 		background-color:#57a5fc;
 	}
 	.line5{
+		z-index:2;
 		position:absolute;
 		height:49mm;
-		width:2mm;
-		top:61mm;
+		width:1.9mm;
+		top:81mm;
 		bottom:10mm;
-		right:24mm;
+		right:46mm;
 		background-color:#57a5fc;
 	}
 	.line6{
+		z-index:2;
 		position:absolute;
-		height:42mm;
-		width:2mm;
-		top:-9mm;
-		bottom:10mm;
-		left:3mm;
+		height:21mm;
+		width:1.9mm;
+		top:27mm;
+		bottom:12mm;
+		left:28mm;
 		background-color:#57a5fc;
-		transform:rotate(-40deg);
+		transform:rotate(-61deg);
 	}
 	.line7{
+		z-index:2;
 		position:absolute;
-		height:53mm;
-		width:2mm;
-		top:-20mm;
+		height:31mm;
+		width:1.9mm;
+		top:14mm;
 		bottom:10mm;
-		left:9mm;
+		left:32mm;
 		background-color:#57a5fc;
-		transform: rotate(-41deg);
+		transform: rotate(-62deg);
 	}
 	.line8{
+		z-index:2;
 		position:absolute;
-		height:48mm;
-		width:2mm;
-		top:133mm;
+		height:24mm;
+		width:1.9mm;
+		top:158mm;
 		bottom:10mm;
-		left:2mm;
+		left:28mm;
 		background-color:#57a5fc;
-		transform:rotate(37deg);
+		transform:rotate(-131deg);
 	}
 	.line9{
+		z-index:2;
 		position:absolute;
-		height:48mm;
-		width:2mm;
-		top:134mm;
+		height:43mm;
+		width:1.9mm;
+		top:154mm;
 		bottom:28mm;
-		left:11mm;
+		left:36mm;
 		background-color:#57a5fc;
-		transform:rotate(38deg);
+		transform:rotate(49deg);
 	}
 	.line10{
+		z-index:2;
 		position:absolute;
-		height:27mm;
-		width:2mm;
-		top:113mm;
+		height:25mm;
+		width:1.9mm;
+		top:142mm;
 		bottom:10mm;
-		left:26mm;
+		left:46mm;
 		background-color:#57a5fc;
 	}
 	.line11{
+		z-index:2;
 		position:absolute;
-		height:24mm;
-		width:2mm;
-		top:26mm;
+		height:18mm;
+		width:1.9mm;
+		top:37mm;
 		bottom:10mm;
-		left:26mm;
+		left:45mm;
 		background-color:#57a5fc;
 	}
 	.line12{
+		z-index:2;
 		position:absolute;
-		height:43mm;
-		width:2mm;
-		top:-10mm;
+		height:24mm;
+		width:1.9mm;
+		top:27mm;
 		bottom:10mm;
-		left:256mm;
+		left:267mm;
 		background-color:#57a5fc;
-		transform: rotate(-132deg);
+		transform: rotate(-129deg);
 	}
 	.line13{
+		z-index:2;
 		position:absolute;
-		height:39mm;
-		width:2mm;
-		top:139mm;
+		height:25mm;
+		width:1.9mm;
+		top:162mm;
 		bottom:10mm;
-		left:253mm;
+		left:267mm;
 		background-color:#57a5fc;
-		transform:rotate(-42deg);
+		transform:rotate(-52deg);
 	}
 	.line14{
+		z-index:2;
 		position:absolute;
-		height:31mm;
-		width:2mm;
-		top:21mm;
+		height:22mm;
+		width:1.9mm;
+		top:41mm;
 		bottom:10mm;
-		right:24mm;
+		right:46mm;
 		background-color:#57a5fc;
 	}
 	.line15{
+		z-index:2;
 		position:absolute;
 		height:25mm;
-		width:2mm;
-		top:122mm;
+		width:1.9mm;
+		top:147mm;
 		bottom:10mm;
-		right:24mm;
+		right:46mm;
 		background-color:#57a5fc;
 	}
 	.line16{
+		z-index:2;
 		position:absolute;
-		height:75mm;
-		width:2mm;
-		top:137mm;
+		height:32mm;
+		width:1.9mm;
+		top:165mm;
 		bottom:10mm;
-		left:256mm;
+		left:262mm;
 		background-color:#57a5fc;
-		transform: rotate(-42deg);
+		transform: rotate(-56deg);
 	}
 	.line17{
+		z-index:2;
 		position:absolute;
-		height:77mm;
-		width:2mm;
-		top:-41mm;
-		bottom:10mm;
-		left:260mm;
+		height:35mm;
+		width:1.9mm;
+		top:14mm;
+		bottom:9mm;
+		left:262mm;
 		background-color:#57a5fc;
-		transform: rotate(50deg);
+		transform: rotate(53deg);
 	}
 
 	.certificate-content {
@@ -424,7 +447,7 @@
 	}
 	.certificate-wrapper .certificate-content .sign-president-img
 	{	
-		top: 108mm;
+		top:111mm;
 		left:50mm;
 		width :30mm;
 		height :14mm;
@@ -440,7 +463,7 @@
 	}
 	.certificate-wrapper .certificate-content .sign-director {
 	  left: 180mm;
-	  top: 125mm;
+	  top: 129mm;
 	  font-size: 12pt;
 	  border-top: 0.5pt solid;
 	  line-height : 8mm;
@@ -448,7 +471,7 @@
 	}
 	.certificate-wrapper .certificate-content .sign-president {
 	  left:43mm;
-	  top: 125mm;
+	  top: 126mm;
 	  font-size: 12pt;
 	  border-top: 0.5pt solid;
 	  line-height : 8mm;
@@ -456,18 +479,17 @@
 	}
 	.certificate-wrapper .certificate-content .org-name {
 	  position: absolute;
-	  top:15mm;
-	  left: auto;
-	  bottom: 22mm;
-	  right: -165mm;
+	  top:148mm;
+	  left:113mm;
+	  bottom:17mm;
 	  text-align: right;
 	  font-size:16pt;
 	  font-weight: bold;
 	  position: absolute;
 	}
 	.certificate-wrapper .certificate-content .org-address {
-	  right:32mm;
-	  bottom:7mm;
+	  right:37mm;
+	  top:157mm;
 	  width: 170mm;
 	  text-align: right;
 	  font-size: 14pt;
@@ -486,8 +508,8 @@
 	  top: 92mm;
 	}
 	.certificate-wrapper .certificate-content .org-address {
-	  right:-161mm;
-	  bottom:-15mm;
+	  right:27mm;
+	  top:157mm;
 	  width: 170mm;
 	  text-align: right;
 	  font-size: 10pt;
@@ -499,4 +521,5 @@
 	  margin-bottom: 0mm;
 	  margin-top : 0mm;
 	}
+
 }
