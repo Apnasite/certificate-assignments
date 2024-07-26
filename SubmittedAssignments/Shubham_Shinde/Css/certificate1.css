@@ -154,7 +154,7 @@
       }
       .certificate-wrapper .main-content{
         position: absolute;
-        top: 120mm;
+        top: 100mm;
         /* text-align: center; */
         color: #ffffff;
         font-family: info;
@@ -178,9 +178,10 @@
       .information{
         /* border: 3px solid red; */
         margin: 3mm 70mm;
-        font-size: 4.5mm;
+        margin: 3mm 60mm;
         font-family: info1;
         word-spacing: 2mm;
+        font-size: 4.5mm;
         /* text-transform: uppercase; */
       }
       .certificate-wrapper .tri1 {
@@ -226,7 +227,7 @@
       {
         margin: 100mm 0mm 0mm 209mm;
       }
-      .certificate-wrapper .certificate-content img{
+      .certificate-wrapper .certificate-content .certificate-logo img{
         height: 76mm;
       }
 
@@ -265,8 +266,8 @@
       .certificate-wrapper .org-name {
         position: absolute;
         left: auto;
-        bottom: 15mm;
-        right: 3mm;
+        bottom: -6mm;
+        right: -12mm;
         text-align: right;
         font-size: 18pt;
         font-weight: bold;
@@ -274,8 +275,8 @@
         color: #ffffff;
       }
       .certificate-wrapper .org-address {
-        right: 3mm;
-        bottom: 4mm;
+        right: -12mm;
+        bottom: -17mm;
         width: 170mm;
         text-align: right;
         font-size: 12pt;
@@ -318,41 +319,42 @@
     width: auto;
     max-height: 38mm;
     max-width: 100%;
-    margin: -7mm 0mm 0mm 46mm;
+    margin: -8mm 0mm 0mm 28mm;
+  
   }
 
   /* Extra Sign Content  */
   .certificate-wrapper .sign-president-img
       {
-          left: 80mm;
-          top: 166mm;
-          width : 40mm;
-          height : 17mm;
+          left: 62mm;
+          top: 145mm;
+          width: 40mm;
+          height: 17mm;
           position : absolute;
           background-color: #ffffff;
           /* mix-blend-mode:color-burn; */
         }
       .certificate-wrapper .sign-director-img
       {
-          left: 180mm;
-          top: 166mm;   
-          width : 40mm;
-          height : 17mm;
+          left: 157mm;
+          top: 145mm;
+          width: 40mm;
+          height: 17mm;
           position : absolute;
           background-color: #ffffff;
           /* mix-blend-mode:color-burn; */
       }
       .certificate-wrapper .sign-director {
-          left: 180mm;
-          top: 185mm;
+          left: 157mm;
+          top: 161mm;
           font-size: 12pt;
           border-top: 0.5pt solid;
           line-height : 8mm;
           position: absolute;
       }
       .certificate-wrapper .sign-president {
-          left: 80mm;
-          top: 185mm;
+          left: 62mm;
+          top: 161mm;
           font-size: 12pt;
           border-top: 0.5pt solid;
           line-height : 8mm;
