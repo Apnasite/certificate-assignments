@@ -1,0 +1,276 @@
+.certificate-wrapper{
+    overflow: hidden;
+    width: 297mm;
+    height: 210mm;
+    position: relative;
+    background-color: whitesmoke;
+    border: 2pt solid grey;
+}
+.certificate-wrapper .certificate-background{
+    left:0mm;
+    top: auto;
+    width: 297mm;
+    height: 210mm;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+   
+}
+.certificate-wrapper .certificate-background .rect1{
+    position:absolute;
+    width:72mm;
+    height:170mm;
+    background: rgb(32, 32, 32);
+    left:0mm;
+}
+.certificate-wrapper .certificate-background .rect2{
+    
+    position: absolute;
+    width:210mm;
+    height:25mm;
+    top: 30mm;
+    left: 90mm;
+    float: right;
+    background:#ffe100;
+    box-shadow: 2mm 2mm 2mm rgba(128, 128, 128, 0.353);
+
+}
+.certificate-wrapper .certificate-background .rect3{
+    background:rgb(32, 32, 32);
+    position: absolute;
+    width:220mm;
+    height:10mm;
+    float: right;
+    margin-top: 12mm;
+}
+.certificate-wrapper .certificate-background .rect4{
+    background:#ffe100;
+    position: absolute;
+    width:72mm;
+    height:40mm;
+    float: left;
+    top: 170mm;
+}
+.certificate-wrapper .certificate-background .rect5{
+    position: absolute;
+    width:150mm;
+    height:10mm;
+    float: right;
+    margin: 100mm 20mm 50mm 93mm ;
+    display: block;
+    background:#ffe100;
+    box-shadow: 2mm 2mm 2mm rgba(128, 128, 128, 0.353);
+
+}
+.certificate-wrapper .certificate-background .rect6{
+    background:rgb(32, 32, 32);
+    position: absolute;
+    width:180mm;
+    height:1mm;
+    float: right;
+    top: 100mm;
+    left: 93mm ;
+}
+.certificate-wrapper .certificate-background .rect7{
+    background:rgb(32, 32, 32);
+    position: absolute;
+    width:79mm;
+    height:22mm;
+    float: right;
+    top: 168mm;
+    right: 0mm;
+}
+
+.certificate-wrapper .certificate-content {
+    top: 5mm;
+    right: 5mm;
+    bottom: 5mm;
+    left: 5mm;
+    position: absolute;
+}
+.certificate-wrapper .certificate-content .certificate-logo {
+    position: absolute;
+    top: 5mm;
+    right: 2mm;
+    bottom: 2mm;
+    left: 4mm;  
+}
+.certificate-wrapper .star{
+    position: absolute;
+    top: 70mm;
+    left: 15mm;
+}
+
+.certificate-wrapper .certificate-content .sr-no {
+    position: absolute;
+    left: 75mm;
+    top: 0mm;
+    font-size: 16pt;
+    position: absolute;
+    font-family:Arial, Helvetica, sans-serif ;
+  }
+.certificate-wrapper .certificate-content .title{
+    position: absolute;   
+    left: 92mm;
+    float: right; 
+    font-size: 21mm;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2.5mm;
+    top: 14mm;
+}
+.certificate-wrapper .certificate-content .sub-title{
+    position: absolute;
+    top: 38mm;
+    left: 90mm;
+    float: right; 
+    font-size: 6mm;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.5mm;
+    color: white;
+
+}
+.certificate-wrapper .certificate-content .initial-content{
+    position: absolute;
+    top: 60mm;
+    left: 90mm;
+    float: right; 
+    font-size: 18pt;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5pt;
+}
+.certificate-wrapper .certificate-content .candidate-name{
+    position: absolute;
+    top: 68mm;
+    left: 90mm;
+    float: right; 
+    font-size: 60pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;     
+}
+.certificate-wrapper .certificate-content .sub-initial-content{
+    position: absolute;
+    top: 96mm;
+    left: 90mm;
+    float: right; 
+    font-size: 20pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;     
+}
+.certificate-wrapper .certificate-content .main-content{
+    position: absolute;
+    top: 115mm;
+    left: 90mm;
+    float: right; 
+    font-size: 10.5pt;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    letter-spacing: 1pt;
+    line-height: 5mm;
+    color: rgb(50, 49, 49);
+}
+.certificate-wrapper .certificate-content .sign-president-img{
+    top: 160mm;
+	left: 95mm;
+	width : 40mm;
+	height : 20mm;
+	position : absolute;
+}
+
+.certificate-wrapper .certificate-content .sign-director-img
+{
+	top : 160mm;
+	left: 160mm;
+	width : 40mm;
+	height : 20mm;
+    position : absolute;
+}
+.certificate-wrapper .certificate-content .sign-president {
+    left: 90mm;
+    top: 180mm;
+    font-size: 15pt;
+    border-top: 1pt solid;
+    line-height : 8mm;
+    position: absolute;
+    font-weight: bold;
+}
+.certificate-wrapper .certificate-content .sign-director {
+    left: 155mm;
+    top: 180mm;
+    font-size: 15pt;
+    border-top: 1pt solid;
+    line-height : 8mm;
+    position: absolute;
+    font-weight: bold;
+}
+.certificate-wrapper .certificate-content .org-logo{
+    right: 0mm;
+    top: 0mm;
+    width:40mm;
+    height:7mm;
+	position : absolute;
+}
+.certificate-wrapper .certificate-content .org-logo img {
+    right: 0mm;
+    max-height: 12mm;  
+}
+
+.certificate-wrapper .certificate-content .side-content{
+    position: absolute;
+    top: 90mm;
+    left: 3mm; 
+    font-size: 10pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;     
+    color: grey;
+    display: block;
+    letter-spacing: 1pt;
+    line-height: 5mm;
+    text-align: center;
+}
+ .date{
+    position: absolute;
+    top: 180mm;
+    left: 22mm;
+}
+ .date-fig{
+    top: 185mm;
+    left: 22mm; 
+    font-size: 12pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom:1mm ;
+    border-bottom: 1.5pt solid black; 
+  
+}
+ .date-word{
+    position: absolute;
+    top: 192mm;
+    left: 27mm; 
+    font-size: 12pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1pt;
+    font-weight: bold;
+}
+
+.certificate-wrapper .org-name {
+    position: absolute;
+    left: auto;
+    bottom: 34mm;
+    right: 8mm;
+    text-align: left;
+    font-size: 9pt;
+    position: absolute;
+    color: #ffe100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .certificate-wrapper  .org-address {
+    right: -93mm;
+    bottom: 23mm;
+    width: 170mm;
+    text-align: left;
+    font-size: 8pt;
+    color: whitesmoke;
+    position: absolute;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .certificate-wrapper .org-address p {
+    margin-bottom: 0mm;
+    margin-top : 0mm;
+  }
