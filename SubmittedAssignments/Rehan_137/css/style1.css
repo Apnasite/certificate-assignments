@@ -1,0 +1,250 @@
+.certificate-wrapper {
+  overflow: hidden;
+	  width: 297mm;
+	  height: 210mm;
+	  position: relative;
+  background: rgb(49,49, 49) !important;
+  line-height: normal;
+}
+
+.certificate-content .certificate-background  {
+  /* position : absolute; */
+  left: 0mm;
+	  top: auto;
+	  width: 297mm;
+	  height: 210mm;
+	  overflow: hidden;
+	  position: relative;
+}
+
+.angle {
+  height: 194mm;
+  width: 281mm;
+  top: 8mm;
+  position: absolute;
+  background:rgb(52, 52,52) ;
+  left: 8mm;
+
+}
+
+.angle .bgimage{
+  height: 194mm;
+  width: 281mm;
+  border-radius: 10mm;
+  opacity: 0.03;
+}
+.triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 50mm solid rgb(197, 143, 102);
+  border-right: 50mm solid transparent;
+}
+
+.triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 50mm solid rgb(197, 143, 102);
+  border-left: 50mm solid transparent;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+ 
+.triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 50mm solid rgb(197, 143, 102);
+  border-right: 50mm solid transparent;
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+}
+.triangle-bottomright {
+  width: 0mm;
+  height: 0mm;
+  border-bottom: 50mm solid rgb(197, 143, 102);
+  border-left: 50mm solid transparent;
+  position: absolute;
+  right: 0mm;
+  bottom: 0mm;
+}
+/*Content of Certificate*/
+.certificate-content.title h1 {
+  color: rgb(197, 143, 102);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+}
+
+.certificate-wrapper .certificate-content .title{
+  position: absolute;
+  color: rgb(197, 143, 102);
+  left: 0mm;
+  top: 20mm; 
+  right: 0mm;
+  font-size: 70pt;
+ /* text-shadow: 2mm 2mm 2mm #DB7093 !important;*/
+  text-align: center;
+  margin: auto;
+  font-family : sub;
+  line-height: normal;
+}
+
+.certificate-wrapper .certificate-content .sr-no {
+  left: 5mm;
+  top: 5mm;
+  font-size: 16pt;
+  color: rgb(197, 143, 102);
+  position: absolute;
+}
+
+.certificate-wrapper .certificate-content .date {
+  
+  color:rgb(197, 143, 102);
+  right: 5mm;
+  top: 5mm;
+  font-size: 16pt;
+  position: absolute;
+}
+.certificate-wrapper .certificate-content .org-logo {
+  left: 120mm;
+  bottom: 185mm;
+  position: absolute;
+  width: 79mm;
+  height: 20mm;
+}
+.certificate-wrapper .certificate-content .org-logo img {
+  width: auto;
+  max-height: 50mm;
+  max-width: 100%;
+}
+.certificate-wrapper .certificate-content .subtitle {
+  position: absolute;
+  left: 0mm;
+  top: 45mm;
+  right: 0mm;
+  word-spacing: 2mm;
+  color: #f0e7eb !important;
+  font-family: serif;
+  font-size: 20pt;
+  text-align: center;
+  margin: auto;
+}
+.certificate-wrapper .certificate-content .initial-content {
+  left: 0mm;
+  top: 60mm;
+  right: 0mm;
+  color: rgb(197, 143, 102)!important;
+  font-size: 18pt;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+
+}
+.certificate-wrapper .certificate-content .candidate-name {
+  left: 0mm;
+  top: 75mm;
+  right: 0mm;
+  font-family: cname;
+  font-size: 65pt;
+  color: #fbfbff !important;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.certificate-wrapper .certificate-content .main-content {
+  position: absolute;
+  left: 15mm;
+  top: 110mm;
+  color: rgb(197, 143, 102) ;
+  right: 15mm;
+  font-size: 14pt;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  border : none;
+  line-height : normal;
+}
+.certificate-wrapper .certificate-content .main-content p {
+  margin-top: 3mm;
+}
+
+.certificate-wrapper .certificate-content .certificate-logo {
+  position: absolute;
+  left: auto;
+  bottom: 30mm;
+  right: 125mm;
+  position: absolute;
+}
+.certificate-wrapper .certificate-content .certificate-logo img {
+  width: auto;
+  height: 30mm;
+  max-width: 50mm;
+}
+.certificate-wrapper .certificate-content .date {
+  position: absolute;
+  left: auto;
+  top: 5mm;
+  right: 5mm;
+  font-size: 16pt;
+  position: absolute;
+}
+.certificate-wrapper .certificate-content .sign-president-img
+{
+  top: 125mm;
+  left: 60mm;
+  width : 40mm;
+  height : 20mm;
+  position : absolute;
+}
+.certificate-wrapper .certificate-content .sign-director-img
+{
+  top : 125mm;
+  right: 60mm;
+  width : 40mm;
+  height : 20mm;
+  position : absolute;
+}
+.certificate-wrapper .certificate-content .sign-director {
+  right: 60mm;
+  top: 143mm;
+  color:  rgb(197, 143, 102);
+  font-size: 12pt;
+  border-top: 0.5pt solid black;
+  line-height : 8mm;
+  position: absolute;
+}
+.certificate-wrapper .certificate-content .sign-president {
+  left: 60mm;
+  top: 143mm;
+  color: rgb(197, 143, 102);
+  font-size: 12pt;
+  border-top: 0.5pt solid black;
+  line-height : 8mm;
+  position: absolute;
+}
+.certificate-wrapper .certificate-content .org-name {
+  position: absolute;
+  bottom: 11mm;
+  right: 75mm;
+  color: rgb(197, 143, 102);
+  text-align: center;
+  font-size: 18pt;
+  position: absolute;
+}
+.certificate-wrapper .certificate-content .org-address {
+  right: 48mm;
+  bottom: 2mm;
+  width: 170mm;
+  text-align: center;
+  font-size: 12pt;
+  color:rgb(197, 143, 102) ;
+  position: absolute;
+}
+.certificate-wrapper .certificate-content .org-address p {
+  margin-bottom: 0mm;
+  margin-top : 0mm;
+
+}
