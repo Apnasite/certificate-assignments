@@ -1,0 +1,166 @@
+.certificate-wrapper {
+    overflow: hidden;
+    width: 297mm;
+    height: 210mm;
+    position: absolute;
+    left: 20mm;
+    box-shadow: 3px 0px 26px 6px;
+}
+
+.certificate-background {
+    position: absolute;
+    width: 297mm;
+    height: 210mm;
+}
+
+.triangle {
+    position: absolute;
+    height: 0px;
+    border-top-width: 128mm;
+    border-bottom: 210mm solid rgb(47, 27, 54);
+    border-right: 156mm solid transparent;
+    border-left: 176mm;
+    margin-left: 59mm;
+}
+
+.column {
+    height: 210mm;
+    width: 59mm;
+    background-color: rgb(47, 27, 54);
+}
+
+.square {
+    height: 165mm;
+    width: 297mm;
+    position: absolute;
+    top: 21mm;
+    background-image: linear-gradient(225deg, #ff00ee8a, #ffbcc7, #9b9be2b5, transparent);
+}
+
+.certificate-content {
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 33mm;
+    left: 14mm;
+    text-transform: uppercase;
+    font-size: 25mm;
+    color: white;
+    letter-spacing: 2mm;
+}
+
+.sr-no {
+    position: absolute;
+    top: 23mm;
+    left: 3mm;
+    text-transform: uppercase;
+    color: white;
+}
+
+.date {
+    position: absolute;
+    top: 24mm;
+    right: 5mm;
+    text-transform: uppercase;
+    color: white;
+    font-size: 6mm;
+}
+
+.subtitle {
+    position: absolute;
+    top: 61mm;
+    left: 16mm;
+    text-transform: uppercase;
+    font-size: 6mm;
+    color: white;
+    font-family: ui-sans-serif;
+    letter-spacing: 1mm;
+}
+
+.certificate-logo img {
+    position: absolute;
+    top: 34mm;
+    left: 188mm;
+    height: 95mm;
+    width: 102mm;
+}
+
+.initial-content{
+    position: absolute;
+    top: 72mm;
+    left: 16mm;
+    font-size: 23pt;
+    color: white;
+    letter-spacing: 1mm;
+}
+.candidate-name{
+    position: absolute;
+    top: 88mm;
+    left: 17mm;
+    font-size: 46pt;
+    color: white;
+    letter-spacing: 2mm;
+    text-shadow: 1mm 1mm black;
+
+}
+
+.sign-president-img {
+    position: absolute;
+    height: 17mm;
+    width: 48mm;
+    top: 161mm;
+    left: 19mm;
+}
+
+.sign-director-img{
+    position: absolute;
+    height: 21mm;
+    width: 43mm;
+    top: 157mm;
+    left: 105mm;
+}
+
+.org-logo{
+    position: absolute;
+    top: 121mm;
+    left: 60mm;
+}
+.sign-president{
+    position: absolute;
+    top: 177mm;
+    left: 13mm;
+    font-size: 6mm;
+    color: white; 
+}
+.sign-director{
+    position: absolute;
+    top: 179mm;
+    left: 102mm;
+    font-size: 5mm;
+    color: white;
+}
+.main-content{
+    position: absolute;
+    top: 114mm;
+    left: 16mm;
+    font-size: 6mm;
+    color: white;
+    letter-spacing: 1mm;
+}
+.org-name{
+    position: absolute;
+    top: 138mm;
+    left: 168mm;
+    font-size: 7mm;
+    color: yellow;
+}
+.org-address{
+    position: absolute;
+    height: 20mm;
+    width: 72mm;
+    top: 145mm;
+    left: 207mm;
+    font-size: 5mm;
+}
