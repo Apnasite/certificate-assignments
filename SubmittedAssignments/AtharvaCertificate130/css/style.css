@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+
+
+
+.certificate-wrapper {
+    overflow: hidden;
+    width: 297mm;
+    height: 210mm;
+    position: relative;
+    background: #fff !important;
+    line-height: normal;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.certificate-wrapper .certificate-background {
+    left: 0mm;
+    top: auto;
+    width: 297mm;
+    height: 210mm;
+    overflow: hidden;
+    position: relative;
+}
+
+.certificate-wrapper .certificate-background .triangle-topleft {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    height: 0mm;
+    width: 14.5mm;
+    border-top: 100px solid transparent;
+    border-right: 100px solid rgb(109, 81, 144);
+    transform: rotate(180deg);
+}
+
+.certificate-wrapper .certificate-background .triangle-topright {
+    position: absolute;
+    border-top: 26.45mm solid transparent;
+    border-right: 26.45mm solid rgb(212, 78, 117);
+    top: 0%;
+    right: -2%;
+    width: 10mm;
+    transform: rotate(270deg);
+}
+
+
+.certificate-wrapper .certificate-background .rect1 {
+    position: absolute;
+    top: 0%;
+    left: 8%;
+    width: 21.16mm;
+    height: 6.61mm;
+    border-radius: 3.96mm;
+    background-color: rgb(109, 81, 144);
+    transform: rotate(135deg);
+}
+
+.certificate-wrapper .certificate-background .rect2 {
+    position: absolute;
+    top: 0%;
+    left: 1mm;
+    width: 101.5mm;
+    height: 6.61mm;
+    border-radius: 3.96mm;
+    background-color: rgb(109, 81, 144);
+    transform: rotate(135deg);
+}
+
+.certificate-wrapper .certificate-background .rect3 {
+    position: absolute;
+    top: 0mm;
+    right: -19mm;
+    width: 74.83mm;
+    height: 10.32mm;
+    border-radius: 5.29mm;
+    background-color: rgb(212, 78, 117);
+    transform: rotate(135deg);
+}
+
+.certificate-wrapper .certificate-background .rect4 {
+    position: absolute;
+    top: 10%;
+    right: -29mm;
+    width: 82.91mm;
+    height: 10.31mm;
+    border-radius: 5.29mm;
+    background-color: rgb(212, 78, 117);
+    transform: rotate(135deg);
+}
+
+.certificate-wrapper .certificate-background .rect5 {
+    position: absolute;
+    bottom: 15mm;
+    left: -7%;
+    width: 42.68mm;
+    height: 8.61mm;
+    border-radius: 3.96mm;
+    background-color: rgb(212, 78, 117);
+    transform: rotate(135deg);
+}
+
+.certificate-wrapper .certificate-background .rect6 {
+    position: absolute;
+    bottom: -4.8mm;
+    left: -4%;
+    width: 39.68mm;
+    height: 6.61mm;
+    border-radius: 3.96mm;
+    background-color: rgb(212, 78, 117);
+    transform: rotate(135deg);
+}
+
+.certificate-wrapper .certificate-background .rect7 {
+    position: absolute;
+    bottom: 1mm;
+    left: -4%;
+    width: 23.81mm;
+    height: 8mm;
+    border-radius: 6.61mm;
+    background-color: rgb(212, 78, 117);
+    transform: rotate(135deg);
+}
+
+.certificate-wrapper .certificate-background .rect8 {
+    position: absolute;
+    bottom: 22mm;
+    right: -23mm;
+    width: 53mm;
+    height: 11mm;
+    border-radius: 24mm;
+    background-color: rgb(109, 81, 144);
+    transform: rotate(135deg);
+}
+
+.certificate-wrapper .certificate-background .rect9 {
+    position: absolute;
+    bottom: -14mm;
+    right: 16mm;
+    width: 27mm;
+    height: 11mm;
+    border-radius: 24mm;
+    background-color: rgb(109, 81, 144);
+    transform: rotate(90deg);
+}
+
+.certificate-wrapper .certificate-content {
+    top: 20mm;
+    right: 20mm;
+    bottom: 20mm;
+    left: 20mm;
+    position: absolute;
+}
+
+.certificate-wrapper .certificate-content .title {
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    top: 11mm;
+    left: 48mm;
+    color: rgb(109, 81, 144);
+    font-weight: bold;
+    font-size: 25mm;
+}
+
+.certificate-wrapper .certificate-content .sr-no {
+    position: absolute;
+    left: 39mm;
+    top: -18mm;
+    font-size: 16pt;
+    position: absolute;
+}
+
+.certificate-wrapper .certificate-content .org-logo{
+    position: absolute;
+    top: 145mm;
+    left: 15mm;
+}
+
+.certificate-wrapper .certificate-content .org-logo img{
+    top: 145mm;
+    left: 15mm;
+}
+
+.certificate-wrapper .certificate-content .subtitle {
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    top: 49mm;
+    left: 47mm;
+    color: rgb(220, 0, 173);
+    font-size: 3.23mm;
+    letter-spacing: 1mm;
+}
+
+.certificate-wrapper .certificate-content .initial-content{
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    top: 49mm;
+    left: 47mm;
+    color: rgb(220, 0, 173);
+    font-size: 3.23mm;
+    letter-spacing: 1mm;
+}
+
+.certificate-wrapper .certificate-content .candidate-name {
+    position: absolute;
+    top: 67mm;
+    right: 72mm;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(193, 1, 152);
+    font-size: 13.52mm;
+}
+
+.certificate-wrapper .certificate-content .main-content p {
+    position: absolute;
+    top: 88mm;
+    left: 50mm;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: rgb(220, 0, 173);
+    text-align: center;
+}
+
+
+.certificate-wrapper .certificate-content .certificate-logo {
+    position: absolute;
+    height: 59.79mm;
+    width: 79.37mm;
+    bottom: 9mm;
+    left: 98mm;
+
+}
+
+
+.certificate-wrapper .certificate-content .certificate-logo img {
+    height: 59.79mm;
+    width: 79.37mm;
+    bottom: 9mm;
+    left: 98mm;
+
+}
+
+.certificate-wrapper .certificate-content .date {
+    position: absolute;
+    left: auto;
+    top: -18mm;
+    right: 11mm;
+    font-size: 14pt;
+    position: absolute;
+}
+
+.certificate-wrapper .certificate-content .sign-president-img {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 125mm;
+    left: 46mm;
+    height: 13.22mm;
+    width: 18.22mm;
+    color: rgb(220, 0, 173);
+}
+
+.certificate-wrapper .certificate-content .sign-director-img {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 125mm;
+    right: 40mm;
+    height: 13.22mm;
+    width: 18.22mm;
+    color: rgb(220, 0, 173);
+}
+
+.certificate-wrapper .certificate-content .sign-director {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 142mm;
+    right: -30mm;
+    height: 13.22mm;
+    width: 100mm;
+    color: rgb(220, 0, 173);
+}
+
+.certificate-wrapper .certificate-content .sign-president {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 142mm;
+    left: 33mm;
+    height: 13.22mm;
+    width: 100mm;
+    color: rgb(220, 0, 173);
+}
+
+.certificate-wrapper .certificate-content .org-name {
+    position: absolute;
+    left: auto;
+    bottom: 1mm;
+    right: 5mm;
+    text-align: right;
+    font-size: 18pt;
+    font-weight: bold;
+    position: absolute;
+    color: rgb(109, 81, 144);
+}
+
+.certificate-wrapper .certificate-content .org-address {
+    left: 105mm;
+    bottom: -10mm;
+    width: 170mm;
+    text-align: right;
+    font-size: 12pt;
+    font-weight: bold;
+    position: absolute;
+}
+
+.certificate-wrapper .certificate-content .org-address p {
+    margin-bottom: 0mm;
+    margin-top: 0mm;
+    text-align: center;
+}
+
+.certificate-wrapper .certificate-content .line1 {
+    position: absolute;
+    top: 141mm;
+    right: 17mm;
+    width: 62.70mm;
+    height: 0.79mm;
+    background-color: rgb(220, 0, 173);
+}
+
+.certificate-wrapper .certificate-content .line2 {
+    position: absolute;
+    width: 62.70mm;
+    height: 0.79mm;
+    background-color: rgb(220, 0, 173);
+    top: 141mm;
+    left: 25mm;
+}
+.certificate-wrapper .certificate-content .cname {
+    position: absolute;
+    font-family: "Teko", sans-serif;
+    font-weight: 500;
+    font-size: 3.175mm;
+    color: rgb(109, 81, 144);
+    left: 127mm;
+    top: 139mm;
+}
+
