@@ -1,0 +1,240 @@
+body {
+    background-color: grey;
+}
+
+.certificate-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 210mm;
+    width: 297mm;
+    background: white;
+    line-height: normal;
+}
+
+.certificate-wrapper .certificate-background {
+    position: relative;
+    overflow: hidden;
+    left: 0mm;
+    top: auto;
+    height: 210mm;
+    width: 297mm;
+}
+
+.toptri {
+    position: absolute;
+    top: -18pt;
+    left: -44pt;
+    height: 0;
+    width: 0;
+    border-top: 104mm solid rgb(1, 48, 78);
+    border-right: 104mm solid transparent;
+}
+
+.topline1 {
+    position: absolute;
+    left: 158pt;
+    top: -279pt;
+    bottom: 79mm;
+    height: 270mm;
+    width: 15mm;
+    rotate: 45deg;
+    background-color: rgb(163, 92, 0);
+}
+
+.topline2 {
+    position: absolute;
+    left: 105pt;
+    top: -160pt;
+    bottom: 38mm;
+    height: 268mm;
+    width: 26mm;
+    rotate: 45deg;
+    background-color: rgb(205, 154, 1);
+}
+
+.bottomtri {
+    position: absolute;
+    top: 149mm;
+    left: 224mm;
+    height: 0;
+    width: 0;
+    border-bottom: 78mm solid rgb(1, 48, 78);
+    border-left: 78mm solid transparent;
+}
+
+.bottomline1 {
+    position: absolute;
+    top: 73mm;
+    left: 211mm;
+    height: 296mm;
+    width: 12mm;
+    rotate: 45deg;
+    background-color: rgb(163, 92, 0);
+}
+
+.bottomline2 {
+    position: absolute;
+    top: 62mm;
+    left: 241mm;
+    height: 210mm;
+    width: 18mm;
+    rotate: 45deg;
+    background-color: rgb(205, 154, 1);
+}
+
+
+.title {
+    position: absolute;
+    top: 20mm;
+    left: 143mm;
+    text-transform: uppercase;
+    letter-spacing: 2mm;
+    font-size: 20mm;
+    font-family: "Crimson Text", serif;
+    font-weight: 10mm;
+    color: black;
+}
+
+.sr-no {
+    position: absolute;
+    top: 5mm;
+    left: 145mm;
+    font-size: large;
+}
+
+.date {
+    position: absolute;
+    top: 5mm;
+    right: 5mm;
+    font-size: large;
+}
+
+.subtitle {
+    position: absolute;
+    top: 42mm;
+    left: 187mm;
+    text-transform: uppercase;
+    letter-spacing: 2mm;
+    font-size: 22pt;
+    font-family: system-ui;
+}
+
+.border1 {
+    position: absolute;
+    top: 56mm;
+    right: 14mm;
+    width: 78mm;
+    border: 1pt solid black;
+}
+
+.certificate-logo img {
+    position: absolute;
+    top: 15mm;
+    left: 23mm;
+    height: 60mm;
+    width: 65mm;
+}
+
+.initial-content {
+    position: absolute;
+    top: 276px;
+    left: 83mm;
+    text-transform: uppercase;
+    letter-spacing: 3pt;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.candidate-name {
+    position: absolute;
+    top: 77mm;
+    left: 82mm;
+    text-transform: uppercase;
+    letter-spacing: 1mm;
+    font-size: 26mm;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.border2 {
+    position: absolute;
+    bottom: 100mm;
+    left: 83mm;
+    border: 1pt solid black;
+    width: 168mm;
+}
+
+.main-content {
+    position: absolute;
+    top: 114mm;
+    left: 82mm;
+    text-transform: lowercase;
+    font-size: 9mm;
+    font-family: 'Teko';
+}
+
+.sign-president-img {
+    position: absolute;
+    bottom: 180px;
+    left: 25mm;
+    height: 20mm;
+    width: 60mm;
+}
+
+.border3{
+    position: absolute;
+    bottom: 47mm;
+    left: 18mm;
+    border: 1pt solid black;
+    width: 70mm;
+}
+.sign-president {
+    position: absolute;
+    bottom: 40mm;
+    left: 30mm;
+}
+
+.border4{
+    position: absolute;
+    bottom: 47mm;
+    right: 57mm;
+    border: 1pt solid black;
+    width: 55mm;
+}
+.sign-director-img {
+    position: absolute;
+    bottom: 50mm;
+    left: 187mm;
+    height: 20mm;
+    width: 50mm;
+}
+
+.sign-director {
+    position: absolute;
+    bottom: 40mm;
+    right: 67mm;
+}
+
+.org-logo img {
+    position: absolute;
+    bottom: 20mm;
+    right: 138mm;
+}
+
+.org-name {
+    position: absolute;
+    bottom: 17mm;
+    left: 45mm;
+    font-size: 8mm;
+}
+
+.org-address {
+    position: absolute;
+    bottom: 2mm;
+    left: 65mm;
+    text-align: center;
+    line-height: 2mm;
+}
