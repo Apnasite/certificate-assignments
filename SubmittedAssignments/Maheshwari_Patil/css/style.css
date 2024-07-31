@@ -1,0 +1,375 @@
+body {
+	font-family: sans-serif;	
+}
+
+.certificate-wrapper {
+	overflow: hidden;
+	width: 365mm;
+	height: 270mm;
+	position: relative;
+	background-color: #ced2d957;
+	line-height: normal;
+	border-bottom: 4pt solid #6cf56cfa;
+}
+
+.certificate-background {
+	position: absolute;
+	left: 30mm;
+	top: 30mm;
+	width: 297mm;
+	height: 210mm;
+	overflow: hidden;
+	background-color: #f7f9fc;	
+}
+
+.tri1 {
+	position: absolute;
+	top: 0mm;
+	left: -7mm;
+	width: 0mm;
+	height: 0mm;
+	border-style: solid;
+	border-width: 0 35pt 65pt 35pt;
+	border-color: transparent transparent #034D8E transparent;
+}
+
+.tri2 {
+	position: absolute;
+	top: 0mm;
+	left: 7mm;
+	width: 0mm;
+	height: 0mm;
+	border-style: solid;
+	border-width: 45pt 25pt 0pt 25pt;
+	border-color: #2480A7 transparent transparent transparent;
+}
+
+.tri3 {
+	position: absolute;
+    left: 18mm;
+    top: -7mm;
+    border-style: solid;
+    border-width: 0pt 35pt 65pt 35pt;
+    border-color: transparent transparent #F2CA51 transparent;
+}
+
+.tri4 {
+	position: absolute;    
+	top: 25mm;
+	left: -7mm;
+	width: 0mm;
+	height: 0mm;
+	border-style: solid;
+	border-width: 65pt 35pt 0pt 35pt;
+	border-color: #03245B transparent transparent transparent;
+}
+
+.tri5 {
+	position: absolute;
+	bottom: 3mm;
+	left: 0mm;
+	width: 0mm;
+	height: 0mm;
+	border-style: solid;
+	border-width: 25pt 45pt 25pt 0pt;
+	border-color: transparent #05275F transparent transparent;    
+}
+
+.tri6 {
+	position: absolute;
+	bottom: -5mm;
+	left: 18mm;
+	width: 0mm;
+	height: 0mm;
+	border-style: solid;
+	border-width: 25pt 0pt 25pt 45pt;
+	border-color: transparent transparent transparent #024D8C;
+}
+
+.tri7 {
+	position: absolute;
+	top: -7mm;
+	right: -32;
+	width: 0mm;
+	height: 0mm;
+	border-style: solid;
+	border-width: 0 35pt 65pt 35pt;
+	border-color: transparent transparent #054C8C transparent;
+}
+
+.tri8 {
+	position: absolute;
+	top: 18mm;
+	right: -6mm;
+	width: 0mm;
+	height: 0mm;
+	border-style: solid;
+	border-width: 45pt 25pt 0pt 25pt;
+	border-color: #F2CA51 transparent transparent transparent;
+	position: absolute;
+
+}
+.tri9 {
+	position: absolute;
+	bottom: 24mm;
+	right: -5mm;
+	width: 0mm;
+	height: 0mm;
+	border-style: solid;
+	border-width: 0 35pt 65pt 35pt;
+	border-color: transparent transparent #03275B transparent;
+}
+
+.tri10 {
+	position: absolute;
+	bottom: -1mm;
+	right: -1mm;
+	width: 0mm;
+	height: 0mm;
+	border-style: solid;
+	border-width: 65pt 35pt 0pt 35pt;
+	border-color: #034D8C transparent transparent transparent;
+}
+
+.tri11 {
+	position: absolute;
+	right: 14mm;
+	bottom: 0mm;
+	width: 0mm;
+	height: 0mm;
+	border-style: solid;
+	border-width: 0pt 25pt 45pt 25pt;
+	border-color: transparent transparent #2381A6 transparent;
+}
+
+.tri12  {
+		bottom: -7mm;
+		right: 26mm;
+		width: 0mm;
+		height: 0mm;
+		border-style: solid;
+		border-width: 65pt 35pt 0pt 35pt;
+		border-color: #F1CA55 transparent transparent transparent;
+		position: absolute;
+	}
+
+.img {
+	position: unset;
+	height: 100%;
+	width: 100%;
+	/* background: linear-gradient(rgba(21, 165, 28, 0.5),rgba(197, 39, 39, 0.5),url(Checks.jpg)); */
+	background-image: url("../img/Checks.jpg");
+	background-repeat: no-repeat;
+	background-size: 140%;
+	overflow: hidden;
+}
+
+.certificate-wrapper .certificate-content .certificate-logo {
+	position: absolute;
+	left: auto;
+	top: 20mm;
+	right: 15mm;
+	position: absolute;
+	z-index: 1;
+}
+
+.certificate-wrapper .certificate-content .certificate-logo img {
+	position: absolute;
+	height: 60mm;
+	width: 70mm;
+	left:-83mm;
+	top:-20mm;	
+}
+
+.certificate-wrapper .certificate-content {
+	position: absolute;
+	top: 49mm;
+	right: 20mm;
+	bottom: 20mm;
+	left: 20mm;
+	margin-top: -8mm;
+}
+
+.certificate-wrapper .certificate-content .title {
+	position: absolute;
+	left: 0mm;
+	top: 11mm; 
+	right: 0mm;
+	font-size: 41pt;
+	letter-spacing: 2pt;
+	text-align: center;
+	margin: auto;
+	font-family : sans-serif;
+	color: #1A1A1A;
+	line-height: normal;
+}
+
+.certificate-wrapper .certificate-content .sr-no {
+	position: absolute;
+	left: 29mm;
+	top: 5mm;
+	font-size: 17pt;
+	position: absolute;
+}
+
+.certificate-wrapper .certificate-content .subtitle {
+	position: absolute;
+	left: 0mm;
+	top: 25mm;
+	right: 0mm;
+	color: #cc0052;
+	font-family: sans-serif;
+	font-size: 21pt;
+	color: #252525;
+	letter-spacing: 1pt;
+	text-align: center;
+	margin: auto;
+}
+
+.certificate-wrapper .certificate-content .initial-content {
+	position: absolute;
+	left: 0mm;
+	top: 49mm;
+	right: 0mm;
+	font-size: 14pt;
+	font-family: sans-serif;
+	color: #0B0B0B;
+	letter-spacing: 0.5pt;
+	text-align: center;
+	margin: auto;
+}
+
+.certificate-wrapper .certificate-content .candidate-name {
+	position: absolute;
+	left: 0mm;
+	top: 53mm;
+	right: 0mm;
+	font-family:  Brush Script MT, cursive;
+	font-size: 68pt;
+	border-bottom: 2pt solid #1B1D47;
+	letter-spacing: 2pt;
+	color: #1B1D47;
+	text-align: center;
+	margin: auto;
+	width: 170mm;
+}
+
+.certificate-wrapper .certificate-content .main-content  {
+	position: absolute;
+    left: 15mm;
+    top: 90mm;
+    right: 15mm;
+    font-size: 16pt;
+	font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    border: none;
+    line-height: normal;
+}
+
+.certificate-wrapper .certificate-content .main-content1  {
+	position: absolute;
+    left: 15mm;
+    top: 8mm;
+    right: 15mm;
+    font-size: 14pt;
+	font-family: sans-serif;
+	color:#737771 ; 
+    text-align: center;
+    margin: auto;
+    border: none;
+    line-height: normal;
+}
+
+.certificate-wrapper .certificate-content .date {
+	position : absolute;
+	top:-4mm;
+	right: 41mm;
+	font-size: 15pt;
+	color: #080303;
+	line-height : 10mm;
+}
+
+.certificate-wrapper .certificate-content .date-name {
+	position: absolute;
+	right: 70mm;
+	top: -2mm;
+	color: #080303;
+	font-size: 14pt;
+}
+
+.certificate-wrapper .certificate-content .sign-president-img {
+	position : absolute;
+	top : 46mm;
+	right: 66mm;
+	width : 31mm;
+	height : 17mm;
+	border-bottom: 0.5pt solid;
+	line-height : 8mm;
+}
+
+.certificate-wrapper .certificate-content .sign-director-img {
+	position : absolute;
+	top : 46mm;
+	left: 60mm;
+	width : 31mm;
+	height : 17mm;
+	border-bottom: 0.5pt solid;
+	line-height : 8mm;
+}
+
+.certificate-wrapper .certificate-content .sign-director {
+	position: absolute;
+	left: 54mm;
+	top: 65mm;
+	font-size: 12pt;
+	color: #080303;
+}
+
+.certificate-wrapper .certificate-content .sign-president {
+    position: absolute;
+	right: 59mm;
+	top: 65mm;
+	font-size: 12pt;
+	color: #080303;
+}
+
+.certificate-wrapper .certificate-content .org-logo {
+	position: absolute;
+	left: auto;
+	top: 20mm;
+	right: 15mm;
+	position: absolute;
+	z-index: 1;
+}
+
+.certificate-wrapper .certificate-content .org-logo img {
+	position: absolute;
+	height: 38mm;
+	width: 51mm;
+	left:-264mm;
+	top:-97mm;
+}
+
+.certificate-wrapper .certificate-content .org-name {
+	position: absolute;
+	left: auto;
+	bottom: -68mm;
+	right: 54mm;
+	text-align: right;
+	font-size: 18pt;
+	font-weight: bold;
+	position: absolute;
+}
+
+.certificate-wrapper .certificate-content .org-address {
+	position: absolute;
+	left: auto;
+	bottom: -82mm;
+	right: 54mm;
+	text-align: right;
+	font-size: 16pt;
+	margin-bottom: 0mm;
+	margin-top : 0mm;
+}
+  
