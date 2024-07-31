@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    overflow: hidden;
+}
+
+
+.certificate-wrapper {
+    height: 186mm;
+    width: 253mm;
+    background: rgb(225, 224, 224);
+    position: relative;
+    overflow: hidden;
+}
+
+
+.certificate-background {
+    background-color: white;
+    position: absolute;
+    height: 155mm;
+    width: 216mm;
+    left: 18mm;
+    top: 13mm;
+    
+}
+
+.recttop {
+   
+    height: 13mm;
+    width: 79mm;
+    background-image:linear-gradient(to right, rgb(64, 126, 185),rgb(1, 66, 116));
+    margin-top: -13mm;
+    margin-left: -25mm;
+    transform: skew(-49deg);
+    overflow: hidden;
+    position: absolute;
+}
+.recttop2 {
+   
+    height: 13mm;
+    width: 39px;
+    background-image:linear-gradient(rgb(211, 173, 95), rgb(251, 210, 137), rgb(211, 173, 95));
+    margin-top: -13mm;
+    margin-left: 51mm;
+    transform: skew(-49deg);
+    position: absolute;
+}
+
+
+
+
+.rectleft {
+    height: 21mm;
+    width: 62mm;
+    background-image: linear-gradient(to right, rgb(64, 126, 185), rgb(1, 66, 116));
+    margin-top: 5mm;
+    margin-left: -42mm;
+    transform: rotate(90deg) skew(42deg);
+    position: absolute;
+}
+.rectleft2 {
+    height: 20mm;
+    width: 10mm;
+    background-image: linear-gradient(rgb(211, 173, 95), rgb(251, 210, 137), rgb(211, 173, 95));
+    margin-top: 40mm;
+    margin-left: -15mm;
+    transform: rotate(90deg) skew(42deg);
+    position: absolute;
+}
+.rectbtm{
+    height: 68px;
+    width: 397px;
+    position: absolute;
+    background-image: linear-gradient(rgb(211, 173, 95), rgb(251, 210, 137), rgb(211, 173, 95));
+    bottom: -18mm;
+    right: -29mm;
+    transform: skew(-49deg);
+    overflow: hidden;
+}
+.rectright{
+    height: 19mm;
+    width: 84mm;
+    position: absolute;
+    background-image: linear-gradient(rgb(211, 173, 95), rgb(251, 210, 137), rgb(211, 173, 95));
+    bottom: 85px;
+    right: -51mm;
+    transform: rotate(90deg) skew(-45deg);
+    overflow: hidden;
+}
+.certificate-content{
+    position: relative;
+    text-align: center;
+    margin: 26mm;
+
+}
+.sr-no{
+ top: -9mm;
+ left: 0mm;
+ position: absolute;
+}
+.title{
+    margin-top: 20mm;
+    font-size: 45px;
+    margin-bottom: 3mm;
+    font-family: "Noto Sans", sans-serif;
+    
+}
+.date{
+    top: -9mm;
+    right: 0mm;
+    position: absolute;
+    
+}
+
+.org-logo{
+    position: absolute;
+    bottom: 20mm;
+    /* right: 42mm; */
+    z-index: 1;
+    width: 1mm;
+    height: 2mm;
+
+    
+}
+.sub-title{
+    height: 5mm;
+    width: 55mm;
+    /* text-align: center; */
+    background-image:linear-gradient(to right, rgb(64, 126, 185),rgb(1, 66, 116));
+    padding: 3mm 22mm;
+    position: relative;
+    color: white;
+    margin: auto;
+    
+}
+
+.tri2{
+    height: 10mm;
+    width: 10mm;
+    position: absolute;
+    background:white;
+    top: 32mm;
+    right: 54mm;
+    transform: rotate(45deg);
+    position: absolute;
+    z-index: 1;
+}
+.tri3{
+    height: 10mm;
+    width: 10mm;
+    position: absolute;
+    background:white;
+    top: 32mm;
+    left: 54mm;
+    transform: rotate(45deg);
+    position: absolute;
+    z-index: 1;
+}
+
+.candidate-name{
+    font-size: 16pt;
+    font-family: "Playwrite CU", cursive;
+    margin-bottom: 5mm;
+    font-size: 32pt;
+}
+.main-content{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+footer{
+    bottom: 2mm;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+
+}
+.sign-president,.sign-director{
+    width: 26mm;
+    border-top: 1px solid black;
+    font-size: 18px;
+}
+
+.sign-president-img,.sign-director-img{
+    height: 8mm;
+}
+
+.certificate-logo img{
+    height: 45mm;
+
+}
+
+.org-address{
+    text-align: right;
+    bottom: -20mm;
+    right: 0mm;
+    position: absolute;
+}
+.org-name{
+    position:absolute;
+    right: 0mm;
+    bottom: -5mm;
+
+}
