@@ -10,10 +10,6 @@
 
 body{
     overflow: hidden;
-    background-color:grey;
-    margin:50px;
-    margin-bottom:50px;
-    padding:20px
 }
 
 
@@ -23,9 +19,6 @@ body{
     background: rgb(225, 224, 224);
     position: relative;
     overflow: hidden;
-    /* border:2px solid black;
-    padding:5px;
-    margin:5px; */
 }
 
 
@@ -43,23 +36,23 @@ body{
    
     height: 13mm;
     width: 79mm;
-    background-image:linear-gradient(to right, rgb(40,40,43),rgb(40, 40, 43));
+    background-image:linear-gradient(to right, rgb(67, 69, 68),rgb(67, 69, 68));
     margin-top: -13mm;
     margin-left: -25mm;
     transform: skew(-49deg);
     overflow: hidden;
     position: absolute;
 }
-.recttop2 {
+/* .recttop2 {
    
     height: 13mm;
     width: 39px;
-    background-image:linear-gradient(rgb(40, 40, 43), rgb(40, 40, 43), rgb(40, 40, 43));
+    background-image:linear-gradient(rgb(211, 173, 95), rgb(251, 210, 137), rgb(211, 173, 95));
     margin-top: -13mm;
     margin-left: 51mm;
     transform: skew(-49deg);
     position: absolute;
-}
+} */
 
 
 
@@ -67,7 +60,7 @@ body{
 .rectleft {
     height: 21mm;
     width: 62mm;
-    background-image: linear-gradient(to right, rgb(40, 40, 43), rgb(40, 40, 43));
+    background-image: linear-gradient(to right, rgb(67, 69, 68), rgb(67, 69, 68));
     margin-top: 5mm;
     margin-left: -42mm;
     transform: rotate(90deg) skew(42deg);
@@ -76,7 +69,7 @@ body{
 .rectleft2 {
     height: 20mm;
     width: 10mm;
-    background-image: linear-gradient(rgb(255,0,0), rgb(255, 0, 0), rgb(255, 0,0));
+    background-image: linear-gradient(rgb(194, 10, 10), rgb(194, 10, 10), rgb(194, 10, 10));
     margin-top: 40mm;
     margin-left: -15mm;
     transform: rotate(90deg) skew(42deg);
@@ -86,7 +79,7 @@ body{
     height: 68px;
     width: 397px;
     position: absolute;
-    background-image: linear-gradient(rgb(40, 40, 43), rgb(40, 40, 43), rgb(40, 40, 43));
+    background-image: linear-gradient(rgb(67, 69, 68), rgb(67, 69, 68), rgb(67, 69, 68));
     bottom: -18mm;
     right: -29mm;
     transform: skew(-49deg);
@@ -96,17 +89,7 @@ body{
     height: 19mm;
     width: 84mm;
     position: absolute;
-    background-image: linear-gradient(rgb(40, 40, 43), rgb(40, 40, 43), rgb(40, 40, 43));
-    bottom: 85px;
-    right: -51mm;
-    transform: rotate(90deg) skew(-45deg);
-    overflow: hidden;
-}
-.righttop{
-     height: 19mm;
-    width: 84mm;
-    position: absolute;
-    background-image: linear-gradient(rgb(255,0, 0), rgb(40, 40, 43), rgb(40, 40, 43));
+    background-image: linear-gradient(rgb(67, 69, 68), rgb(67, 69, 68), rgb(67, 69, 68));
     bottom: 85px;
     right: -51mm;
     transform: rotate(90deg) skew(-45deg);
@@ -123,14 +106,8 @@ body{
  left: 0mm;
  position: absolute;
 }
-.cname{
-       margin-top: 20mm;
-    font-size: 20px;
-    margin-bottom: 3mm;
-    font-family: "Noto Sans", sans-serif;
-}
 .title{
-    margin-top: 7mm;
+    margin-top: 20mm;
     font-size: 45px;
     margin-bottom: 3mm;
     font-family: "Noto Sans", sans-serif;
@@ -143,26 +120,16 @@ body{
     
 }
 
-.org-logo{
-    position: absolute;
-    bottom: 20mm;
-    /* right: 42mm; */
-    z-index: 1;
-    width: 1mm;
-    height: 2mm;
 
-    
-}
 .sub-title{
-    height: 5mm;
-    width: 69mm;
+     height: 3mm;
+    width: 55mm;
     /* text-align: center; */
-    background-image:linear-gradient(to right, rgb(40, 40, 43),rgb(40, 40, 43));
-    padding: 3mm 22mm;
+    background-image:linear-gradient(to right, rgb(67, 69, 68),rgb(67, 69, 68));
+    padding: 2mm 15mm;
     position: relative;
     color: white;
     margin: auto;
-
     
 }
 
@@ -190,11 +157,10 @@ body{
 }
 
 .candidate-name{
-    font-size: 13pt;
-    font-family:fantasy;
+    font-size: 16pt;
+    font-family: "Playwrite CU", cursive;
     margin-bottom: 5mm;
-    margin-top:4mm;
-    font-size: 30pt;
+    font-size: 32pt;
 }
 .main-content{
     font-size: 18px;
@@ -210,9 +176,8 @@ footer{
 
 
 }
-.sign-president,.sign-date{
+.sign-president,.sign-director{
     width: 26mm;
-    margin:50px;
     border-top: 1px solid black;
     font-size: 18px;
 }
