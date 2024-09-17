@@ -214,13 +214,13 @@
   .certificate-wrapper .certificate-content .sr-no {
     position: absolute;
     left: 0mm;
-    top: 0mm;
+    top: -12mm;
     font-size: 16pt;
     position: absolute;
   }
   .certificate-wrapper .certificate-content .org-logo {
-    left: 5mm;
-    bottom: 0mm;
+    left: 20mm;
+    bottom: -10mm;
     position: absolute;
     z-index: 2;
     width: 79mm;
@@ -259,7 +259,7 @@
   .certificate-wrapper .certificate-content .candidate-name {
     position: absolute;
     left: 0mm;
-    top: 75mm;
+    top: 65mm;
     right: 0mm;
     /* font-family: cname;*/
     font-family: 'Brush Script mt', cursive;
@@ -274,7 +274,7 @@
   .certificate-wrapper .certificate-content .description {
     position: absolute;
     left: 0mm;
-    top: 120mm;
+    top: 100mm;
     right: 0mm;
     width: 500pt;
     /* font-family: cname; */
@@ -304,8 +304,8 @@
 
   .certificate-wrapper .certificate-content .certificate-logo {
     position: absolute;
-    top: 0mm;
-    left: 5mm;
+    top: 10mm;
+    left: 0mm;
     position: absolute;
     z-index: 1;
   }
@@ -316,15 +316,14 @@
   }
   .certificate-wrapper .certificate-content .date {
     position: absolute;
-    left: auto;
-    top: 1mm;
-    right: 1mm;
+    right:8mm;
+    top: -12mm;
     font-size: 14pt;
     position: absolute;
   }
   .certificate-wrapper .certificate-content .sign-president-img {
     /* display: none; */
-    top: 145mm;
+    top: 125mm;
     left: 50mm;
     width: 40mm;
     height: 20mm;
@@ -332,7 +331,7 @@
   }
   .certificate-wrapper .certificate-content .sign-director-img {
     /* display: none; */
-    top: 145mm;
+    top: 125mm;
     right: 40mm;
     width: 40mm;
     height: 20mm;
@@ -340,7 +339,7 @@
   }
   .certificate-wrapper .certificate-content .sign-director {
     left: 175mm;
-    top: 165mm;
+    top: 145mm;
     font-size: 12pt;
     border-top: 0.5pt solid;
     line-height: 8mm;
@@ -350,7 +349,7 @@
   }
   .certificate-wrapper .certificate-content .sign-president {
     left: 50mm;
-    top: 165mm;
+    top: 145mm;
     font-size: 12pt;
     border-top: 0.5pt solid;
     line-height: 8mm;
@@ -361,7 +360,7 @@
   .certificate-wrapper .certificate-content .org-name {
     position: absolute;
     left: auto;
-    bottom: 11mm;
+    bottom: 5mm;
     right: 3mm;
     text-align: right;
     font-size: 18pt;
@@ -370,7 +369,7 @@
   }
   .certificate-wrapper .certificate-content .org-address {
     right: 3mm;
-    bottom: 0mm;
+    bottom: -5mm;
     width: 170mm;
     text-align: right;
     font-size: 12pt;
