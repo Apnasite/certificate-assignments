@@ -46,8 +46,8 @@ body{
 
 .tri1{
     position: absolute;
-    width: 313px;
-    height: 2px;
+    width: 83mm;
+    height: 1.5pt;
     background-color: rgb(254, 202, 82);
     top: 5mm;
     left: 68mm;
@@ -56,8 +56,8 @@ body{
 
 .tri2{
     position: absolute;
-    width: 254px;
-    height: 2px;
+    width:67.20mm;
+    height: 1mm;
     background-color: rgb(254, 202, 82);
     top: 33mm;
     left: 54mm;
@@ -66,8 +66,8 @@ body{
 
 .tri3{
     position: absolute;
-    width: 271px;
-    height: 2px;
+    width: 72mm;
+    height: 1mm;
     background-color: rgb(254, 202, 82);
     top: 33mm;
     left: 93mm;
@@ -106,7 +106,7 @@ body{
 }
 .title{
     margin-top: 20mm;
-    font-size: 75px;
+    font-size:57pt;
     margin-bottom: 3mm;
     font-family: "Noto Sans", sans-serif;
     color: white;
@@ -163,7 +163,7 @@ body{
     border-bottom: 2px solid rgb(254, 202, 82);
 }
 .main-content{
-    font-size: 18px;
+    font-size: 13.5pt;
     letter-spacing: 1px;
     position: absolute;
     bottom: -6mm;
@@ -182,8 +182,8 @@ footer{
 }
 .sign-president,.sign-director{
     width: 26mm;
-    border-top: 1px solid black;
-    font-size: 25px;
+    border-top: 1pt solid black;
+    font-size: 19pt;
 }
 
 .sign-president-img,.sign-director-img{
