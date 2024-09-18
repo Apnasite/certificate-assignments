@@ -184,7 +184,7 @@
 	   
 	  }
 	  .sr-no {
-		  left: 4mm;
+		  left: 5mm;
 		 top: 41mm;
 		 font-size: 12pt;
 		 position: absolute;
@@ -254,7 +254,7 @@
 		position: absolute;
 		left: auto;
 		top: 41mm;
-		right: 4mm;
+		right: 5mm;
 		font-size: 14pt;
 		position: absolute;
 		transform: rotate(0deg);
