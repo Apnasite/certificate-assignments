@@ -74,9 +74,8 @@
     right: -42pt;
     top: 19mm;
     z-index: 2;
-    box-shadow: rgba(0, 0, 0, 0.5) 5px -2px 8px 7px;
-    /* box-shadow: 0px 25px 50px -12px #000000b3; */
-    /*rgba(0, 0, 0, 0.5) 5px 2px 8px 7px*/
+    box-shadow: rgba(0, 0, 0, 0.5) 3.75pt -1.5pt 6pt 5.25pt;
+    
   }
 
   .certificate-wrapper .certificate-background .square3-top {
@@ -88,7 +87,8 @@
     right: -45pt;
     top: 42mm;
     z-index: 1;
-    box-shadow: rgba(0, 0, 0, 0.5) 5px -2px 8px 7px;
+    box-shadow: rgba(0, 0, 0, 0.5) 3.75pt -1.5pt 6pt 5.25pt;
+
   }
 
   .certificate-wrapper .certificate-background .square-bottom {
@@ -122,10 +122,9 @@
     left: -42pt;
     bottom: 19mm;
     z-index: 2;
-    /* box-shadow: rgba(0, 0, 0, 0.5) 5px -2px 8px 7px; */
-    box-shadow: rgba(0, 0, 0, 0.5) -5px 2px 7px 6px;
-    /* box-shadow: 0px 25px 50px -12px #000000b3; */
-    /*rgba(0, 0, 0, 0.5) 5px 2px 8px 7px*/
+    box-shadow: rgba(0, 0, 0, 0.5) 3.75pt -1.5pt 6pt 5.25pt;
+
+   
   }
 
   .certificate-wrapper .certificate-background .square3-bottom {
@@ -138,7 +137,8 @@
     left: -45pt;
     bottom: 42mm;
     z-index: 1;
-    box-shadow: rgba(0, 0, 0, 0.5) -5px 2px 7px 6px;
+    box-shadow: rgba(0, 0, 0, 0.5) 3.75pt -1.5pt 6pt 5.25pt;
+
   }
 
   .certificate-wrapper .certificate-background .certificate-border {

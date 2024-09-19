@@ -160,11 +160,11 @@ body{
     position: absolute;
     font-size: 65pt;
     color: rgb(254, 202, 82);
-    border-bottom: 2px solid rgb(254, 202, 82);
+    border-bottom: 1.5pt  solid rgb(254, 202, 82);
 }
 .main-content{
     font-size: 13.5pt;
-    letter-spacing: 1px;
+    letter-spacing: 0.75pt;
     position: absolute;
     bottom: -6mm;
     left: 42mm;
