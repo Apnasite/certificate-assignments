@@ -21,8 +21,8 @@
 .tri-topleft{
     height: 0;
     width: 0;
-    border-top: 70mm solid #232c53;
-    border-right: 70mm solid transparent;
+    border-top: 198pt solid #232c53;
+    border-right: 198pt solid transparent;
 }  
 .box {
   position: absolute;
@@ -35,13 +35,13 @@
 }
 
 .tri-bottomright{
-    height: 0;
-    width: 0;
-    position: absolute;
-    right: 0mm;
-    bottom: 0mm;
-    border-bottom: 70mm solid  #c81f41;
-    border-left: 70mm solid transparent;
+  height: 0;
+  width: 0;
+  position: absolute;
+  right: 0mm;
+  bottom: 0mm;
+  border-bottom: 198pt solid #c81f41;
+  border-left: 198pt solid transparent;
 }
 .div1{
     width: 6.5mm;
@@ -212,11 +212,11 @@
     z-index: 15;
 }
 .certificate-wrapper .certificate-content .org-address {
-   right: 76mm;
+  right: 83mm;
   bottom: 12mm;
   width: 170mm;
   text-align: right;
-  font-size: 9pt;
+  font-size: 10pt;
   font-weight: bold;
   position: absolute;
   z-index: 16;
