@@ -248,27 +248,7 @@ body {
     margin-bottom: 0mm;
     margin-top : 0mm;
 }
-.certificate-wrapper .certificate-content .star-group {
-    position: absolute;
-    top: 54mm;
-    left: 4mm;
-}
-.certificate-wrapper .certificate-content .star-group img {
-    width: auto;
-    height: 25mm;
-    mix-blend-mode: hard-light;
-}
-.certificate-wrapper .certificate-content .logo-text {
-    position: absolute;
-    top: 74mm;
-    left: 0mm;
-    right: 248mm;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-size: 6pt;
-    color: white;
-    line-height: 5.64mm;
-}
+
 
 
 
