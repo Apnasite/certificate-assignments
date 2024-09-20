@@ -46,7 +46,7 @@ body{
 .recttop2 {
    
     height: 13mm;
-    width: 39px;
+    width: 29.25pt;
     background-image:linear-gradient(rgb(211, 173, 95), rgb(251, 210, 137), rgb(211, 173, 95));
     margin-top: -13mm;
     margin-left: 51mm;
@@ -76,8 +76,8 @@ body{
     position: absolute;
 }
 .rectbtm{
-    height: 68px;
-    width: 397px;
+    height: 51pt;
+    width: 297.75pt;
     position: absolute;
     background-image: linear-gradient(rgb(211, 173, 95), rgb(251, 210, 137), rgb(211, 173, 95));
     bottom: -18mm;
@@ -90,7 +90,7 @@ body{
     width: 84mm;
     position: absolute;
     background-image: linear-gradient(rgb(211, 173, 95), rgb(251, 210, 137), rgb(211, 173, 95));
-    bottom: 85px;
+    bottom: 63.75pt;
     right: -51mm;
     transform: rotate(90deg) skew(-45deg);
     overflow: hidden;
@@ -108,7 +108,7 @@ body{
 }
 .title{
     margin-top: 20mm;
-    font-size: 45px;
+    font-size: 33.75pt;
     margin-bottom: 3mm;
     font-family: "Noto Sans", sans-serif;
     
@@ -130,7 +130,7 @@ body{
 
     
 }
-.sub-title{
+.subtitle{
     height: 5mm;
     width: 55mm;
     /* text-align: center; */
@@ -172,8 +172,8 @@ body{
     font-size: 32pt;
 }
 .main-content{
-    font-size: 18px;
-    letter-spacing: 1px;
+    font-size: 13.5pt;
+    letter-spacing: 0.75pt;
 }
 
 footer{
@@ -187,8 +187,8 @@ footer{
 }
 .sign-president,.sign-director{
     width: 26mm;
-    border-top: 1px solid black;
-    font-size: 18px;
+    border-top: 0.75pt solid black;
+    font-size: 13.5pt;
 }
 
 .sign-president-img,.sign-director-img{
