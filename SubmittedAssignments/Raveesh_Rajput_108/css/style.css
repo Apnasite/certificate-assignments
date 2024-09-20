@@ -1,4 +1,7 @@
-
+@font-face {
+  font-family: name;
+  src: url("/fonts/Allura-Regular.ttf");
+}
 .certificate-wrapper {
     overflow: hidden;
     width: 297mm;
@@ -305,7 +308,7 @@
     left: 0mm;
     top: 65mm;
     right: 0mm;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "name";
     font-size:5em;
     color: rgb(27, 24, 24) !important;
     text-align: center;

@@ -1,14 +1,14 @@
 @font-face {
     font-family: title;
-    src: url("./fonts/CormorantSC-Light.ttf");
+    src: url("/fonts/CormorantSC-Light.ttf");
 }
 @font-face {
         font-family: subtitle;
-        src: url("./fonts/CormorantSC-Medium.ttf");
+        src: url("/fonts/CormorantSC-Medium.ttf");
 }
 @font-face {
         font-family: name;
-        src: url("./fonts/GreatVibes-Regular.ttf");
+        src: url("/fonts/GreatVibes-Regular.ttf");
 }
         
 
