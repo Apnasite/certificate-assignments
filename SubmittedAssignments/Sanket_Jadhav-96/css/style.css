@@ -37,9 +37,9 @@
 	  .radius{
 		position: absolute;
 		margin: 9mm;
-		border: 3px solid #e9b81c;
+		border: 2.25pt solid #e9b81c;
 		padding: 91mm;
-		padding-left: 160mm;
+		padding-left: 161mm;
 		padding-bottom: 72mm;
 		top: 14mm;
 		right: 13mm;
@@ -77,44 +77,44 @@
 		z-index: 3;
 		  }
   
-		  .recttop2 {
-			  width: 146mm;
-			  height: 0mm;
-			  left: 55mm;
-			  background: gold!important;
-			  position: absolute;
-			  }
+	  .recttop2 {
+		width: 146mm;
+	    height: 0mm;
+		left: 55mm;
+		background: gold!important;
+		position: absolute;
+		}
   
-			  .recttop3 {
-				width: 146mm;
-				height: 7mm;
-				left: 75mm;
-				background: rgb(221, 163, 86);
-				background: radial-gradient(circle, rgba(239 194 61) 49%, rgba(134, 103, 61, 1) 100%, rgba(243, 230, 213, 1) 100%);
-				position: absolute;
-				bottom: 20mm;
-				z-index: 3;
-				  }
+	   .recttop3 {
+		 width: 146mm;
+		 height: 7mm;
+		 left: 75mm;
+		 background: rgb(221, 163, 86);
+		 background: radial-gradient(circle, rgba(239 194 61) 49%, rgba(134, 103, 61, 1) 100%, rgba(243, 230, 213, 1) 100%);
+		 position: absolute;
+		 bottom: 20mm;
+		 z-index: 3;
+		 }
   
-				  .line {
-					width: 257mm;
-					height: 2pt;
-					left: 20mm;
-					background: gold !important;
-					position: relative;
-					bottom: -57mm;
-					z-index: 6;
-					  }
+	   .line {
+		 width: 257mm;
+		 height: 0.705mm;
+		 left: 20mm;
+		 background: gold !important;
+		 position: relative;
+		 bottom: -57mm;
+		 z-index: 6;
+		 }
   
-					  .line1 {
-						width: 257mm;
-						height: 2pt;
-						left: 20mm;
-						background: gold !important;
-						position: relative;
-						bottom: -172mm;
-						z-index: 6;
-						  }
+	   .line1 {
+		 width: 257mm;
+		 height: 0.705mm;
+		 left: 20mm;
+		 background: gold !important;
+		 position: relative;
+		 bottom: -172mm;
+		 z-index: 6;
+		 }
 		  
 	  
 	  
@@ -145,32 +145,31 @@
 	  
 	  .title {
 	   position: absolute;
-	  left: 76mm;
-	  right: 0mm;
-	  font-size: 34pt;
-	  color: gold;
-	  font-family: sub;
-	  line-height: normal;
-	  top: 11mm;
-	  z-index: 2;
+	   left: 76mm;
+	   right: 0mm;
+	   font-size: 34pt;
+	   color: gold;
+	   line-height: normal;
+	   top: 11mm;
+	   z-index: 2;
 	  
 	  }
   
    .org-logo {
-		left: 4mm;
-		bottom: -5mm;
-		position: absolute;
-		z-index: 2;
-		width: 79mm;
-		height: 20mm;
+	   left: 4mm;
+	   bottom: -5mm;
+	   position: absolute;
+	   z-index: 2;
+	   width: 79mm;
+	   height: 20mm;
 	  }
 	  .certificate-wrapper .certificate-content .org-logo img {
-		   width: 39mm;
-	  max-height: 40mm;
-	  max-width: 100%;
-	  position: absolute;
-	  top: -40mm;
-	  left: 46mm;
+	   width: 39mm;
+	   max-height: 40mm;
+	   max-width: 100%;
+	   position: absolute;
+	   top: -40mm;
+	   left: 46mm;
 	  }
 	  .subtitle {
 		position: absolute;
@@ -178,13 +177,12 @@
 		top: 26mm;
 		right: 0mm;
 		color:gold !important;
-		font-family: sub;
 		font-size: 18pt;
 		z-index:2;
 	   
 	  }
 	  .sr-no {
-		  left: 5mm;
+		 left: 5mm;
 		 top: 41mm;
 		 font-size: 12pt;
 		 position: absolute;
@@ -192,14 +190,14 @@
 	   }
 	  
 	  .certificate-wrapper .certificate-content .initial-content {
-			position: absolute;
-	  left: 6mm;
-	  top: 49mm;
-	  right: 7mm;
-	  font-size: 15pt;
-	  text-align: center;
-	  margin: auto;
-	  position: absolute;
+		 position: absolute;
+	     left: 6mm;
+	     top: 49mm;
+	     right: 7mm;
+	     font-size: 15pt;
+	     text-align: center;
+	     margin: auto;
+	     position: absolute;
 	  }
 	  .certificate-wrapper .certificate-content .candidate-name {
 		position: absolute;
@@ -228,7 +226,7 @@
 	  }
   
 	  .certificate-wrapper .certificate-content .main-content p {
-		  margin-top: 3mm;
+		margin-top: 3mm;
 	  }
 	  
 	  .certificate-wrapper .certificate-content .certificate-logo {
@@ -241,8 +239,8 @@
 	  }
 	   .certificate-wrapper .candidate-content.main-content p{
 		margin-top:4mm;
-		text-indent: 15px;
-		width:600px;
+		text-indent: 3.968mm;
+		width:158.75mm;
 		text-align: center;
 	  }
 	  certi.ficate-wrapper .certificate-content .certificate-logo img {
