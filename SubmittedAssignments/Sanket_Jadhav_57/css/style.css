@@ -136,9 +136,9 @@ body {
 	height: 0;
 	left: 0mm;
 	top: 0mm;
-	border-top: 55px solid transparent;
-	border-left: 73px solid #0076B7;
-	border-bottom: 55px solid transparent;
+	border-top: 41.25ptsolid transparent;
+	border-left: 54.75pt solid #0076B7;
+	border-bottom: 41.25pt solid transparent;
 	transform: rotate(0deg);
 }
 .certificate-background .tri10 {
@@ -155,9 +155,9 @@ body {
 	width: 0;
 	left: 31mm;
 	height: 0;
-	border-left: 95px solid transparent;
-	border-right: 50px solid transparent;
-	border-top: 70px solid #0076B7;
+	border-left: 71.25pt solid transparent;
+	border-right: 37.5pt solid transparent;
+	border-top: 52.5pt solid #0076B7;
 }
 .tri-border11 {
 	position: absolute;
