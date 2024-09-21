@@ -106,21 +106,21 @@
     position: relative;
 	}
 	.certificate-wrapper .certificate-background .rectright {
-	  position: absolute;
-    border-bottom: 2px dotted #502e9d;
+    position: absolute;
+    border-bottom: 0.4mm solid #502e9d;
     width: 33%;
-    margin: 20px 0;
+    margin: 6mm 0;
     transform: rotate(137deg);
     top: 22mm;
     left: -39.5mm;
 	}
 	.certificate-wrapper .certificate-background .tri4 {
-	width: 99px;
-    height: 19px;
-    border-top: 3px solid #502e9d;
-    border-left: 3px solid #502e9d;
-    margin: 20px;
-    border-right: 3px solid #502e9d;
+    width: 26mm;
+    height: 5mm;
+    border-top: 0.9mm solid #502e9d;
+    border-left: 0.9mm solid #502e9d;
+    margin: 5mm;
+    border-right: 0.9mm solid #502e9d;
     left: 137mm;
     position: absolute;
     top: 6mm;
@@ -128,12 +128,12 @@
 	}
 	.certificate-wrapper .certificate-background .tri5 {
 	  /*position : absolute;*/
-	width: 99px;
-    height: 19px;
-    border-top: 3px solid #502e9d;
-    border-left: 3px solid #502e9d;
-    margin: 20px;
-    border-right: 3px solid #502e9d;
+	width: 26mm;
+    height: 5mm;
+    border-top: 0.9mm solid #502e9d;
+    border-left: 0.9mm solid #502e9d;
+    margin: 5mm;
+    border-right: 0.9mm solid #502e9d;
     left: 137mm;
     position: absolute;
     top: 26mm;
