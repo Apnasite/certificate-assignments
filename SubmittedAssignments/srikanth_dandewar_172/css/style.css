@@ -1,0 +1,228 @@
+.certificate-wrapper{
+  box-shadow: 8.50pt 8.50pt 25.51pt gray;
+    overflow: hidden;
+    height: 210mm;
+    width: 297mm;
+    position: relative;
+    background: rgb(255, 255, 255);
+    line-height: normal;
+    margin: 0 auto;
+}
+.certificate-background{
+    left: 10mm;
+    top: 10mm;
+    width: 277mm;
+    height: 190mm;
+    overflow: hidden;
+    position: relative;
+   border: solid #232c53;
+    background-color: rgb(255, 255, 255);
+}
+.tri-topleft{
+    height: 0;
+    width: 0;
+    border-top: 198pt solid #232c53;
+    border-right: 198pt solid transparent;
+}  
+.box {
+  position: absolute;
+  left: 14mm;
+  top: 13mm;
+  width: 249mm;
+  height: 165mm;
+  background-color: white;
+  z-index: 1;
+}
+
+.tri-bottomright{
+  height: 0;
+  width: 0;
+  position: absolute;
+  right: 0mm;
+  bottom: 0mm;
+  border-bottom: 198pt solid #c81f41;
+  border-left: 198pt solid transparent;
+}
+.div1{
+    width: 6.5mm;
+    height: 91mm;
+    top: 49.5mm;
+    left: 0mm;
+    background: #c81f41;
+    transform: skewY(-28deg);
+    position: absolute;
+}
+.div2{
+    width: 6.5mm;
+    height: 91mm;
+    top: 57.5mm;
+    left: 271mm;
+    background: #232c53;
+    transform: skewY(-28deg);
+    position: absolute;
+    z-index: 2;
+ }
+.certificate-content.certificate-content .title {
+    font-family: "Niconne", cursive;
+  font-weight: 400;
+  font-style: normal;
+    z-index: 3;
+    position: absolute;
+    bottom: 154mm;
+    left: 2mm;
+    right: 0mm;
+    font-size: 70pt;
+    text-shadow: 5.66pt 5.66pt 5.66pt #DB7093;
+    text-align: center;
+    margin: auto;
+    line-height: normal;
+}
+.certificate-wrapper .certificate-content .sr-no {
+    position: absolute;
+    left: 77mm;
+    top: 16mm;
+    font-size: 16pt;
+    position: absolute;
+}
+.certificate-wrapper .certificate-content .date{
+    position: absolute;
+    left: auto;
+    top: 16mm;
+    right: 18mm;
+    font-size: 14pt;
+    position: absolute;
+    z-index: 8; 
+}
+.subtitle{
+  width: 71mm;
+  height: 10mm;
+  z-index: 4;
+  position: absolute;
+  left: 112mm;
+  top: 57mm;
+  color: #fcfafb;
+  font-family: sub;
+  font-size: 22pt;
+  background-color: #da2247;
+  text-align: center;
+} 
+
+ .certificate-logo img{
+  height: 75mm;
+  width: 75mm;
+  position: absolute;
+  top: 20mm;
+  left: 193mm;
+  z-index: 9;
+ }
+.certificate-wrapper .certificate-content .initial-content{
+    position: absolute;
+    left: 0mm;
+    top: 86mm;
+    right: 0mm;
+    font-size: 12pt;
+    text-align: center;
+    z-index: 5;
+    position: absolute;
+}
+.certificate-wrapper .certificate-content .candidate-name{
+  font-family: "Kaushan Script", cursive;
+  top: 93mm;
+  right: 98mm;
+  font-size: 39pt;
+  color: #000080;
+  text-align: center;
+  z-index: 6;
+  position: absolute;
+     
+}
+.line{
+  width: 102mm;
+  height: 1mm;
+  z-index: 4;
+  position: absolute;
+  left: 99mm;
+  top: 115mm;
+  background-color: #da2247;
+} 
+.certificate-wrapper .certificate-content .main-content {
+    position: absolute;
+    left: 11mm;
+    top: 121mm;
+    right: 12mm;
+    font-size: 16pt;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    border: none;
+    line-height: normal;
+    z-index: 9;
+  }
+  .certificate-wrapper .certificate-content .sign-president-img{
+    top: 149mm;
+    left: 184mm;
+    width: 40mm;
+    height: 20mm;
+    position: absolute;
+    z-index: 10;
+}
+  
+  .certificate-wrapper .certificate-content .sign-president {
+    left: 185mm;
+    top: 164mm;
+    font-size: 12pt;
+    border-top: 0.5pt solid;
+    line-height: 8mm;
+    position: absolute;
+    z-index: 11;
+  }
+  .certificate-wrapper .certificate-content .sign-director-img{
+    top: 146mm;
+    left: 83mm;
+    width: 40mm;
+    height: 20mm;
+    position: absolute;
+    z-index: 12;
+  }
+  .certificate-wrapper .certificate-content .sign-director{
+    left: 86mm;
+    top: 165mm;
+    font-size: 12pt;
+    border-top: 0.5pt solid;
+    line-height: 8mm;
+    position: absolute;
+    z-index: 13;
+  }
+  .certificate-wrapper .certificate-content .org-logo{
+    bottom: 21mm;
+    left: 19mm;
+    position: absolute;
+    width: 46mm;
+    height: 21mm;
+    z-index: 14;
+  }
+  .certificate-wrapper .certificate-content .org-name {
+    right: 76mm;
+    bottom: 20mm;
+    width: 170mm;
+    text-align: right;
+    font-size: 15pt;
+    font-weight: bold;
+    position: absolute;
+    z-index: 15;
+}
+.certificate-wrapper .certificate-content .org-address {
+  right: 83mm;
+  bottom: 12mm;
+  width: 170mm;
+  text-align: right;
+  font-size: 10pt;
+  font-weight: bold;
+  position: absolute;
+  z-index: 16;
+}
+.certificate-wrapper .certificate-content .org-address p {
+    margin-bottom: 0mm;
+    margin-top : 0mm;
+  }
+
