@@ -15,3 +15,186 @@
 	<div class="boxbtm"></div>
 	<div class="boxtop"></div>
 </div>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate</title>
+</head>
+<style>
+  .certificate{
+    height: 740px;
+    width: 1000px;
+    border: 5px solid rgb(219, 198, 80) ;
+    margin-left: 250px;
+    box-shadow: 5px black;
+    box-shadow: 5px 5px 5px rgba(5, 5, 5, 0.1);
+  }
+  .triangle {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-style: solid;
+}
+/* Bottom-left triangle */
+.triangle-bottom-left {
+    bottom: 0;
+    left: 0;
+    border-width: 0 250px 250px 0;
+    border-color: transparent transparent  rgb(11, 43, 69) transparent;
+    margin-left: 263px;
+    
+}
+
+/* Bottom-right triangle */
+.triangle-bottom-right {
+    bottom: 0;
+    right: 0;
+    border-width: 0 250px 250px;
+    border-color: transparent transparent transparent rgb(11, 43, 69);
+    transform: rotate(180deg);
+    margin-right: 307px;
+}
+
+
+.demo{
+  border: 50px double solid rgb(66, 140, 140);
+  width: 200px;
+  transform: rotate(45deg);
+  margin-top: 481px;
+  margin-right: 150px;
+  position: relative;
+  margin-left:0px;
+}
+.certificate-header {
+  text-align: center;
+  margin-bottom: 20px;
+ 
+}
+
+.certificate-title {
+  font-size: 80px;
+  font-family:'Times New Roman';
+  color: blue;
+  margin-top: 100px;
+}
+
+.certificate-subtitle {
+  font-size: 30px;
+  color: black;
+  border: 5px double solid black;
+  padding: 15px;
+
+}
+
+.certificate-recipient {
+  font-size: 80px;
+  font-family: 'Brush Script MT', cursive;
+  text-align: center;
+}
+
+.certificate-text {
+  text-align: center;
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.certificate-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.footer-item {
+  text-align: center;
+}
+.footer-item1 {
+    text-align: center;
+  }
+
+
+.footer-item span {
+  display: block;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 160px;
+  
+}
+.footer-item1 span {
+    display: block;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 250px;
+    
+  }
+  .line2{
+  width: 600px;
+  height: 1px;
+  background-color: rgb(219, 126, 73);
+  margin-left: 190px;
+
+  }
+
+.footer-item .line {
+  width: 150px;
+  height: 1px;
+  background-color: #000;
+  margin-top: 5px;
+  margin-left: 200px;
+  
+}
+.footer-item1 .line1 {
+    width: 150px;
+    height: 1px;
+    background-color: #000;
+    margin-right: 0px;
+    margin-right: 220px;
+  }
+</style>
+<body>
+  <div class="certificate">
+    <div class="border" style="height: 700px; width: 900px; border:5px solid rgb(219, 198, 80); margin-left: 50px;margin-top: 50px;">
+    <div class="triangle triangle-bottom-left"></div>
+    <div class="triangle triangle-bottom-right"></div>
+    
+
+   <!-- <div class="demo"></div>-->
+    <div class="certificate-header">
+    <div class="certificate-title">CERTIFICATE</div>
+    <div class="certificate-subtitle">OF ACHIEVEMENT</div>
+  </div>
+
+  <div class="certificate-recipient"><i>Ganesh Shelke</i></div>
+  <div class="line2"></div>
+
+  <div class="certificate-text">
+     <p style="font-size: 20px; margin:0px; margin-bottom:60px;color: rgb(126, 36, 36);"> SwayamGuru TechLok, Sr. No. 63/2 Prabhat Colony, Besides Pratham Steel, <br> Near Rahatani Phata BRTS Bus Stop, Madhuban Colony, <br> Rahatani, Maharashtra 411017.  
+      <br>
+    </p>
+</div>
+
+  <div class="certificate-footer">
+    <div class="footer-item">
+      <p style="margin-left: 180px; margin-bottom:0px; font-size:20px;"> <b>19/09/2024 </b> </p>
+      <div class="line"></div>
+      <span>Date</span>
+    </div>
+    <img src="/sample-code/img/medal.jpg" style="margin-left: 20px;" alt="" height="150px;" width="170px;">
+    <div class="footer-item1">
+      <img src="/sample-code/img/sign.jpg" style="margin-right:200px;" alt="bb" height="60px;" width="80px;">
+      <div class="line1"></div>
+      <span style="padding-left: 30px;">Signature</span>
+    </div>
+  </div>
+  </div>
+</div>
+</body>
+</html>
