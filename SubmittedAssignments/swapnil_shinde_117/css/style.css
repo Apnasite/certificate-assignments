@@ -1,0 +1,194 @@
+
+@font-face {
+    font-family: swapnil;
+    src: url("../fonts/PlaywriteBEVLG-Light.ttf");
+
+}
+@font-face {
+    font-family: sw;
+    src: url("GreatVibes-Regular.ttf");
+
+}
+
+
+
+
+
+.certificate-wrapper {
+    overflow: hidden;
+    border: 2.83pt solid black;
+    width: 210mm;
+    height: 297mm;
+    position: relative;
+    background: whitesmoke;
+    line-height: normal;
+    
+}
+.certificate-wrapper .certificate-background {
+    left: 0mm;
+    top: auto;
+    width: 210mm;
+    height: 297mm;
+    overflow: hidden;
+    position: relative;
+
+}
+.certificate-wrapper .certificate-background .recttop {
+    top: auto;
+    width: 210mm;
+    height: 46mm;
+    background: black;
+    position: relative;
+}
+.topbox {
+    left: 0mm;
+    top: 46mm;
+    width: 210mm;
+    height: 5mm;
+    position: absolute;
+    background: goldenrod ;
+    
+}
+.certificate-wrapper .certificate-background .rectbtm {
+    top: 262mm;
+    width: 210mm;
+    height: 35mm;
+    background: black;
+    position: absolute;    
+}
+.bottombox {
+    right: 0mm;
+    bottom: 35mm;
+    width: 210mm;
+    height: 5mm;
+    background: goldenrod;
+    position: absolute;
+}
+.certificate-wrapper .certificate-content{
+    top: 20mm;
+    right: 20mm;
+    bottom: 20mm;
+    left: 20mm;
+    position: absolute;
+}
+.certificate-wrapper .certificate-content .title {
+    position: absolute;
+    top: 55mm;
+    left: 0mm;
+    right: 0mm;
+    font-size: 60pt;
+    text-align: center;
+    line-height: normal;
+    text-transform: uppercase;
+    
+    
+
+}
+.certificate-wrapper .certificate-content .subtitle {
+    position: absolute;
+    left: 23mm;
+    top: 76mm;
+    font-size: 42pt;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2.25pt solid black;
+
+}
+.certificate-wrapper .certificate-content .para {
+    top: 101mm;
+    position: absolute;
+    left: 44mm;
+    font-size: 15pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+.certificate-wrapper .certificate-content .candidate-name {
+    top: 112mm;
+    position: absolute;
+    left: 48mm;
+    font-size: 28pt;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sw;
+}
+.certificate-wrapper .certificate-content .main-content {
+    position: absolute;
+    left: 20mm;
+    top: 127mm;
+    right: 15mm;
+    font-size: 14pt;
+    text-align: center;
+    margin: auto;
+    line-height: normal;
+}
+.certificate-wrapper .certificate-content .address {
+    color: aqua;
+    position: absolute;
+    left: 20mm;
+    top: 247mm;
+    right: 15mm;
+    font-size: 14pt;
+    text-align: center;
+    margin: auto;
+    line-height: normal;
+}
+
+
+.certificate-wrapper .certificate-content .main-content .p {
+    margin-top: 3mm;
+}
+
+.certificate-wrapper .certificate-content .certificate-logo {
+    position: absolute;
+    top: 161mm;
+    left: auto;
+    right: 68mm;
+    z-index: 1;
+    
+}
+.certificate-wrapper .certificate-content .certificate-logo img {
+
+    height: 57mm;
+    width: 34mm;
+
+}
+.certificate-wrapper .certificate-content .date {
+    left: 159mm;
+    top: -14mm;
+    font-size: 11pt;
+    line-height: 6mm;
+    position: absolute;
+    text-transform: uppercase;
+    color: white;
+}
+.certificate-wrapper .certificate-content .sign-president {
+    left: -5mm;
+    top: 179mm;
+    font-size: 11pt;
+    border-top: 1.5pt solid;
+    line-height: 6mm;
+    position: absolute;
+    text-transform: uppercase;
+    color: black;
+}
+.certificate-wrapper .certificate-content .sign-of-directore {
+    left: 119mm;
+    top: 179mm;
+    font-size: 11pt;
+    border-top: 1.5pt solid;
+    line-height: 6mm;
+    position: absolute;
+    text-transform: uppercase;
+    color: black;
+}
+
+.certificate-wrapper .certificate-content .sr-no {
+
+    top: -14mm;
+    left: -15mm;
+    font-size: 11pt;
+    position: absolute;
+    text-transform: uppercase;
+    color: white;
+}
+
