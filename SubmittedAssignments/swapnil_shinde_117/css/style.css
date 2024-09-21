@@ -16,7 +16,7 @@
 
 .certificate-wrapper {
     overflow: hidden;
-    border: 1mm solid black;
+    border: 2.83pt solid black;
     width: 210mm;
     height: 297mm;
     position: relative;
@@ -122,15 +122,15 @@
     line-height: normal;
 }
 .certificate-wrapper .certificate-content .address {
-color: aqua;
- position: absolute;
-left: 20mm;
-top: 247mm;
-right: 15mm;
-font-size: 14pt;
-text-align: center;
-margin: auto;
-line-height: normal;
+    color: aqua;
+    position: absolute;
+    left: 20mm;
+    top: 247mm;
+    right: 15mm;
+    font-size: 14pt;
+    text-align: center;
+    margin: auto;
+    line-height: normal;
 }
 
 
@@ -165,7 +165,7 @@ line-height: normal;
     left: -5mm;
     top: 179mm;
     font-size: 11pt;
-    border-top: 2px solid;
+    border-top: 1.5pt solid;
     line-height: 6mm;
     position: absolute;
     text-transform: uppercase;
@@ -175,7 +175,7 @@ line-height: normal;
     left: 119mm;
     top: 179mm;
     font-size: 11pt;
-    border-top: 2px solid;
+    border-top: 1.5pt solid;
     line-height: 6mm;
     position: absolute;
     text-transform: uppercase;
