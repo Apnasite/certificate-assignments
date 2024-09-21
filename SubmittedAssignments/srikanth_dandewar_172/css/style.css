@@ -1,5 +1,5 @@
 .certificate-wrapper{
-  box-shadow: 3mm 3mm 9mm gray;
+  box-shadow: 8.50pt 8.50pt 25.51pt gray;
     overflow: hidden;
     height: 210mm;
     width: 297mm;
@@ -72,7 +72,7 @@
     left: 2mm;
     right: 0mm;
     font-size: 70pt;
-    text-shadow: 2mm 2mm 2mm #DB7093;
+    text-shadow: 5.66pt 5.66pt 5.66pt #DB7093;
     text-align: center;
     margin: auto;
     line-height: normal;
