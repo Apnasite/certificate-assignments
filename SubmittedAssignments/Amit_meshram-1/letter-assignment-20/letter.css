@@ -81,9 +81,9 @@
     }
   .letter-date {
     position: absolute;
-    left: 154mm;
+    left: 152mm;
     top: 70mm;
-    width: 43mm;
+    width: 45mm;
     height: 5mm;
      }
   .letter-body-subject{
@@ -212,5 +212,4 @@
     border-right: 28mm solid transparent;
     border-bottom: 44mm solid black;
     transform: rotate(32deg);
-}
-}
+}}
