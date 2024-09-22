@@ -231,24 +231,24 @@
 	}
 	.certificate-wrapper .certificate-content .initial-content .presented{
 		border: 2pt solid #590808 ;
-		width: 300px;
-    	margin-left: 325px;
+		width: 300pt;
+    	margin-left: 325pt;
 	}
 	.certificate-wrapper .certificate-content .initial-content .presented-box1{
 		border-top: 2pt solid #590808;
 		border-right: 2pt solid #590808;
 		width: 7pt;
 		height: 7pt;
-		margin-left: 286px;
-		margin-top: 2px;
+		margin-left: 286pt;
+		margin-top: 2pt;
 	}
 	.certificate-wrapper .certificate-content .initial-content .presented-box2 {
 		border-bottom: 2pt solid #590808;
     border-left: 2pt solid #590808;
     width: 7pt;
     height: 7pt;
-    margin-left: 2px;
-    margin-bottom: 2px;
+    margin-left: 2pt;
+    margin-bottom: 2pt;
 	}
 	.certificate-wrapper .certificate-content .candidate-name {
 	  position: absolute;
