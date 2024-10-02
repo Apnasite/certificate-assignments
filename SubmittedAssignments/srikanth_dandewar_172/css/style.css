@@ -134,17 +134,9 @@
   text-align: center;
   z-index: 6;
   position: absolute;
-     
+  border-bottom: 3pt solid #da2247;
 }
-.line{
-  width: 102mm;
-  height: 1mm;
-  z-index: 4;
-  position: absolute;
-  left: 99mm;
-  top: 115mm;
-  background-color: #da2247;
-} 
+
 .certificate-wrapper .certificate-content .main-content {
     position: absolute;
     left: 11mm;
