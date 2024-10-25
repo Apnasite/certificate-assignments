@@ -23,7 +23,7 @@
 			}
 	  .certificate-wrapper {
 		overflow: hidden;
-		width: 297mm;
+		width: 298mm;
 		height: 210mm;
 		position: relative;
 		line-height: normal;
@@ -33,7 +33,7 @@
 		/*position : absolute;*/
 		left: 0mm;
 		top: auto;
-		width: 297mm;
+		width: 298mm;
 		height: 210mm;
 		overflow: hidden;
 		position: relative;
@@ -62,7 +62,7 @@
 	}
 	 .curve1 {
 		width: 6mm;
-		height: 247px;
+		height: 248px;
 		background-color: white;
 		position: absolute;
 		top: 17px;
@@ -72,7 +72,7 @@
 	}
 	.curve2 {
 		width: 3mm;
-		height: 178px;
+		height: 179px;
 		background-color: white;
 		position: absolute;
 		top: 605px;
@@ -83,7 +83,7 @@
 	}
 	 .golden1 {
 		width: 2.5mm;
-	    height: 281px;
+	    height: 280px;
 	    background-color: rgb(151 122 44);
 	    position: absolute;
 	    top: 9px;
