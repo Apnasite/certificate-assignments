@@ -5,7 +5,7 @@ body {
 
 @font-face {
 	font-family: sub;
-	src: url("../fonts/marketing-script/MarketingScript-Shadow.ttf");
+	src: url("../fonts/Parisienne-Regular.ttf");
 }
 
 @media all {
@@ -154,19 +154,21 @@ body {
 
 	.heading2 {
 		position: absolute;
-		left: 127mm;
-		top: 87mm;
+		left: 135mm;
+		top: 97mm;
 	}
 
 	.heading2 h1 {
+		font-weight: normal;
 		font-family: sub;
-		font-size: 15mm;
+		font-size: 18mm;
 		margin-top: 0px;
 		margin-bottom: 0px;
+		margin-left: 15mm;
 	}
 
 	.heading2 b {
-		font-size: 6mm;
+		font-size: 4mm;
 		color: #8d8c8c;
 	}
 
