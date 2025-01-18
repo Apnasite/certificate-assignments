@@ -30,7 +30,7 @@
       box-shadow: -3pt 44pt 50pt -35pt rgba(0,0,0,0.45); 
     }
 
-    .certificate-wrapper .upper-left-box {
+    .certificate-wrapper .certificate-background .upper-left-box {
       position: absolute;
       width: 45mm;
       height: 250mm;
@@ -53,7 +53,7 @@
       
     }
 
-    .certificate-wrapper .curve {
+    .certificate-wrapper .certificate-background .curve {
       position: absolute;
       top: -30%;
       left: 18%;
@@ -72,7 +72,7 @@
       position: absolute;
       /* z-index: 1; */
     }
-    .certificate-wrapper .square2 {
+    .certificate-wrapper .certificate-background .square2 {
       left: 110mm;
       top: 14mm;
       height: 140px;
@@ -124,7 +124,7 @@
       z-index: 1;
     }
 
-    .certificate-wrapper .certificate-content .title1 {
+    .certificate-wrapper .certificate-content .org-name {
       position: absolute;
       left: 105mm;
       top: 53mm;
@@ -144,7 +144,7 @@
       color: white;
     }
     
-    .certificate-wrapper .certificate-content .certificate-logo {
+    .certificate-wrapper .certificate-content .org-logo {
       position: absolute;
       left: auto;
       top: 10mm;
@@ -153,7 +153,7 @@
       z-index: 1;
     }
 
-    .certificate-wrapper .certificate-content .certificate-logo img {
+    .certificate-wrapper .certificate-content .org-logo img {
       position: absolute;
       height: 62mm;
       width: 63mm;
@@ -204,13 +204,13 @@
     }
 
    
-    /* .certificate-wrapper .certificate-content .robertson {
+    /* .certificate-wrapper .certificate-content .sign-president-img {
       top : 205mm;
       left: 50mm;
       height : 12mm;
       position : absolute;
     } */
-    .certificate-wrapper .certificate-content .robertson-sign {
+    .certificate-wrapper .certificate-content .sign-president {
       left: 98mm;
       bottom: 45mm;
       font-size: 18pt;
@@ -222,14 +222,14 @@
       position: absolute;
     }
     
-    /* .certificate-wrapper .certificate-content .sign-img {
+    /* .certificate-wrapper .certificate-content .sign-director-img {
     	top : 197mm;
 	   left: 150mm;
 	   width : 25mm;
 	   height : 12mm;
 	    position : absolute;
     } */
-	  .certificate-wrapper .certificate-content .my-sign {
+	  .certificate-wrapper .certificate-content .sign-director {
 	    left: 250mm;
       bottom: 45mm;
       font-size: 18pt;
@@ -241,7 +241,7 @@
       position: absolute;
     }
 
-    .certificate-wrapper .square {
+    .certificate-wrapper .certificate-background .square {
       bottom: -5mm;
       right: 0mm;
       height: 160px;
@@ -252,7 +252,7 @@
 
     }   
 
-    .certificate-wrapper .circle {
+    .certificate-wrapper .certificate-background .circle {
       bottom: 30mm;
       right: 30mm;
       height: 100px;
