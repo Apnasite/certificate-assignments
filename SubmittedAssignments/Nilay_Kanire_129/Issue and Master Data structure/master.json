@@ -1,0 +1,46 @@
+{
+    "name": "string",
+    "subHeading": "string",
+    "description": "string",
+    "thumbnail": "string",
+    "module": "string",
+    "category": "string",
+    "type": "string",
+    "tags": "array<string>",
+    "styles": "array<object>",
+    "config": "object",
+    "backgroundSchema": "array<object>",
+    "background": "string",
+    "backgroundUrl": "string",
+    "componentUrl": "string",
+    "components": "array<Components>",
+    "contentSchema": "array<object>",
+    "data":{
+      "title": "string",
+      "subtitle": "string",
+      "logo": {
+        "certificateLogo": "string",
+        "organizationLogo": "string"
+      },
+      "initialContent": "string",
+      "mainContent": "string",
+      "signatures": {
+        "president": {
+          "image": "string (URL)",
+          "label": "string"
+        },
+        "director": {
+          "image": "string (URL)",
+          "label": "string"
+        }
+      },
+      "organization": {
+        "name": "string",
+        "address": [
+          "string (line 1)",
+          "string (line 2)"
+        ]
+      }
+    }
+  }
+  
