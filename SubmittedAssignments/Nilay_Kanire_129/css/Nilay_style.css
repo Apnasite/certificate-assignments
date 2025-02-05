@@ -1,0 +1,445 @@
+@font-face {
+  font-family: sub;
+  src: url("../fonts/AlexBrush-Regular.ttf");
+}
+@font-face {
+  font-family: cname;
+  src: url("../fonts/New Walt Disney.ttf");
+}
+@font-face {
+  font-family: cursiveNew;
+  src: url("../fonts/old-figaro-cursive/Old\ Figaro\ Cursive.ttf");
+}
+@font-face {
+  font-family: cursive2;
+  src: url("../fonts/Cedarville_Cursive/CedarvilleCursive-Regular.ttf");
+}
+@font-face {
+  font-family: cursive3;
+  src: url("../fonts/Cedarville_Cursive/OFL.txt");
+}
+@font-face {
+  font-family: m1;
+  src: url("../fonts/marketing-script/MarketingScript-Inline.ttf");
+}
+
+@font-face {
+  font-family: m2;
+  src: url("../fonts/marketing-script/MarketingScript-Shadow.ttf");
+}
+
+@font-face {
+  font-family: m3;
+  src: url("../fonts/marketing-script/MarketingScript.ttf");
+}
+
+
+
+
+@media all{
+    body.printView, body.printView:before, body.printView:after { 
+        border: none !important;
+    }
+    .certificate-wrapper {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      overflow: hidden;
+      width: 150mm;
+      height: 105mm;
+      background: #FAF0E6 !important;
+      line-height: normal;
+
+      border: 2.5px ;
+      
+      box-shadow: 12.5px 12.5px rgb(185, 189, 190);
+      /* box-shadow: 20px 18px 30px 0px black; */
+      
+  }
+  
+    /* Shapes Design Top*/
+    .rectangle_black {
+      position: absolute;
+      z-index: 1;
+      border-bottom: 27.5px solid black;
+      border-left: 16.5px solid transparent;
+      border-right: 0px solid transparent;
+      transform: rotate(180deg);
+      height: 0;
+      width: 22rem;
+    }
+    
+    .rectangle_blue_big {
+      position: absolute;
+      z-index:0;
+      top: 0;
+      right: 0;
+      border-bottom: 50px solid #1A77AD;
+      border-left: 0px solid transparent;
+      border-right: 50px solid transparent;
+      transform: rotate(180deg);
+      height: 0;
+      width: 12rem;
+
+      
+    }
+    .rectangle_blue_big_clone {
+      position: absolute;
+      z-index:2;
+      top: 0;
+      right: 0;
+      border-bottom: 50px solid #0E70A8;
+      border-left: 0px solid transparent;
+      border-right: 50px solid transparent;
+      transform: rotate(180deg);
+      height: 0;
+      width: 8.8rem;
+
+      border-image: linear-gradient(to right, rgb(124 222 223 / 50%), rgb(26, 119, 173)); 
+      border-image-slice: 1;
+    }
+    .rectangle_blue_small{
+      
+      position: absolute;
+      top: 1.5rem;
+      border-bottom: 10px solid #9AD8E0;
+      border-left: 10px solid transparent;
+      border-right: 0px solid transparent;
+      transform: rotate(180deg);
+      height: 0rem;
+      width: 15rem;
+    }
+    .rectangle_blue_small_clone{
+      
+      position: absolute;
+      top: 1.5rem;
+      border-bottom: 10px solid #0E70A8;
+      border-left: 10px solid transparent;
+      border-right: 0px solid transparent;
+      transform: rotate(180deg);
+      height: 0rem;
+      width: 12rem;
+
+      border-image: linear-gradient(to right, #9AD8E0, rgb(26, 119, 173)); 
+      border-image-slice: 1;
+    }
+    
+    .rectangle_blue_small2_clone{
+      position: absolute;
+      z-index: 3;
+      top: 1.2rem;
+      border-bottom: 15px solid #0E70A8;
+      border-left: 0px solid transparent;
+      border-right: 6px solid transparent;
+      
+      height: 0rem;
+      width: 14.5rem;
+
+      border-image: linear-gradient(to right, rgb(26, 119, 173), #9AD8E0); 
+      border-image-slice: 1;
+      
+    }
+    .rectangle_blue_small2{
+      position: absolute;
+      z-index: 3;
+      top: 1.2rem;
+      border-bottom: 10px solid #9AD8E0;
+      border-left: 0px solid transparent;
+      border-right: 6px solid transparent;
+      
+      height: 0rem;
+      width: 15rem;
+
+      
+      
+    }
+
+    /* Shapes Design Bottom*/
+    .rectangle_black_bottom {
+      position: absolute;
+      top: 93%;
+      right: 0;
+      z-index: 1;
+      border-bottom: 27.5px solid black;
+      border-left: 15px solid transparent;
+      border-right: 0px solid transparent;
+      
+      height: 0;
+      width: 22rem;
+    }
+    
+    .rectangle_blue_big_bottom {
+      position: absolute;
+      top: 88%;
+      z-index:0;
+      border-bottom: 50px solid #1A77AD;
+      border-left: 0px solid transparent;
+      border-right: 50px solid transparent;
+      
+      height: 0;
+      width: 12rem;
+    }
+    .rectangle_blue_big_bottom_clone {
+      position: absolute;
+      z-index:2;
+      top: 88%;
+     
+      border-bottom: 50px solid #0E70A8;
+      border-left: 0px solid transparent;
+      border-right: 50px solid transparent;
+      
+      height: 0;
+      width: 8.8rem;
+
+      border-image: linear-gradient(to right, rgb(124 222 223 / 50%), rgb(26, 119, 173)); 
+      border-image-slice: 1;
+    }
+    .rectangle_blue_small_bottom{
+      position: absolute;
+      top: 91%;
+      right: 0;
+      border-bottom: 10px solid #75D0DA;
+      border-left: 12.5px solid transparent;
+      border-right: 0px solid transparent;
+    
+      height: 0rem;
+      width: 15rem;
+    }
+    .rectangle_blue_small_bottom_clone{
+      z-index: 3;
+      position: absolute;
+      top: 95.6mm;
+      right: 0;
+      border-bottom: 17.3px solid #0E70A8;
+      border-left: 12.5px solid transparent;
+      border-right: 0px solid transparent;
+      
+      border-image: linear-gradient(to right,  rgb(124 222 223 / 50%), rgb(26, 119, 173) ); 
+      border-image-slice: 1;
+      height: 0rem;
+      width: 14.2rem;
+    }
+    .rectangle_blue_small2_bottom{
+      position: absolute;
+      z-index: 3;
+      top: 92.8%;
+      right: 0;
+      border-bottom: 10px solid #75D0DA;
+      border-left: 0px solid transparent;
+      border-right: 10px solid transparent;
+      transform: rotate(180deg);
+      
+      height: 0rem;
+      width: 15rem;
+    }
+    /* .rectangle_blue_small2_bottom_clone{
+      position: absolute;
+      z-index: 3;
+      top: 80%;
+      right: 0;
+      border-bottom: 10px solid #0E70A8;
+      border-left: 0px solid transparent;
+      border-right: 10px solid transparent;
+      transform: rotate(180deg);
+      
+      border-image: linear-gradient(to right,  rgb(26, 119, 173) ,  rgb(124 222 223 / 50%)); 
+      border-image-slice: 1;
+      height: 0rem;
+      width: 14.3rem;
+    } */
+
+    .certificate-wrapper .certificate-background {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      left: 0mm;
+      top: auto;
+      width: 150mm;
+      height: 105mm;
+      overflow: hidden;
+      
+      align-items: center;;
+      background-color: white;
+      
+      
+    }
+    
+
+    
+    .certificate-wrapper .certificate-content {
+      top: 10mm;
+      right: 10mm;
+      bottom: 10mm;
+      left: 10mm;
+      position: absolute;
+    }
+
+    .certificate-wrapper .certificate-content .org-name {
+        position: absolute;
+        border: 0.1px solid black;
+        letter-spacing: 0.15rem;
+        top: 0;
+        padding: 1.5px 1.5px 1.5px 1.5px;
+        font-size: 10px;
+    }
+    .certificate-wrapper .certificate-content .title {
+      position: absolute;
+      
+      top: 10%; 
+      
+      font-size: 25pt;
+      text-align: center;
+      margin: auto;
+      font-family : Sans-serif;
+      color: black;
+      line-height: normal;
+      letter-spacing: 0.2rem;
+    }
+
+    .certificate-wrapper .certificate-content .sr-no {
+      position: absolute;
+      right: -7mm;
+      top: 20mm;
+      font-size: 8pt;
+      position: absolute;
+    }
+    .certificate-wrapper .certificate-content .org-logo {
+      position: absolute;
+      right: 30mm;
+      bottom: 18mm;
+      
+      z-index: 0;
+      width: 18mm;
+      height: 8mm;
+    }
+    .certificate-wrapper .certificate-content .certificate-logo{
+      z-index: 0;
+       position: absolute;
+        top: 3mm;
+        left: 115mm;
+    }
+    .certificate-wrapper .certificate-content .subtitle {
+      position: absolute;
+      left: 0mm;
+      top: 21%;
+      right: 0mm;
+      font-family: sub;
+      
+      color:  black   !important;
+      
+      font-size: 15pt;
+      font-weight: lighter;
+      
+      
+      margin: auto;
+    }
+    .certificate-wrapper .certificate-content .initial-content {
+      position: absolute;
+      left: 0mm;
+      top: 34%;
+      
+      color:  #989898  !important;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10pt;
+      font-weight: lighter;
+      
+      text-align: center;
+      margin: auto;
+    }
+
+    .certificate-wrapper .certificate-content .candidate-name{
+      position: absolute;
+      top: 35mm;
+      left: 0;
+      font-size: 25pt;
+      font-family:  cursive2;
+    }
+    
+    .certificate-wrapper .certificate-content .main-content {
+      position: absolute;
+      left: 0mm;
+      top: 50mm;
+      right: 7.5mm;
+      font-size: 7pt;
+      color: black;
+      text-align: center;
+      padding-right: 30mm;
+      margin: auto;
+      position: absolute;
+      border : none;
+      line-height : normal;
+      text-align: justify;
+
+      z-index: 2;
+    }
+
+    .certificate-wrapper .certificate-content .date{
+        position: absolute;
+        right: -7mm;
+        top: 24mm;
+        font-size: 10pt
+    }
+
+    .certificate-wrapper .certificate-content .sign-president-img {
+      position: absolute;
+      top: 66mm;
+      left: 2mm;
+      
+      
+      position: absolute;
+      color: black;
+      
+      width: 6rem;
+      font-size: 8pt;
+    }
+    
+    .certificate-wrapper .certificate-content .sign-president {
+      position: absolute;
+      top: 75mm;
+      left: 0mm;
+      border-top: 1pt solid;
+      line-height : 6mm;
+      
+      color: black;
+      font-size: 10pt;
+    }
+    
+    .certificate-wrapper .certificate-content .sign-director {
+      left: 38mm;
+      top: 75mm;
+      
+      border-top: 1pt solid;
+      line-height : 6mm;
+      position: absolute;
+      color: black;
+      font-size: 10pt;
+      
+    }
+
+    .certificate-wrapper .certificate-content .sign-director-img {
+      position: absolute;
+      left: 47mm;
+      top: 64mm;
+      width: 15mm;
+      height: 10mm;
+      
+
+     
+      font-size: 8pt;
+      
+    }
+    .certificate-wrapper .certificate-content .org-address h3{
+      margin-bottom: -2mm;
+    }
+
+    .certificate-wrapper .certificate-content .org-address{
+      position: absolute;
+      z-index: 4;
+      right: -7mm;
+      font-size: 6pt;
+      
+      bottom: 0mm;
+    }
+    
+}

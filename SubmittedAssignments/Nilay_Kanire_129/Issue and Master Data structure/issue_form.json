@@ -1,0 +1,27 @@
+{
+    "name": "string",
+    "uid": "string",
+    "masterId": "string",
+    "module": "Certificate",
+    "config": "object", 
+    "companyId": "string",
+    "issuerId": "string",
+    
+    "data":{
+    
+      "srNo": "string",
+      "date": "string",
+      "candidateName": "string",
+      
+      "certificateFor": "string",
+      "startDate": "string",
+      "endDate": "string",
+      "grade" : "string",
+      "candidateBelongTo": "string",
+      "proficiency": "string",
+      "place" : "string",
+      "remark" : "string"   
+      
+   }
+  }
+  
