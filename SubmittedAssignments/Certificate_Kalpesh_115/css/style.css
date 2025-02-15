@@ -40,16 +40,16 @@
 	  overflow: hidden;
 	  position: relative;
 	}
-	.certificate-wrapper .certificate-background .recttop {
+	/*.certificate-wrapper .certificate-background .recttop {
 	  /*position : absolute;*/
-	  left: 2.5mm;
+	 /* left: 2.5mm;
 	  top: auto;
 	  width: 142.5mm;
 	  height: 14.5mm;
 	  background: #DC143C !important;
 	  transform: skewX(-50deg);
 	  position: relative;
-	}
+	}*/
 	.certificate-wrapper .certificate-background .rectleft {
 	  width: 14.5mm;
 	  height: 81mm;
