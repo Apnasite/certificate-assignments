@@ -1,23 +1,11 @@
-/* body {
-        margin: 0;
-        padding: 0;
-        height: 300mm;
-        width: 300mm;
-        max-width: 700mm;
-        min-width: 500mm;
-        margin-left: 120mm;
-        margin-top: 20mm;
-        overflow: hidden;
-    } */
 
-    
     @media all{
         body.printView, body.printView:before, body.printView:after { 
             border : none !important;
         }
 
 
-    .certificate-background {
+    .certificate-wrapper {
         border: 0.5mm solid black;
         height: 160mm;
                                            /*background certificate*/
@@ -26,7 +14,7 @@
         background-color: white;
     }
 
-    .certificate-background .border {
+    .certificate-wrapper .certificate-background {
         border: 0.5mm solid #EED843;
         position: relative;
         left: 9mm;
@@ -37,7 +25,7 @@
     }
 
 
-    .certificate-background .topbigleft {
+    .certificate-wrapper .recttop {
         border: none;
         background-color: #091641;
         background-image: linear-gradient(to right, #091641, #0D2760);
@@ -52,7 +40,7 @@
 
     }
 
-    .certificate-background .border .topbigleft .rectleft {
+    .certificate-wrapper .certificate-background .recttop .rectleft {
         border: none;
         background-color: #E1C73C;
         background-image: linear-gradient(to right, #FAF077, #D0A501);
@@ -65,7 +53,7 @@
         transform: skewX(-5deg);
     }
 
-    .certificate-background .border .topbigleft .recttop {
+    .certificate-wrapper .certificate-background .recttop .tri1 {
         border: none;
         background-color: #E1C73C;
         background-image: linear-gradient(to right, #FAF077, #D0A501);
@@ -78,7 +66,7 @@
         transform: skewX(-5deg);
     }
 
-    .certificate-background .lefttri {
+    .certificate-wrapper .tri2 {
         border: none;
         height: 70mm;
         width: 80mm;
@@ -90,7 +78,7 @@
         right: 180mm;
     }
 
-    .certificate-background .leftgolden {
+    .certificate-wrapper .tri3 {
         border: none;
         background-color: #E1C73C;
         background-image: linear-gradient(to bottom, #FDF47F, #FAD940);
@@ -102,7 +90,7 @@
         bottom: 10.8mm;
     }
 
-    .certificate-background .leftsubtri {
+    .certificate-wrapper .boxx {
         border: none;
         height: 30mm;
         width: 80mm;
@@ -116,7 +104,7 @@
 
     /*bottom shapes*/
 
-    .certificate-background .bottombigright {
+    .certificate-wrapper .rectbtm {
 
         border: none;
         background-color: #091641;
@@ -131,7 +119,7 @@
         transform: skewX(-40deg);
     }
 
-    .certificate-background .border .bottombigright .rectright {
+    .certificate-wrapper .certificate-background .rectbtm .rectright {
         border: none;
         background-color: #E1C73C;
         background-image: linear-gradient(to right, #D0A501, #FAF077);
@@ -144,7 +132,7 @@
         transform: skewX(-5deg);
     }
 
-    .certificate-background .border .bottombigright .rectbottom {
+    .certificate-wrapper .certificate-background .rectbtm .tri4 {
         border: none;
         background-color: #E1C73C;
         background-image: linear-gradient(to right, #D0A501, #FAF077);
@@ -157,7 +145,7 @@
         transform: skewX(-5deg);
     }
 
-    .certificate-background .righttri {
+    .certificate-wrapper .tri5 {
         border: none;
         height: 60mm;
         width: 80mm;
@@ -169,7 +157,7 @@
         left: 175mm;
     }
 
-    .certificate-background .rightgolden {
+    .certificate-wrapper .tri6 {
         border: none;
         background-color: #E1C73C;
         background-image: linear-gradient(to bottom, #FDF47F, #FAD940);
@@ -182,7 +170,7 @@
         left: 145mm;
     }
 
-    .certificate-background .rightsubtri {
+    .certificate-wrapper .boxbtm {
         border: none;
         height: 30mm;
         width: 80mm;
@@ -196,21 +184,21 @@
 
     /*content part*/
 
-    .certificate-background .border .content {
+    .certificate-wrapper .certificate-content {
         text-align: center;
     }
 
-    .certificate-background .border .content h1 {
+    .certificate-wrapper .certificate-content h1 {
         font-family: Arial, Helvetica, sans-serif;
         letter-spacing: 0.8mm;
         margin: 0;
-        /*h1 heading*/
+        
         padding: 0;
         position: relative;
-        bottom: 45mm;
+        bottom: 115mm;
     }
 
-    .certificate-background .border .content #subheading {
+    .certificate-wrapper  .certificate-content #subheading {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: lighter;
         color: #656565;
@@ -218,11 +206,11 @@
         padding: 0;
         letter-spacing: 0.5mm;
         position: relative;
-        bottom: 50mm;
+        bottom: 115mm;
 
     }
 
-    .certificate-background .border .content #subheading2 {
+    .certificate-wrapper  .certificate-content #subheading2 {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: lighter;
         font-size: small;
@@ -231,33 +219,33 @@
         padding: 0;
         letter-spacing: 0.8mm;
         position: relative;
-        bottom: 45mm;
+        bottom: 115mm;
 
     }
 
-    .content .cerlogo {
+    .certificate-content .cerlogo {
         height: 40mm;
         width: 40mm;
         position: absolute;
-        /*certificate logo*/
-        bottom: 90mm;
-        left: 140mm;
+        
+        bottom: 115mm;
+        left: 150mm;
     }
 
-    .content .name {
+    .certificate-content .name {
         margin: 0;
         padding: 0;
         font-family: 'Times New Roman', Times, serif;
         font-size: 12mm;
         position: relative;
-        bottom: 40mm;
+        bottom: 110mm;
     }
 
-    .content .para {
+    .certificate-content .para {
         margin: 0 30mm 0 30mm;
         padding: 0;
         position: relative;
-        bottom: 35mm;
+        bottom: 110mm;
         color: #656565;
         font-family: 'Playfair Display', serif;
     }
@@ -269,8 +257,8 @@
         margin: 0;
         padding: 0;
         position: relative;
-        /* director signnature container*/
-        bottom: 20mm;
+        
+        bottom: 90mm;
         right: 30mm;
         justify-content: center;
 
@@ -292,7 +280,7 @@
         position: relative;
         /*president signature container*/
         left: 25mm;
-        bottom: 30mm;
+        bottom: 100mm;
         justify-content: center;
     }
 
