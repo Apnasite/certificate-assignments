@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: cname;
-	src: url("../fonts/New Walt Disney.ttf");
+	src: url("../fonts/NewWaltDisney.ttf");
 }
 
 @media all {
@@ -14,132 +14,128 @@
 	body.printView:before,
 	body.printView:after {
 		border: none !important;
-		
+
 	}
-	body{
+
+	body {
 		background-color: gainsboro !important;
 	}
 
 	.certificate-wrapper {
 		overflow: hidden;
 		position: relative;
-		/*background: !important;*/
 		line-height: normal;
+		top: auto;
+		width: 297mm;
+		height: 210mm;
+
+	}
+
+	.certificate-wrapper .certificate-background {
 		left: 0mm;
 		top: auto;
 		width: 297mm;
 		height: 210mm;
 		overflow: hidden;
 		position: relative;
-
 	}
-}
-
-.certificate-wrapper .certificate-background {
-	left: 0mm;
-	top: auto;
-	width: 297mm;
-	height: 210mm;
-	overflow: hidden;
-	position: relative;
-}
 
 
-.certificate-wrapper .certificate-content {
-	top: 17mm;
-	right: 20mm;
-	bottom: 20mm;
-	left: 10mm;
-	position: absolute;
-	background-color: white;
-}
+	.certificate-wrapper .certificate-content {
+		top: 17mm;
+		right: 20mm;
+		bottom: 20mm;
+		left: 10mm;
+		position: absolute;
+		background-color: white;
+	}
 
 
-.certificate-wrapper .certificate-content .title {
-	position: absolute;
-	left: 0mm;
-	top: 30mm;
-	right: 0mm;
-	font-size: 50pt;
-	text-align: center;
-	margin: auto;
-	font-family: Arial, Helvetica;
-	line-height: normal;
-	color: rgb(12, 12, 158);
-}
+	.certificate-wrapper .certificate-content .title {
+		position: absolute;
+		left: 0mm;
+		top: 30mm;
+		right: 0mm;
+		font-size: 50pt;
+		text-align: center;
+		margin: auto;
+		font-family: Arial, Helvetica;
+		line-height: normal;
+		color: rgb(12, 12, 158);
+	}
 
-.certificate-wrapper .certificate-content .subtitle {
-	position: absolute;
-	left: 0mm;
-	top: 55mm;
-	right: 0mm;
-	background-color: #F8AD00;
-	color: white !important;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 20pt;
-	text-align: center;
-	margin: auto;
-	display: table;
-	text-transform: uppercase;
-}
+	.certificate-wrapper .certificate-content .subtitle {
+		position: absolute;
+		left: 0mm;
+		top: 55mm;
+		right: 0mm;
+		background-color: #F8AD00;
+		color: white !important;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 20pt;
+		text-align: center;
+		margin: auto;
+		display: table;
+		text-transform: uppercase;
+	}
 
 
-.certificate-wrapper .certificate-content .initial-content {
-	right: 0mm;
-	font-size: 20pt;
-	text-align: center;
-	margin: auto;
-	position: absolute;
-	text-transform: capitalize;
-	left: 0mm;
-	top: 70mm;
-	color: navy;
-}
+	.certificate-wrapper .certificate-content .initial-content {
+		right: 0mm;
+		font-size: 20pt;
+		text-align: center;
+		margin: auto;
+		position: absolute;
+		text-transform: capitalize;
+		left: 0mm;
+		top: 70mm;
+		color: navy;
+	}
 
-.certificate-wrapper .certificate-content .candidate-name {
-	position: absolute;
-	left: 0mm;
-	right: 0mm;
-	font-family: Arial;
-	font-size: 40pt;
-	color: #F7AC0F !important;
-	text-align: center;
-	margin: auto;
-	top: 85mm;
-}
+	.certificate-wrapper .certificate-content .candidate-name {
+		position: absolute;
+		left: 0mm;
+		right: 0mm;
+		font-family: Arial;
+		font-size: 40pt;
+		color: #F7AC0F !important;
+		text-align: center;
+		margin: auto;
+		top: 85mm;
+	}
 
-.certificate-wrapper .certificate-content .main-content {
-	left: 40mm;
-	top: 105mm;
-	right: 40mm;
-	font-size: 13pt;
-	text-align: center;
-	margin: auto;
-	position: absolute;
-	border: none;
-	line-height: 7mm;
-	color: rgba(42, 137, 220, 0.893);
-	word-spacing: normal;
-}
+	.certificate-wrapper .certificate-content .main-content {
+		left: 40mm;
+		top: 105mm;
+		right: 40mm;
+		font-size: 13pt;
+		text-align: center;
+		margin: auto;
+		position: absolute;
+		border: none;
+		line-height: 7mm;
+		color: rgba(42, 137, 220, 0.893);
+		word-spacing: normal;
+	}
 
-.certificate-wrapper .certificate-content .main-content p {
-	margin-top: 3mm;
-}
+	.certificate-wrapper .certificate-content .main-content p {
+		margin-top: 3mm;
+	}
 
-.certificate-wrapper .certificate-content .certificate-logo {
-	position: absolute;
-	z-index: 1;
-	left: 120mm;
-	top: 10mm;
-}
+	.certificate-wrapper .certificate-content .certificate-logo {
+		position: absolute;
+		z-index: 1;
+		left: 120mm;
+		top: 10mm;
+	}
 
-.certificate-wrapper .certificate-content .certificate-logo img {
-	width: auto;
-	height: 20mm;
-	max-width: 60mm;
-}
+	.certificate-wrapper .certificate-content .certificate-logo img {
+		width: auto;
+		height: 20mm;
+		max-width: 60mm;
+	}
 
-/*
+	/*
 	.certificate-wrapper .certificate-content .sign-president-img
 	{
 		top: 115mm;
@@ -156,47 +152,47 @@
 		height : 20mm;
 		position : absolute;
 	}*/
-.certificate-wrapper .certificate-content .sign-director {
-	left: 160mm;
-	top: 145mm;
-	font-size: 12pt;
-	color: rgba(42, 137, 220, 0.893);
-	border-top: 0.5pt solid;
-	line-height: 8mm;
-	position: absolute;
-}
+	.certificate-wrapper .certificate-content .sign-director {
+		left: 160mm;
+		top: 145mm;
+		font-size: 12pt;
+		color: rgba(42, 137, 220, 0.893);
+		border-top: 0.5pt solid;
+		line-height: 8mm;
+		position: absolute;
+	}
 
-.certificate-wrapper .certificate-content .sign-president {
-	left: 80mm;
-	top: 145mm;
-	font-size: 12pt;
-	color: rgba(42, 137, 220, 0.893);
-	border-top: 1pt solid;
-	line-height: 8mm;
-	position: absolute;
-}
+	.certificate-wrapper .certificate-content .sign-president {
+		left: 80mm;
+		top: 145mm;
+		font-size: 12pt;
+		color: rgba(42, 137, 220, 0.893);
+		border-top: 1pt solid;
+		line-height: 8mm;
+		position: absolute;
+	}
 
-.certificate-wrapper .certificate-content .frame-blue {
-	position: absolute;
-	top: 20mm;
-	width: 50mm;
-	height: 50mm;
-	z-index: 1;
-	left: 210mm;
-}
+	.certificate-wrapper .certificate-content .frame-blue {
+		position: absolute;
+		top: 20mm;
+		width: 50mm;
+		height: 50mm;
+		z-index: 1;
+		left: 210mm;
+	}
 
 
-.certificate-wrapper .certificate-content .frame-golden {
-	position: absolute;
-	top: 115mm;
-	left: 15mm;
-	width: 60mm;
-	height: 60mm;
-	z-index: 1;
-}
+	.certificate-wrapper .certificate-content .frame-golden {
+		position: absolute;
+		top: 115mm;
+		left: 15mm;
+		width: 60mm;
+		height: 60mm;
+		z-index: 1;
+	}
 
-/* Corner Design */
-/*.corner-design {
+	/* Corner Design */
+	/*.corner-design {
     position: absolute;
     top: 0;
     left: 0;
@@ -206,73 +202,74 @@
     overflow: hidden;
 }*/
 
-/* Blue Band */
-.certificate-wrapper .certificate-background .blue-triangle {
-	position: absolute;
-	transform-origin: top right;
-	z-index: 1;
-	overflow: hidden;
-	position: absolute;
-	top: 17mm;
-	left: 10mm;
-    width: 55mm;
-	height: 45mm;
-	background-color: #00529C;
-	clip-path: polygon(0 0, 100% 0, 0 100%);
-}
+	/* Blue Band */
+	.certificate-wrapper .certificate-background .blue-triangle {
+		position: absolute;
+		transform-origin: top right;
+		z-index: 1;
+		overflow: hidden;
+		position: absolute;
+		top: 17mm;
+		left: 10mm;
+		width: 55mm;
+		height: 45mm;
+		background-color: #00529C;
+		clip-path: polygon(0 0, 100% 0, 0 100%);
+	}
 
 
 
-/* Red Band */
-.certificate-wrapper .certificate-background .red-band {
-	position: absolute;
-	top: 17mm;
-	background-color: #F05C52;
-	transform-origin: top;
-	left: 73mm;
-	width: 25mm;
-	height: 30mm;
-	transform: skewX(-50deg);
-	transform-origin: top;
-	z-index: 1;
-	overflow: hidden;
-}
+	/* Red Band */
+	.certificate-wrapper .certificate-background .red-band {
+		position: absolute;
+		top: 17mm;
+		background-color: #F05C52;
+		transform-origin: top;
+		left: 73mm;
+		width: 25mm;
+		height: 30mm;
+		transform: skewX(-50deg);
+		transform-origin: top;
+		z-index: 1;
+		overflow: hidden;
+	}
 
-/* Yellow Band */
-.certificate-wrapper .certificate-background .yellow-band {
-	position: absolute;
-	background-color: #FFAE36;
-	overflow: hidden;
-	transform-origin: top;
-    width: 17mm;
-	height: 15mm;
-    transform-origin: top;
-    z-index: 1;
-    top: 53mm;
-    left: 30mm;
-    transform: skewX(-53deg);
+	/* Yellow Band */
+	.certificate-wrapper .certificate-background .yellow-band {
+		position: absolute;
+		background-color: #FFAE36;
+		overflow: hidden;
+		transform-origin: top;
+		width: 17mm;
+		height: 15mm;
+		transform-origin: top;
+		z-index: 1;
+		top: 53mm;
+		left: 30mm;
+		transform: skewX(-53deg);
 
-}
-.certificate-wrapper .certificate-background .tri1{
-	position: absolute;
-	transform-origin: top right;
-	z-index: 1;
-	overflow: hidden;
-	position: absolute;
-	background-color: #FFAE36;
-	clip-path: polygon(0 0, 100% 0, 0 100%);
-	top: 67.5mm;
-    left: 10mm;
-    width: 18mm;
-    height: 13mm;
-	
-	
+	}
 
-}
+	.certificate-wrapper .certificate-background .tri1 {
+		position: absolute;
+		transform-origin: top right;
+		z-index: 1;
+		overflow: hidden;
+		position: absolute;
+		background-color: #FFAE36;
+		clip-path: polygon(0 0, 100% 0, 0 100%);
+		top: 67.5mm;
+		left: 10mm;
+		width: 18mm;
+		height: 13mm;
 
 
-/* Diagonal Bands Container */
-/*.diagonal-bands {
+
+	}
+
+
+	/* Diagonal Bands Container */
+	/*.diagonal-bands {
     position: absolute;
     top: 0;
     right: 0;
@@ -282,55 +279,57 @@
     overflow: hidden;
 }*/
 
-/* Yellow Band */
-.certificate-wrapper .certificate-background .yellow-band1 {
-	position: absolute;
-	width: 15mm;
-	transform-origin: top;
-	z-index: 1;
-	top: 130mm;
-    height: 23mm;
-    left: 262mm;
-	background-color: #FFAE36;
-	overflow: hidden;
-	transform: skewX(-50deg);
-}
-.certificate-wrapper .certificate-background .tri2{
-	position: absolute;
-	transform-origin: bottom right;
-	z-index: 1;
-	overflow: hidden;
-	border-top: 12mm solid transparent;
-    border-right: 15.5mm solid #FFAE36;
-    top: 119mm;
-    left: 261.5mm;
-}
+	/* Yellow Band */
+	.certificate-wrapper .certificate-background .yellow-band1 {
+		position: absolute;
+		width: 15mm;
+		transform-origin: top;
+		z-index: 1;
+		top: 130mm;
+		height: 23mm;
+		left: 262mm;
+		background-color: #FFAE36;
+		overflow: hidden;
+		transform: skewX(-50deg);
+	}
 
-/* Red Band */
-.certificate-wrapper .certificate-background .red-band1 {
-	position: absolute;
-	overflow: hidden;
-	top: 160mm;
-	right: 85mm;
-	left: 183mm;
-	width: 25mm;
-	height: 30mm;
-	background-color: #F05C52;
-	transform: skewX(-50deg);
-	transform-origin: bottom;
-	z-index: 1;
-}
+	.certificate-wrapper .certificate-background .tri2 {
+		position: absolute;
+		transform-origin: bottom right;
+		z-index: 1;
+		overflow: hidden;
+		border-top: 12mm solid transparent;
+		border-right: 15.5mm solid #FFAE36;
+		top: 119mm;
+		left: 261.5mm;
+	}
 
-/* Blue Band */
-.certificate-wrapper .certificate-background .blue-triangle1 {
+	/* Red Band */
+	.certificate-wrapper .certificate-background .red-band1 {
+		position: absolute;
+		overflow: hidden;
+		top: 160mm;
+		right: 85mm;
+		left: 183mm;
+		width: 25mm;
+		height: 30mm;
+		background-color: #F05C52;
+		transform: skewX(-50deg);
+		transform-origin: bottom;
+		z-index: 1;
+	}
 
-	
-position: absolute;
-	transform-origin: bottom right;
-	z-index: 1;
-	overflow: hidden;
-	border-top: 50mm solid transparent;
-	border-right: 60mm solid #00529C;
-	top: 140mm;
-    left: 217mm;
+	/* Blue Band */
+	.certificate-wrapper .certificate-background .blue-triangle1 {
+
+
+		position: absolute;
+		transform-origin: bottom right;
+		z-index: 1;
+		overflow: hidden;
+		border-top: 50mm solid transparent;
+		border-right: 60mm solid #00529C;
+		top: 140mm;
+		left: 217mm;
+	}
 }
