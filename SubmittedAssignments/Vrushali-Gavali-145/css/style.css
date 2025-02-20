@@ -171,7 +171,29 @@
 		line-height: 8mm;
 		position: absolute;
 	}
-
+	.certificate-wrapper .certificate-content .org-name{
+		left: 7mm;
+    	top: 160mm;
+    	position: absolute;
+    	color:#6d6860;
+    	font-weight: bold;
+	}
+	.certificate-wrapper .certificate-content .org-address {
+		left: 9mm;
+    	position: absolute;
+    	top: 165mm;
+    	color: #6d6860;
+    	font-weight: bold;
+	}
+	.certificate-wrapper .certificate-content .org-logo{
+		left:235mm;
+		position:absolute;
+		top:0mm;
+	}
+	.certificate-wrapper .certificate-content .org-logo img{
+		width:25mm;
+		height:25mm;
+	}
 	.certificate-wrapper .certificate-content .frame-blue {
 		position: absolute;
 		top: 20mm;
@@ -191,16 +213,7 @@
 		z-index: 1;
 	}
 
-	/* Corner Design */
-	/*.corner-design {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    overflow: hidden;
-}*/
+	
 
 	/* Blue Band */
 	.certificate-wrapper .certificate-background .blue-triangle {
@@ -258,7 +271,7 @@
 		position: absolute;
 		background-color: #FFAE36;
 		clip-path: polygon(0 0, 100% 0, 0 100%);
-		top: 67.5mm;
+		top: 67.6mm;
 		left: 10mm;
 		width: 18mm;
 		height: 13mm;
@@ -268,16 +281,7 @@
 	}
 
 
-	/* Diagonal Bands Container */
-	/*.diagonal-bands {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    overflow: hidden;
-}*/
+	
 
 	/* Yellow Band */
 	.certificate-wrapper .certificate-background .yellow-band1 {
@@ -300,7 +304,7 @@
 		overflow: hidden;
 		border-top: 12mm solid transparent;
 		border-right: 15.5mm solid #FFAE36;
-		top: 119mm;
+		top: 118.5mm;
 		left: 261.5mm;
 	}
 
