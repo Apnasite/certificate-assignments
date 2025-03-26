@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Certificate</title>
+      <style>
+                  
+         @font-face {
+          font-family: sub;
+          src: url("../fonts/AlexBrush-Regular.ttf");
+        }
+        @font-face {
+          font-family: cname;
+          src: url("../fonts/New Walt Disney.ttf");
+        }
+         @media all{
+            body.printView, body.printView:before, body.printView:after { 
+              border : 10pt !important;
+            }
+            .certificate-wrapper {
+              overflow: hidden;
+              width: 297mm;
+              height: 210mm;
+              position: relative;
+              background-color: rgb(229 215 215) !important;
+              line-height: normal;
+              left: 140pt;
+              background-image: url(img/bg.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-blend-mode: soft-light;
+          }
+        }
+        .certificate-wrapper .certificate-background .square{
+          left: -169pt;
+          top: 0pt;
+          width: 405pt;
+          height: 311pt;
+          border: 2pt solid #353b53;
+          background: #353b53 !important;
+          position: absolute;
+          border-radius: 20pt;
+          transform: rotate(336deg) skew(11deg, -20deg);
+          border-bottom-left-radius: unset;
+      }
+      .certificate-wrapper .certificate-background .trangle{
+        left: 156pt;
+        top: -45pt;
+        width: 2px;
+        height: 0;
+        border-left: 80pt solid transparent;
+        border-right: 82pt solid transparent;
+        border-top: 116pt solid #c8a66c;
+        position: absolute;
+        transform: rotate(359deg);
+       }
+       .certificate-wrapper .certificate-background .ractangle-1{
+        top: 218pt;
+        width: 88pt;
+        height: 369pt;
+        background: #c8a66c;
+        position: absolute;
+        transform: rotate(46deg);
+        left: 37px;
+        border-top-right-radius: 30px;
+       }
+       .certificate-wrapper .certificate-background .ractangle-2{ 
+        top: 384pt;
+        width: 90pt;
+        height: 283pt;
+        background: #353b53;
+        position: absolute;
+        transform: rotate(46deg);
+        left: 37px;
+        border-top-right-radius: 30px;
+       }
+       .certificate-wrapper .certificate-background .trangle-footer{
+        left: 746pt;
+        top: 525pt;
+        width: 0;
+        height: 0;
+        border-left: 80pt solid transparent;
+        border-right: 82pt solid transparent;
+        border-top: 116pt solid #c8a66c;
+        position: absolute;
+        transform: rotate(293deg) skew(186deg, 28deg);
+       }
+       .certificate-wrapper .certificate-content .date {
+        position: absolute;
+        left: auto;
+        top: -12mm;
+        right: -3mm;
+        font-size: 14pt;
+        font-family: cursive;
+        position: absolute;
+	     }
+       .certificate-wrapper .certificate-content .sr-no {
+        position: absolute;
+        left: 80mm;
+        top: -12mm;
+        font-size: 16pt;
+        font-family: cursive;
+        position: absolute;
+      }
+       .certificate-wrapper .certificate-content {
+        top: 20mm;
+        right: 20mm;
+        bottom: 20mm;
+        left: 20mm;
+        position: absolute;
+	     }
+       .certificate-wrapper .certificate-content .title {
+        position: absolute;
+        left: 0mm;
+        /* top: 15mm; */
+        right: 0mm;
+        font-size: 50pt;
+        /* text-shadow: 2mm 2mm 2mm #db1717 !important; */
+        text-align: right;
+        margin: auto;
+        font-family: auto;
+        line-height: 5pt;
+        border-right: 2pt #353b53;
+       }
+       .certificate-wrapper .certificate-content .title1 {
+        font-size: 50pt;
+        text-transform: uppercase;
+      }
+      .certificate-wrapper .certificate-content .subtitle {
+        font-size: 25pt;
+        text-transform: uppercase;
+      }
+      .certificate-wrapper .certificate-content .title-border {
+        border-right: 5px solid #c8a66c;
+        position: absolute;
+        height: 66pt;
+        left: 735pt;
+        bottom: 14pt;
+      }
+      .certificate-wrapper .certificate-content .initial-content {
+        position: absolute;
+        left: 0mm;
+        top: 45mm;
+        right: 0mm;
+        font-size: 20pt;
+        text-align: right;
+        margin: auto;
+        /*border:2pt solid #590808;*/
+      }
+      .certificate-wrapper .certificate-content .candidate-name {
+        Left: 0mm;
+        top: 45mm;
+        right: 0mm;
+        font-family: sub;
+        font-size: 63pt;
+        color: #c8a66c !important;
+        text-align: right;
+        padding-top: 34pt;
+        
+        position: absolute;
+      }
+      .certificate-wrapper .certificate-content .candidate-name span{
+        border-bottom: 2pt solid #c8a66c;	
+        
+      }
+      .certificate-wrapper .certificate-content .main-content {
+        left: 159mm;
+        top: 90mm;
+        font-size: 14pt;
+        text-align: right;
+        margin-bottom: 10pt;
+        position: absolute;
+        line-height: 1.5;
+      }
+      
+    .certificate-wrapper .certificate-content .certificate-logo {
+      bottom: 0mm;
+      position: absolute;
+      z-index: 2;
+      width: 50mm;
+      height: 41mm;
+      top: 320pt;
+      left: 394pt;
+      }
+      .certificate-wrapper .certificate-content .certificate-logo img {
+        width: 50mm;
+        max-height: 50mm;
+        max-width: 100%;
+      }
+      
+      .certificate-wrapper .certificate-content .org-logo {
+        left: 5mm;
+        bottom: 0mm;
+        position: absolute;
+        z-index: 2;
+        width: 51mm;
+        height: 20mm;
+        left: 47pt;
+        position: absolute;
+        top: 481pt;
+}
+        
+      
+      .certificate-wrapper .certificate-content .org-logo img {
+        position: absolute;
+        top: -11pt;
+        width: 51mm;
+        max-height: 35mm;
+        max-width: 100%;
+        
+      }
+      .certificate-wrapper .certificate-content .sign-president-img{
+        top: 118mm;
+        left: 62mm;
+        width: 40mm;
+        height: 15mm;
+        position: absolute;
+      }
+      .certificate-wrapper .certificate-content .sign-director-img
+      { 
+        top: 118mm;
+        left: 221mm;
+        width: 37mm;
+        height: 15mm;
+        position: absolute;
+      }
+      .certificate-wrapper .certificate-content .sign-director {
+        left: 221mm;
+        top: 133mm;
+        font-size: 12pt;
+        border-top: 0.5pt solid;
+        line-height : 8mm;
+        position: absolute;
+      }
+      .certificate-wrapper .certificate-content .sign-president {
+        left: 65mm;
+        top: 133mm;
+        font-size: 12pt;
+        border-top: 0.5pt solid;
+        line-height : 8mm;
+        position: absolute;
+      }
+      .certificate-wrapper .certificate-content .org-name {
+	  position: absolute;
+    left: auto;
+    bottom: -3mm;
+    right: 15mm;
+    text-align: right;
+    font-size: 18pt;
+    font-weight: bold;
+    position: absolute;
+	}
+	.certificate-wrapper .certificate-content .org-address {
+    right: 15mm;
+    bottom: -20mm;
+    width: 170mm;
+    text-align: right;
+    font-size: 12pt;
+    font-weight: bold;
+    position: absolute;
+	}
+	certificate-wrapper .certificate-content  .circle1{
+    left: 19pt;
+    top: 20pt;
+    width: 30pt;
+    height: 30pt;
+    border: 3pt solid #c8a66c;
+    position: absolute;
+    border-radius: 100pt;
+    }
+
+    .certificate-wrapper .certificate-content .circle2{
+        left: 40pt;
+        top: 20pt;
+        width: 30pt;
+        height: 30pt;
+        border: 3pt solid #c8a66c;
+        position: absolute;
+        border-radius: 100pt;
+      }
+
+      .certificate-wrapper .certificate-content .logo {
+        position: absolute;
+        top: 38pt;
+       }
+
+      .certificate-wrapper .certificate-content .logo img{
+        border-radius: 5px;
+      }
+
+     </style>
+  </head>
+  <body>
+      <div class="certificate-wrapper">
+
+        <!--Certificate background-->
+        <div class="certificate-background">
+          <div class="square">
+          </div>
+          <div class="trangle"></div>
+          <div class="ractangle-1"></div>
+          <div class="ractangle-2"></div>
+          <div class="trangle-footer"></div>
+  </div>
+  <!--Content of Certificate-->
+  <div class="certificate-content">
+      <div class="title">
+        <div class="sr-no">Certificate Number: 1234</div>
+			  <div class="date">Date: 26-01-2024</div>
+        <h1 class ="title1">Certificate</h1>
+        <h2 class="subtitle">of Appreciation</h2>
+        <div class="title-border"></div>
+      </div>
+      
+      <!-- Content -->
+    <div class="initial-content">This Certificate is proudly presented to</div>
+    <div class="candidate-name"><span> Name Surname</span></div>
+    <div class="main-content">for successfully completing the training course as<br> prescribed by the
+      organisation</div>
+      
+			<img class="sign-president-img" src="./img/president.png">
+			<div class="sign-president">Signature of President</div>
+
+			<img class="sign-director-img" src="./img/director.png">
+			<div class="sign-director">Signature of Director</div>
+
+    
+      <div class="certificate-logo">
+        <img src="img/certificate-logo.png"/>
+      </div> 
+      <div class="logo">
+        <img src="./img/org-logo.png" class="img" />
+    </div>
+    
+      <div class="org-name">Maha Mission Education and Career Council</div>
+			<div class="org-address">
+				<p>Office No. 404, Vastu Viva, Besids Sanket Inn, Bhumkar Chowk<br />
+				  Wakad, Pune, Maharashtra - 411057</p>
+			</div>
+		</div>
+      </div>
+  </body>
+</html>
