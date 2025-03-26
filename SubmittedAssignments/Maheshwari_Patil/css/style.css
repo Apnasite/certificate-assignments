@@ -1,5 +1,5 @@
 body {
-	font-family: sans-serif;	
+	font-family: sans-serif;
 }
 
 .certificate-wrapper {
@@ -19,139 +19,140 @@ body {
 	width: 297mm;
 	height: 210mm;
 	overflow: hidden;
-	background-color: #f7f9fc;	
+	background-color: #f7f9fc;
 }
 
 .tri1 {
 	position: absolute;
 	top: 0mm;
-	left: -7mm;
+	left: -17mm;
 	width: 0mm;
 	height: 0mm;
 	border-style: solid;
-	border-width: 0 35pt 65pt 35pt;
+	border-width: 0px 65pt 106pt 65pt;
 	border-color: transparent transparent #034D8E transparent;
 }
 
 .tri2 {
 	position: absolute;
 	top: 0mm;
-	left: 7mm;
+	left: 8mm;
 	width: 0mm;
 	height: 0mm;
 	border-style: solid;
-	border-width: 45pt 25pt 0pt 25pt;
+	border-width: 74pt 45pt 0pt 45pt;
 	border-color: #2480A7 transparent transparent transparent;
 }
 
 .tri3 {
 	position: absolute;
-    left: 18mm;
-    top: -7mm;
-    border-style: solid;
-    border-width: 0pt 35pt 65pt 35pt;
-    border-color: transparent transparent #F2CA51 transparent;
+	left: 25.85mm;
+	top: -9mm;
+	border-style: solid;
+	border-width: 0pt 60pt 101pt 60pt;
+	border-color: transparent transparent #F2CA51 transparent;
 }
 
 .tri4 {
-	position: absolute;    
-	top: 25mm;
-	left: -7mm;
+	position: absolute;
+	top: 39mm;
+	left: -14mm;
 	width: 0mm;
 	height: 0mm;
 	border-style: solid;
-	border-width: 65pt 35pt 0pt 35pt;
+	border-width: 105pt 62pt 0pt 55pt;
 	border-color: #03245B transparent transparent transparent;
 }
 
 .tri5 {
 	position: absolute;
 	bottom: 3mm;
-	left: 0mm;
+	left: -1mm;
 	width: 0mm;
 	height: 0mm;
 	border-style: solid;
-	border-width: 25pt 45pt 25pt 0pt;
-	border-color: transparent #05275F transparent transparent;    
+	border-width: 47pt 70pt 47pt 0pt;
+	border-color: transparent #05275F transparent transparent;
 }
 
 .tri6 {
 	position: absolute;
-	bottom: -5mm;
-	left: 18mm;
+	bottom: -9mm;
+	left: 25mm;
 	width: 0mm;
 	height: 0mm;
 	border-style: solid;
-	border-width: 25pt 0pt 25pt 45pt;
+	border-width: 47pt 0pt 47pt 70pt;
 	border-color: transparent transparent transparent #024D8C;
 }
 
 .tri7 {
 	position: absolute;
-	top: -7mm;
-	right: -32;
+	top: -14mm;
+	right: -14mm;
 	width: 0mm;
 	height: 0mm;
 	border-style: solid;
-	border-width: 0 35pt 65pt 35pt;
+	border-width: 0 55pt 105pt 55pt;
 	border-color: transparent transparent #054C8C transparent;
 }
 
 .tri8 {
 	position: absolute;
-	top: 18mm;
-	right: -6mm;
+	top: 25mm;
+	right: -9mm;
 	width: 0mm;
 	height: 0mm;
 	border-style: solid;
-	border-width: 45pt 25pt 0pt 25pt;
+	border-width: 65pt 35pt 0pt 35pt;
 	border-color: #F2CA51 transparent transparent transparent;
 	position: absolute;
 
 }
+
 .tri9 {
 	position: absolute;
-	bottom: 24mm;
-	right: -5mm;
+	bottom: 33mm;
+	right: -7mm;
 	width: 0mm;
 	height: 0mm;
 	border-style: solid;
-	border-width: 0 35pt 65pt 35pt;
+	border-width: 0 55pt 90pt 55pt;
 	border-color: transparent transparent #03275B transparent;
 }
 
 .tri10 {
 	position: absolute;
-	bottom: -1mm;
+	bottom: -2mm;
 	right: -1mm;
 	width: 0mm;
 	height: 0mm;
 	border-style: solid;
-	border-width: 65pt 35pt 0pt 35pt;
+	border-width: 95pt 55pt 0pt 55pt;
 	border-color: #034D8C transparent transparent transparent;
 }
 
 .tri11 {
 	position: absolute;
-	right: 14mm;
-	bottom: 0mm;
+	right: 15mm;
+	bottom: -10mm;
 	width: 0mm;
 	height: 0mm;
 	border-style: solid;
-	border-width: 0pt 25pt 45pt 25pt;
+	border-width: 0pt 56pt 94pt 56pt;
 	border-color: transparent transparent #2381A6 transparent;
 }
 
-.tri12  {
-		bottom: -7mm;
-		right: 26mm;
-		width: 0mm;
-		height: 0mm;
-		border-style: solid;
-		border-width: 65pt 35pt 0pt 35pt;
-		border-color: #F1CA55 transparent transparent transparent;
-		position: absolute;
-	}
+.tri12 {
+	bottom: -12mm;
+	right: 37mm;
+	width: 0mm;
+	height: 0mm;
+	border-style: solid;
+	border-width: 96pt 57pt 0pt 57pt;
+	border-color: #F1CA55 transparent transparent transparent;
+	position: absolute;
+}
 
 .img {
 	position: unset;
@@ -177,8 +178,8 @@ body {
 	position: absolute;
 	height: 60mm;
 	width: 70mm;
-	left:-83mm;
-	top:-20mm;	
+	left: -92mm;
+	top: -20mm;
 }
 
 .certificate-wrapper .certificate-content {
@@ -193,21 +194,21 @@ body {
 .certificate-wrapper .certificate-content .title {
 	position: absolute;
 	left: 0mm;
-	top: 11mm; 
+	top: 11mm;
 	right: 0mm;
 	font-size: 41pt;
 	letter-spacing: 2pt;
 	text-align: center;
 	margin: auto;
-	font-family : sans-serif;
+	font-family: sans-serif;
 	color: #1A1A1A;
 	line-height: normal;
 }
 
 .certificate-wrapper .certificate-content .sr-no {
 	position: absolute;
-	left: 29mm;
-	top: 5mm;
+	left: 73mm;
+	top: -2mm;
 	font-size: 17pt;
 	position: absolute;
 }
@@ -231,7 +232,7 @@ body {
 	left: 0mm;
 	top: 49mm;
 	right: 0mm;
-	font-size: 14pt;
+	font-size: 16pt;
 	font-family: sans-serif;
 	color: #0B0B0B;
 	letter-spacing: 0.5pt;
@@ -244,7 +245,7 @@ body {
 	left: 0mm;
 	top: 53mm;
 	right: 0mm;
-	font-family:  Brush Script MT, cursive;
+	font-family: Brush Script MT, cursive;
 	font-size: 68pt;
 	border-bottom: 2pt solid #1B1D47;
 	letter-spacing: 2pt;
@@ -254,40 +255,40 @@ body {
 	width: 170mm;
 }
 
-.certificate-wrapper .certificate-content .main-content  {
+.certificate-wrapper .certificate-content .main-content {
 	position: absolute;
-    left: 15mm;
-    top: 90mm;
-    right: 15mm;
-    font-size: 16pt;
+	left: 15mm;
+	top: 90mm;
+	right: 15mm;
+	font-size: 16pt;
 	font-family: sans-serif;
-    text-align: center;
-    margin: auto;
-    border: none;
-    line-height: normal;
+	text-align: center;
+	margin: auto;
+	border: none;
+	line-height: normal;
 }
 
-.certificate-wrapper .certificate-content .main-content1  {
+.certificate-wrapper .certificate-content .main-content1 {
 	position: absolute;
-    left: 15mm;
-    top: 8mm;
-    right: 15mm;
-    font-size: 14pt;
+	left: 15mm;
+	top: 8mm;
+	right: 15mm;
+	font-size: 14pt;
 	font-family: sans-serif;
-	color:#737771 ; 
-    text-align: center;
-    margin: auto;
-    border: none;
-    line-height: normal;
+	color: #737771;
+	text-align: center;
+	margin: auto;
+	border: none;
+	line-height: normal;
 }
 
 .certificate-wrapper .certificate-content .date {
-	position : absolute;
-	top:-4mm;
+	position: absolute;
+	top: -4mm;
 	right: 41mm;
 	font-size: 15pt;
 	color: #080303;
-	line-height : 10mm;
+	line-height: 10mm;
 }
 
 .certificate-wrapper .certificate-content .date-name {
@@ -299,23 +300,23 @@ body {
 }
 
 .certificate-wrapper .certificate-content .sign-president-img {
-	position : absolute;
-	top : 46mm;
+	position: absolute;
+	top: 46mm;
 	right: 66mm;
-	width : 31mm;
-	height : 17mm;
+	width: 31mm;
+	height: 17mm;
 	border-bottom: 0.5pt solid;
-	line-height : 8mm;
+	line-height: 8mm;
 }
 
 .certificate-wrapper .certificate-content .sign-director-img {
-	position : absolute;
-	top : 46mm;
+	position: absolute;
+	top: 46mm;
 	left: 60mm;
-	width : 31mm;
-	height : 17mm;
+	width: 31mm;
+	height: 17mm;
 	border-bottom: 0.5pt solid;
-	line-height : 8mm;
+	line-height: 8mm;
 }
 
 .certificate-wrapper .certificate-content .sign-director {
@@ -327,7 +328,7 @@ body {
 }
 
 .certificate-wrapper .certificate-content .sign-president {
-    position: absolute;
+	position: absolute;
 	right: 59mm;
 	top: 65mm;
 	font-size: 12pt;
@@ -345,31 +346,30 @@ body {
 
 .certificate-wrapper .certificate-content .org-logo img {
 	position: absolute;
-	height: 38mm;
+	height: 60mm;
 	width: 51mm;
-	left:-264mm;
-	top:-97mm;
+	left: -256mm;
+	top: -113mm;
 }
 
 .certificate-wrapper .certificate-content .org-name {
 	position: absolute;
-	left: auto;
-	bottom: -68mm;
-	right: 54mm;
-	text-align: right;
-	font-size: 18pt;
-	font-weight: bold;
-	position: absolute;
+    left: auto;
+    bottom: -64mm;
+    right: 81mm;
+    text-align: right;
+    font-size: 18pt;
+    font-weight: bold;
+    position: absolute;
 }
 
 .certificate-wrapper .certificate-content .org-address {
 	position: absolute;
-	left: auto;
-	bottom: -82mm;
-	right: 54mm;
-	text-align: right;
-	font-size: 16pt;
-	margin-bottom: 0mm;
-	margin-top : 0mm;
+    left: auto;
+    bottom: -77mm;
+    right: 81mm;
+    text-align: right;
+    font-size: 16pt;
+    margin-bottom: 0mm;
+    margin-top: 0mm;
 }
-  
