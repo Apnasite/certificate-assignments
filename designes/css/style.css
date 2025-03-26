@@ -164,18 +164,6 @@
 	  border-right: 3pt solid #800000 !important;
 	  position: absolute;
 	}
-
-	.certificate-wrapper .certificate-background .rectbottom {
-		/*position : absolute;*/
-		left: 2.5mm;
-		top: auto;
-		width: 142.5mm;
-		height: 14.5mm;
-		background: #14dc14 !important;
-		transform: skewX(-50deg);
-		position: relative;
-	  }
-
 	.certificate-wrapper .certificate-content {
 	  top: 20mm;
 	  right: 20mm;
