@@ -1,0 +1,278 @@
+.certificate-wrapper {
+  overflow: hidden;
+  width: 297mm;
+  height: 210mm;
+  position: relative;
+  line-height: normal;
+}
+
+.certificate-wrapper .certificate-background {
+  left: 0mm;
+  width: 297mm;
+  height: 210mm;
+  overflow: hidden;
+  position: relative;
+}
+
+.certificate-background .recttop {
+  left: 134mm;
+  width: 180mm;
+  height: 30mm;
+  background: #FF4D4D !important;
+  transform: skewX(225deg);
+  position: relative;
+  z-index: 1;
+}
+
+.recttop::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 25mm;
+  width: 60mm;
+  height: 100%;
+  background: rgb(255 91 90);
+  transform: skewX(176deg);
+  transform-origin: left;
+}
+
+.certificate-background .rectbtm {
+  left: 146mm;
+  bottom: 0mm;
+  width: 180mm;
+  height: 40mm;
+  background: #373737;
+  transform: skewX(223deg);
+  position: absolute;
+  z-index: 1;
+}
+
+.rectbtm::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 16mm;
+  width: 106mm;
+  height: 100%;
+  background: rgba(65,65,65);
+  transform: skewX(180deg);
+  transform-origin: left;
+}
+
+.certificate-background .rectbtmleft {
+  bottom: 0mm;
+  width: 183mm;
+  height: 15mm;
+  background-color: #FF4D48 !important;
+  position: absolute;
+}
+
+.certificate-background .recttopleft {
+  top: 0mm;
+  width: 183mm;
+  height: 20mm;
+  background-color: #373737;
+  position: absolute;
+}
+
+.recttopleft::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 8mm;
+  width: 108mm;
+  height: 100%;
+  background: rgba(65, 65, 65);
+  transform: skewX(223deg);
+  transform-origin: left;
+}
+
+.certificate-content {
+  top: 20mm;
+  right: 20mm;
+  bottom: 20mm;
+  left: 20mm;
+  position: absolute;
+}
+
+.certificate-background .border-one {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  border: 2px solid black; 
+  z-index: 7;
+}
+.certificate-background .border-two {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border: 10px solid rgba(128, 128, 128, 0.5); 
+  z-index: 7;
+}
+
+.certificate-content .title {
+  position: absolute;
+  top: 18mm;
+  font-family: 'Cinzel', serif;
+  font-size: 16mm;
+  letter-spacing: 4mm;
+  color: #333;
+  text-align: left;
+}
+
+.certificate-content .subtitle {
+  position: absolute;
+  top: 40mm;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4mm;
+  letter-spacing: 1mm;
+  text-transform: uppercase;
+  color: #555;
+  display: flex;
+  align-items: center;
+}
+
+.subtitle::before,
+.subtitle::after {
+  content: "";
+  flex: 1;
+  border: 0.3mm solid #000;
+  width: 40mm;
+}
+
+.subtitle::before {
+  margin-right: 3mm;
+}
+
+.subtitle::after {
+  margin-left: 3mm;
+}
+
+.certificate-content .sr-no {
+  left: 173mm;
+  top: 0mm;
+  font-size: 16pt;
+  position: absolute;
+  z-index: 1;
+}
+
+.certificate-content .initial-content {
+  left: 0mm;
+  top: 57mm;
+  font-size: 13pt;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  letter-spacing: 1mm;
+  position: absolute;
+}
+
+.certificate-content .candidate-name {
+  left: 0mm;
+  bottom: 70mm;
+  font-family: 'Great Vibes', cursive;
+  font-size: 26mm;
+  color: #e53935;
+  text-align: left;
+  position: absolute;
+}
+
+.certificate-content .main-content {
+  left: 0.5mm;
+  bottom: 51mm;
+  width: 170mm;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  font-size: 12pt;
+  position: absolute;
+}
+
+.certificate-content .certificate-logo {
+  position: absolute;
+  top: 50mm;
+  right: 15mm;
+  z-index: 1;
+}
+
+.certificate-content .certificate-logo img {
+  width: 60mm;
+  height: 50mm;
+  max-width: 60mm;
+}
+
+.certificate-content .date {
+  bottom: 0mm;
+  font-size: 12pt;
+  border-top: 0.5pt solid;
+  line-height: 8mm;
+  position: absolute;
+  color: black;
+  z-index: 2;
+  width: 80mm;   
+  text-align: center; 
+}
+
+.certificate-content .date-value {
+  left: 30mm;
+  bottom: 10mm;
+  text-align: center;
+  font-size: 14pt;
+  position: absolute;
+}
+
+.certificate-content .sign-president {
+  left: 155mm;
+  bottom: 0mm;
+  font-size: 12pt;
+  border-top: 0.5pt solid;
+  line-height: 8mm;
+  position: absolute;
+  color: white;
+  z-index: 2;
+  width: 50mm; 
+  text-align: center; 
+}
+
+.certificate-content .sign-director {
+  left: 215mm;
+  bottom: 0mm;
+  font-size: 12pt;
+  border-top: 0.5pt solid;
+  line-height: 8mm;
+  position: absolute;
+  color: white;
+  z-index: 2;
+  width: 50mm; 
+  text-align: center;
+}
+
+.certificate-content .org-name {
+  left: 0.5mm;
+  bottom: 40mm;
+  right: 3mm;
+  position: absolute;
+  z-index: 9;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6mm;
+  letter-spacing: 0.5mm;
+  color: #555;
+  font-weight: bold;
+}
+
+.certificate-content .org-address {
+  left: 0.5mm;
+  bottom: 30mm;
+  width: 170mm;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  font-size: 12pt;
+  position: absolute;
+}
+
+.certificate-content .org-address p {
+  margin: 0;
+}
