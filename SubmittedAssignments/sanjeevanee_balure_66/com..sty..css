@@ -1,0 +1,127 @@
+ body  {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+			<div class="container">
+ }		 
+        .certificate::before, .certificate::after {
+			content: "";
+            position: absolute;
+            width: 30pt;
+            height: 150pt;
+            background-color: #002147;
+			border: 5pt solid goldenrod;
+            border-radius: 20pt 0pt 20pt 0pt;
+			index: z-index
+		} 
+		.certificate .recttop1 {
+		    position: absolute;
+            width: 30pt;
+            height: 150mm;
+            background-color: #002147;
+			transform: rotate(180deg%);
+			border: 5pt solid goldenrod;
+            border-radius: 20pt 0 0 20pt;
+			
+		}
+		.certificate .recttop2 {
+		    position: absolute;
+			top: 0pt;
+            width: 30pt;
+            height: 150mm;
+            background-color: #002147;
+			border: 5pt solid goldenrod;
+            border-radius: 0 0 0 20pt;
+		}
+		 .certificate::before {
+            top: 0;
+            left: 0;
+        }
+        .certificate::after {
+            bottom: 0;
+            right: 0;
+        }
+		 .certificate {
+            border: 3pt solid goldenrod;
+            padding: 10pt;
+            width: 800pt;
+            background-color: white;
+            text-align: center;
+            position: relative;
+        }
+        .certificate h1 {
+            font-size: 45pt;
+            color: goldenrod;
+            margin: 0;
+        }
+        .certificate h2 {
+            font-size: 20pt;
+            color: teal;
+            margin: 0;
+        }
+        .certificate p {
+            font-size: 18pt;
+            margin: 10pt 0;
+       
+        }
+        .certificate .name {
+            font-size: 32pt;
+            font-weight: bold;
+            margin: 20pt 0;
+        }
+        .certificate .seal {
+            position: absolute;
+            top: 20pt;
+            right: 20pt;
+            width: 100pt;
+            height: 100pt;
+            background: url('seal.png') no-repeat center center;
+            background-size: contain;
+        }
+		.certificate .date {
+			text-align: top;
+			position: absolute;
+			left: auto;
+			top: 15mm;
+			right: 10mm;
+			font-size: 14pt;
+			position: absolute;
+		}
+		.certificate .sr-no {
+			position: absolute;
+			left: 20mm;
+			top: 15mm;
+			right: 20mm
+			font-size: 16pt;
+		}
+        .certificate .signatures {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40pt;
+        }
+        .certificate .signatures div {
+            text-align: center;
+        }
+        .certificate .signatures img {
+            width: 100pt;
+            height: 50pt;
+        }
+		.certificate .certificate-logo img {
+			width: auto;
+			height: 50mm;
+			max-width: 100mm;
+		}
+        .certificate .footer {
+            margin-top: 20pt;
+            font-size: 14pt;
+        } 
+		.certificate .footer img {
+            width: 50pt;
+            height: auto;
+            vertical-align: middle;
+        }
+		

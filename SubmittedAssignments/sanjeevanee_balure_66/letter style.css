@@ -1,0 +1,532 @@
+body {
+  /*.letter-background*/
+body > .letter-wrapper {
+  box-shadow: 0 0 10px;
+}
+body .letter-wrapper {
+  border: 1pt solid;
+
+.letter-wrapper {
+  border: 1pt solid black !important;
+  margin: auto;
+  overflow: hidden;
+  background-color: #aedee230;
+  background-color: white;
+  left: 15pt;
+  top: 2mm;
+  width: 210mm;
+  height: 297mm;
+  /* background-image: url("../img/watermark2.png"); */
+  position: relative;
+  /*.main-letter*/
+}
+body .letter-wrapper .topbox1 {
+
+.letter-wrapper .letter-background {
+  position: absolute;
+  left: -10mm;
+  top: -35mm;
+  width: 40mm;
+  height: 100mm;
+  background-color: #d0edef;
+  transform: rotate(42deg);
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+body .letter-wrapper .topbox2 {
+
+.letter-wrapper .topbox1 {
+  position: absolute;
+  left: 22mm;
+  top: -25mm;
+  width: 20mm;
+  height: 120mm;
+  background-color: #aedee2;
+  transform: rotate(42deg);
+}
+body .letter-wrapper .topbox3 {
+  left: 103mm;
+  top: -52mm;
+  width: 75mm;
+  height: 77mm;
+  background-color: #135fa7;
+  transform: rotate(47deg);
+}
+
+.letter-wrapper .topbox2 {
+  position: absolute;
+  left: 39mm;
+  top: -50mm;
+  width: 20mm;
+  height: 170mm;
+  background-color: #d0edef;
+  transform: rotate(42deg);
+}
+body .letter-wrapper .topboxtitle {
+  left: 85mm;
+  top: 229mm;
+  width: 1mm;
+  height: 113mm;
+  background-color: #414248;
+  transform: rotate(130deg);
+}
+
+.letter-wrapper .topbox3 {
+  position: absolute;
+  left: 54mm;
+  top: 0mm;
+  width: 115mm;
+  height: 45mm;
+  background-color: #39abb685;
+  transform: skewX(-112deg);
+}
+body .letter-wrapper .bottombox1 {
+  left: 178mm;
+  top: -15mm;
+  width: 2mm;
+  height: 70mm;
+  background-color: #414248;
+  transform: rotate(47deg);
+}
+
+.letter-wrapper .topboxtitle {
+  position: absolute;
+  left: -50mm;
+  top: 260mm;
+  width: 312mm;
+  height: 75mm;
+  background-color: #239bb1d9;
+  left: 142mm;
+  top: 38mm;
+  width: 15mm;
+  height: 2mm;
+  background-color: #414248;
+  transform: rotate(47deg);
+}
+body .letter-wrapper .bottombox2 {
+
+.letter-wrapper .bottombox1 {
+  position: absolute;
+  left: -20mm;
+  top: 271mm;
+  width: auto;
+  height: auto;
+  border-style: solid;
+  border-width: 15mm 0mm 90mm 103mm;
+  border-color: transparent transparent transparent #aedee299;
+  transform: rotate(17deg);
+  left: 43mm;
+  top: 259mm;
+  width: 83mm;
+  height: 29mm;
+  z-index: 3;
+  transform: skewX(45deg);
+  background-color: #1d243e;
+}
+body .letter-wrapper .bottombox3 {
+
+.letter-wrapper .bottombox2 {
+  position: absolute;
+  left: 4mm;
+  top: 252mm;
+  left: -10mm;
+  top: 267mm;
+  width: auto;
+  height: auto;
+  border-style: solid;
+  border-width: 29mm 234mm 102mm 39mm;
+  border-color: transparent #aedee2 transparent transparent;
+  border-width: 0mm 0mm 84mm 92mm;
+  z-index: 2;
+  border-color: transparent transparent transparent #104b83;
+  transform: rotate(40deg);
+}
+
+.letter-wrapper .bottombox3 {
+  position: absolute;
+  left: 82mm;
+  top: 259mm;
+  width: 120mm;
+  height: 29mm;
+  z-index: 1;
+  background-color: #1d243e;
+}
+
+.l-shape::before,
+.l-shape::after {
+  content: '';
+  position: absolute;
+  background-color: #f0f0f0;
+}
+
+.l-shape::before {
+  width: 32px;
+  height: 3px;
+  top: 118px;
+  left: 453px;
+  transform: rotate(142deg);
+  background-color: #454544;
+}
+
+.l-shape::after {
+  width: 3px;
+  height: 270px;
+  top: -107px;
+  background-color: #454544;
+  transform: rotate(-42deg);
+  left: 365px;
+}
+
+.letter-wrapper .letter-background .rectright {
+  position: absolute;
+  left: 147px;
+  top: 248mm;
+  width: 1mm;
+  height: 10mm;
+  background: #414248 !important;
+  transform: rotate(44deg);
+  position: absolute;
+}
+
+.letter-wrapper .letter-background .shape1 {
+  left: 89mm;
+  top: -13.7mm;
+  width: 14mm;
+  height: 37mm;
+  border-left: 2.9pt solid #135fa7 !important;
+  border-bottom: 2.9pt solid #135fa7 !important;
+  transform: rotate(-43deg);
+  position: absolute;
+}
+body .letter-wrapper .letter-content {
+  /*header*/
+  /*letter-body*/
+  /*footer*/
+
+.letter-wrapper .letter-background .shape2 {
+  left: 144mm;
+  top: 4.3mm;
+  width: 67mm;
+  height: 9mm;
+  border-left: 5.7pt solid #135fa7 !important;
+  border-bottom: 5.7pt solid #135fa7 !important;
+  transform: rotate(-43deg);
+  position: absolute;
+}
+body .letter-wrapper .letter-content header {
+
+.letter-wrapper .letter-background .shape3 {
+  left: 182mm;
+  top: -7.7mm;
+  width: 23mm;
+  height: 27mm;
+  border-left: 2.9pt solid #000000 !important;
+  border-bottom: 2.9pt solid #000000 !important;
+  transform: rotate(-43deg);
+  position: absolute;
+}
+
+.letter-wrapper .letter-background .shape4 {
+  left: 187mm;
+  top: -14.7mm;
+  width: 17mm;
+  height: 38mm;
+  border-left: 2.9pt solid #135fa7 !important;
+  border-bottom: 2.9pt solid #135fa7 !important;
+  transform: rotate(-43deg);
+  position: absolute;
+  left: 0mm;
+  top: 0mm;
+}
+
+.letter-wrapper .letter-content {
+  height: 100%;
+  width: 100%;
+  height: 45mm;
+  border-bottom: 1mm solid;
+  z-index: 9;
+  position: absolute;
+}
+body .letter-wrapper .letter-content header .letter-org-logo {
+
+.letter-wrapper .letter-content .letter-org-logo {
+  font-weight: bold;
+  /* font-size: 62px; */
+  position: absolute;
+  left: 150mm;
+  top: -5mm;
+  width: 50mm;
+  height: 50mm;
+  margin: 5mm;
+  left: 15mm;
+  top: 20mm;
+  width: 38mm;
+}
+body .letter-wrapper .letter-content header .letter-org-logo img {
+
+.letter-wrapper .letter-content .letter-org-logo img {
+  width: 20%;
+  height:20%;
+}
+body .letter-wrapper .letter-content header .letter-org-name {
+
+.letter-wrapper .letter-content .letter-org-name {
+  font-weight: bold;
+  position: absolute;
+  left: 56mm;
+  top: 15mm;
+  width: 100%;
+  height: auto;
+  font-size: 25pt;
+  left: 50mm;
+  top: 28mm;
+  font-size: 18pt;
+}
+body .letter-wrapper .letter-content header .letter-org-details {
+
+.letter-wrapper .letter-content .letter-org-details {
+  position: absolute;
+  left: 96mm;
+  top: 25mm;
+  width: 100%;
+  height: auto;
+  left: 50mm;
+  top: 36mm;
+  font-size: 12pt;
+}
+body .letter-wrapper .letter-content header .letter-ref {
+  font-weight: bold;
+
+.letter-wrapper .letter-content .letter-ref {
+  position: absolute;
+  left: 15mm;
+  top: 50mm;
+  top: 55mm;
+  width: 50%;
+  height: auto;
+  font-size: 12pt;
+  font-size: 10pt;
+}
+body .letter-wrapper .letter-content header .letter-date {
+  font-weight: bold;
+
+.letter-wrapper .letter-content .letter-date {
+  position: absolute;
+  left: 165mm;
+  top: 50mm;
+  width: 30%;
+  right: 15mm;
+  top: 55mm;
+  height: auto;
+  font-size: 12pt;
+  font-size: 11pt;
+}
+body .letter-wrapper .letter-content .letter-body {
+  position: absolute;
+  left: 0mm;
+  top: 45mm;
+  width: 100%;
+  height: 200mm;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-to {
+
+.letter-wrapper .letter-content .letter-body {
+  position: absolute;
+  left: 15mm;
+  top: 15mm;
+  right: 15mm;
+  top: 65mm;
+  width: auto;
+  height: auto;
+  font-size: 12pt !important;
+}
+
+.letter-wrapper .letter-content .letter-body-to {
+  width: 70mm;
+  height: 35mm;
+  font-weight: bold;
+  font-size: 13pt;
+  height: auto;
+  margin: 0mm;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-subject {
+  position: absolute;
+  left: 0mm;
+  top: 50mm;
+  width: calc(100% - 45mm);
+  height: 20mm;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 15pt;
+
+.letter-wrapper .letter-content .letter-body-subject {
+  font-weight: bold;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-salutation {
+  position: absolute;
+  left: 0mm;
+  top: 70mm;
+  width: auto;
+  height: auto;
+  margin-left: 15mm;
+  font-weight: bold;
+  font-size: 15pt;
+
+.letter-wrapper .letter-content .letter-body-salutation {
+  margin-bottom: 0;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-message {
+  position: absolute;
+  left: 0mm;
+  top: 80mm;
+  width: auto;
+  height: 115mm;
+  margin-left: 15mm;
+  margin-right: 15mm;
+
+.letter-wrapper .letter-content .letter-body-message {
+  margin-bottom: 20mm;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-message p {
+
+.letter-wrapper .letter-content .letter-body-message p {
+  font-size: 13pt;
+  text-indent: 15mm;
+  font-family: "Times New Roman", Times, serif;
+  overflow: auto;
+  text-align: justify;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-sign {
+  position: absolute;
+  left: 0mm;
+  top: 195mm;
+  width: auto;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 12pt;
+
+.letter-wrapper .letter-content .letter-body-sign .letter-body-sign-name {
+  margin: 0mm;
+  font-size: 14pt;
+  font-weight: bold;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-sign p {
+
+.letter-wrapper .letter-content .letter-body-sign .letter-body-sign-designation,
+.letter-wrapper .letter-content .letter-body-sign p {
+  margin: 0mm;
+  font-size: 10pt;
+  font-weight: normal;
+}
+body .letter-wrapper .letter-content .letter-footer {
+  position: absolute;
+  left: 0mm;
+  top: 256mm;
+  width: 100%;
+  height: 35mm;
+}
+body .letter-wrapper .letter-content .letter-footer .fa {
+  width: 7mm;
+  height: 7mm;
+  border-radius: 50%;
+
+.letter-wrapper .letter-content .bi {
+  border-radius: 100%;
+  padding: 1mm;
+  margin-right: 3mm;
+  background-color: #43a9bb;
+  margin-right: 2mm;
+  background-color: #1e4370;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 12pt;
+  width: 8mm;
+  height: 8mm;
+  display: inline-block;
+}
+body .letter-wrapper .letter-content .letter-footer .letter-org-website {
+
+.letter-wrapper .letter-content .letter-org-website {
+  position: absolute;
+  left: 32mm;
+  top: 10mm;
+  right: 8mm;
+  bottom: 40mm;
+  width: auto;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 20pt;
+  font-size: 13pt;
+  font-weight: bold;
+  text-shadow: 0.2mm 0.2mm white;
+  vertical-align: middle;
+}
+body .letter-wrapper .letter-content .letter-footer .letter-org-phone {
+
+.letter-wrapper .letter-content .letter-org-phone {
+  position: absolute;
+  left: 0mm;
+  top: 22mm;
+  width: 40%;
+  left: 48mm;
+  bottom: 20mm;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 13pt;
+  font-size: 9pt;
+  z-index: 300;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+body .letter-wrapper .letter-content .letter-footer .letter-org-email {
+
+.letter-wrapper .letter-content .letter-org-email {
+  position: absolute;
+  left: 100mm;
+  top: 22mm;
+  width: 87mm;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 13pt;
+  left: 88mm;
+  bottom: 20mm;
+  z-index: 367;
+  color: white;
+  font-size: 9pt;
+  display: flex;
+  align-items: center;
+}
+body .letter-wrapper .letter-content .letter-footer .letter-org-address {
+  position: absolute;
+  left: 0mm;
+  top: 30mm;
+  width: 100%;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 13pt;
+
+.letter-wrapper .letter-content .letter-org-address address {
+  margin: 0;
+}
+
+/*body*/
+.letter-wrapper .letter-content .letter-org-address {
+  position: absolute;
+  left: 147mm;
+  bottom: 14mm;
+  z-index: 515;
+  color: white;
+  font-size: 9pt;
+  vertical-align: bottom;
+  width: 55mm;
+  display: flex;
+  align-items: center;
+}
