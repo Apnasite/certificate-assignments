@@ -40,7 +40,7 @@ certificate-assignments
 
 ## 🧱 HTML Structure Guidelines
 
-### ✅ You Can Modify:
+### ✅ You Can Modify: `preview.html`
 
 ```html
 <div class="certificate-background">
@@ -53,6 +53,14 @@ certificate-assignments
 ```html
 <div class="certificate-content">
   <!-- ❌ Keep everything inside this div unchanged -->
+</div>
+```
+
+### Add/Copy new background html block `index.html`:
+
+```html
+<div class="certificate-background">
+  <!-- ✅ Add or edit content/styling elements here -->
 </div>
 ```
 
