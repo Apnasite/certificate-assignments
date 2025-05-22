@@ -61,6 +61,7 @@
 
 .certificate-background .rectbtmleft {
   bottom: 0mm;
+  left: 0mm;
   width: 183mm;
   height: 15mm;
   background-color: #FF4D48 !important;
@@ -69,6 +70,7 @@
 
 .certificate-background .recttopleft {
   top: 0mm;
+  left: 0mm;
   width: 183mm;
   height: 20mm;
   background-color: #373737;
