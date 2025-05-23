@@ -16,7 +16,7 @@
             background-color: #002147;
 			border: 5pt solid goldenrod;
             border-radius: 20pt 0pt 20pt 0pt;
-			index: z-index
+			z-index: 1;
 		} 
 		.certificate .recttop1 {
 		    position: absolute;
