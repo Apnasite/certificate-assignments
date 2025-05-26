@@ -16,7 +16,7 @@
             background-color: #002147;
 			border: 2pt solid goldenrod;
             border-radius: 20pt 0pt 0pt 0pt;
-			index: z-index;
+		 z-index:1;
 		}
 		.certificate .recttop2 {
 		position: absolute;
@@ -27,7 +27,7 @@
             background-color: #002147;
 			border: 2pt solid goldenrod;
             border-radius: 20pt 0pt 0pt 0pt;
-			index: x-index;
+			x-index: 1;
 			}
 			.certificate .recttop3 {
 		position: absolute;
@@ -38,7 +38,7 @@
             background-color: #002147;
 			border: 2pt solid goldenrod;
             border-radius: 0pt 0pt 20pt 0pt;
-			index: x-index;
+			 x-index: 1;
 			}
 		.certificate .recttop4 {
 		position: absolute;
@@ -49,7 +49,7 @@
             background-color: #002147;
 			border: 2pt solid goldenrod;
             border-radius: 0pt 0pt 20pt 0pt;
-			index: z-index
+			 z-index:1;
 		}
         .certificate::before {
             top: 0;
