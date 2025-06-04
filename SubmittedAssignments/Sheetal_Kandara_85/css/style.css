@@ -1,5 +1,5 @@
 .certificate-wrapper {
-    overflow: hidden;
+        overflow: hidden;
 	width: 297mm;
 	height: 210mm;
 	position: relative;
@@ -17,130 +17,130 @@
 }
 .certificate-wrapper .certificate-background .recttop {
 	left: -54.5mm;
-    top: -48mm;
-    width: 136.5mm;
-    height: 135.5mm;
-    background: rgb(248, 201, 209) !important;
-    transform: rotate3d(1, 1, 1, 45deg);
-    position: relative;
+        top: -48mm;
+        width: 136.5mm;
+        height: 135.5mm;
+        background: rgb(248, 201, 209) !important;
+        transform: rotate3d(1, 1, 1, 45deg);
+        position: relative;
 }
 
 .certificate-wrapper .certificate-background .dot-1 { 
 	top: 16mm;
-    left: 33mm;
+        left: 33mm;
 	position: absolute;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius: 13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius: 13mm;
 }
 .certificate-wrapper .certificate-background .dot-2  { 
 	top: 29mm;  
 	left: 16mm;
 	position: absolute;
-	width:2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+ 	width:2mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }
 .certificate-wrapper .certificate-background .dot-3  {
 	top: 11mm;  
 	left: 23mm;
 	position: absolute;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius: 13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius: 13mm;
 }
 .certificate-wrapper .certificate-background .dot-4  { 
 	top: 26mm;  
 	left: 27mm; 
 	position: absolute;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius: 13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius: 13mm;
 }
 .certificate-wrapper .certificate-background .dot-5  { 
 	top: 16mm;  
 	left: 47mm; 
 	position: absolute;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius: 13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius: 13mm;
 }
 .certificate-wrapper .certificate-background .dot-6  { 
 	top: 26mm;  
 	left: 41mm; 
 	position: absolute;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }
 .certificate-wrapper .certificate-background .dot-7  { 
 	top: 18mm;  
 	left: 15mm; 
 	position: absolute;
 	width: 2mm;
-    height:2mm;
-    background-color: black;
-    border-radius: 13mm;
+        height:2mm;
+        background-color: black;
+        border-radius: 13mm;
 }
 .certificate-wrapper .certificate-background .dot-8 { 
 	top: 22mm;  
 	left: 52mm; 
 	position: absolute;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius: 13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius: 13mm;
 }
 .certificate-wrapper .certificate-background .dot-9 { 
 	top: 45mm;  
 	left: 16mm; 
 	position: absolute;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }
 .certificate-wrapper .certificate-background .dot-10 { 
 	top: 37mm;  
 	left: 23mm; 
 	position: absolute;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }
 .certificate-wrapper .certificate-background .dot-11 { 
 	top: 35mm;  
 	left: 36mm; 
 	position: absolute;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }
 .certificate-wrapper .certificate-background .dot-12 { 
 	top: 37mm;  
 	left: 8mm; 
 	position: absolute;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }
 .certificate-wrapper .certificate-background .dot-13 { 
 	top: 37mm;  
 	left: 48mm; 
 	position: absolute;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }	
 
 .certificate-wrapper .certificate-background .dot-14 { 
@@ -148,9 +148,9 @@
 	left: 41mm; 
 	position: absolute;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }	
 
 .certificate-wrapper .certificate-background .dot-15 { 
@@ -158,145 +158,145 @@
 	left: 30mm; 
 	position: absolute;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }	
 .certificate-wrapper .certificate-background .dotbtm-1{ 
 	bottom: 116mm;
-    left: 254mm;
-    position: relative;
+        left: 254mm;
+        position: relative;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }
 .certificate-wrapper .certificate-background .dotbtm-2{
 	bottom: 123mm;
-    left: 269mm; 
+        left: 269mm; 
 	position:relative;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }
 .certificate-wrapper .certificate-background .dotbtm-3{ 
 	bottom: 124mm;
-    left: 237mm;
+        left: 237mm;
 	position: relative;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }
 .certificate-wrapper .certificate-background .dotbtm-4{
-	bottom: 134mm;
-    left: 247mm;
+  	bottom: 134mm;
+        left: 247mm;
 	position: relative;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }
 .certificate-wrapper .certificate-background .dotbtm-5{
 	bottom: 141mm;
-    left: 264mm;
+        left: 264mm;
 	position: relative;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }
 .certificate-wrapper .certificate-background .dotbtm-6{
 	bottom: 149mm;
-    left: 240mm;
+        left: 240mm;
 	position: relative;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }
 .certificate-wrapper .certificate-background .dotbtm-7{
 	bottom: 165mm;
-    left: 243mm;
+        left: 243mm;
 	position: relative;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }
 .certificate-wrapper .certificate-background .dotbtm-8{
 	bottom: 178mm;
-    left: 255mm;
+        left: 255mm;
 	position: relative;
-	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+  	width: 2mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }
 .certificate-wrapper .certificate-background .dotbtm-9{
 	bottom: 172mm;
-    left: 268mm;
+        left: 268mm;
 	position: relative;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }
 .certificate-wrapper .certificate-background .dotbtm-10{
 	bottom: 162mm;
-    left: 256mm;
+        left: 256mm;
 	position: relative;
-    width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+        width: 2mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }
 .certificate-wrapper .certificate-background .dotbtm-11{
 	bottom: 175mm;
-    left: 283mm;
+        left: 283mm;
 	position: relative;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }
 .certificate-wrapper .certificate-background .dotbtm-12{
 	bottom: 171mm;
-    left: 292mm;
+        left: 292mm;
 	position: relative;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }
 .certificate-wrapper .certificate-background .dotbtm-13{
 	bottom: 163mm;
-    left: 276mm;
+        left: 276mm;
 	position: relative;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }
 .certificate-wrapper .certificate-background .dotbtm-14{
 	bottom: 161mm;
-    left: 284mm;
+        left: 284mm;
 	position: relative;
 	width: 2mm;
-    height: 2mm;
-    background-color: black;
-    border-radius:13mm;
+        height: 2mm;
+        background-color: black;
+        border-radius:13mm;
 }
 .certificate-wrapper .certificate-background .tritop {
 	left: -28mm;
-    top: 74mm;
-    width: 0mm;
-    height: 25mm;
-    border-style: solid;
-    border-width: 66pt 154pt 81pt 16px;
-    border-color: transparent rgb(190, 233, 249)transparent transparent !important;
-    position: absolute;
+        top: 74mm;
+        width: 0mm;
+        height: 25mm;
+        border-style: solid;
+        border-width: 66pt 154pt 81pt 16px;
+        border-color: transparent rgb(190, 233, 249)transparent transparent !important;
+        position: absolute;
 	transform: rotate3d(4, 29, -115, 60deg);
 }	
 .certificate-wrapper .certificate-background .outerborder {
@@ -306,29 +306,29 @@
 	height: 180mm;
 	position: relative;
 	outline-style: solid;
-    outline-color: #baf4ff;
+        outline-color: #baf4ff;
 	outline-width: 2mm;
 }
 .certificate-wrapper .certificate-background .rectbtm {
 	left: 182mm;
-    top: 198.5mm;
-    width: 198mm;
-    height: 109mm;
-    background: rgb(190, 233, 249)!important;
-    transform: rotateZ(47deg);
-    position: absolute;
+        top: 198.5mm;
+        width: 198mm;
+        height: 109mm;
+        background: rgb(190, 233, 249)!important;
+        transform: rotateZ(47deg);
+        position: absolute;
 	border-color: transparent rgb(190, 233, 249) transparent transparent !important;
 }
 .certificate-wrapper .certificate-background .tribtm {
 	position: absolute; 
-    left: 288mm;
-    top: 97mm;
-    width: 0mm;
-    height: 20mm;
-    border-style: solid;
-    border-width: 24mm 108px 257pt 159pt;
-    border-color: transparent transparent transparent rgb(248, 201, 209)!important;
-    position: absolute;
+        left: 288mm;
+        top: 97mm;
+        width: 0mm;
+        height: 20mm;
+        border-style: solid;
+        border-width: 24mm 108px 257pt 159pt;
+        border-color: transparent transparent transparent rgb(248, 201, 209)!important;
+        position: absolute;
 	transform: rotate(-43deg);
 }	  
 .certificate-wrapper .certificate-content {
@@ -350,7 +350,7 @@
 	line-height: normal;
 	text-transform: uppercase;
 	font-family: sans-serif;
-    font-weight: bold;
+        font-weight: bold;
 }
 .certificate-wrapper .certificate-content .sr-no {
 	position: absolute;
@@ -361,8 +361,8 @@
 }
 .certificate-wrapper .certificate-content .org-logo {
 	left: 18mm;
-    bottom: 14mm;
-    position: absolute;
+        bottom: 14mm;
+        position: absolute;
 	width: 26mm;
 }
 .certificate-wrapper .certificate-content .org-logo img {
@@ -391,11 +391,11 @@
 	margin: auto;
 	position: absolute;
 	text-transform: uppercase;
-    font-family: sans-serif;
+        font-family: sans-serif;
 	border-top: 1.5pt solid;
-    border-bottom: 1.5pt solid;
-    line-height: 13mm;
-    width: 99mm;
+        border-bottom: 1.5pt solid;
+        line-height: 13mm;
+        width: 99mm;
 	color: rgb(146, 145, 145);
 }
 .certificate-wrapper .certificate-content .candidate-name {
@@ -409,8 +409,8 @@
 	margin: auto;
 	position: absolute;
 	font-family: "Rouge Script", cursive;
-    font-weight: 400;
-    font-style: normal;
+        font-weight: 400;
+        font-style: normal;
 }
 .certificate-wrapper .certificate-content .main-content {
 	position: absolute;
