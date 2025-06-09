@@ -1,0 +1,281 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.certificate-wrapper{
+    overflow: hidden;
+    width: 297mm;
+    height: 210mm;
+    position: absolute;
+    background: whitesmoke !important;
+    border: 1px solid black;
+
+}
+.cretificate-background {
+    width: 297mm;
+    height: 210mm;
+    overflow: hidden;
+    position: absolute;
+}
+
+
+.div1 {
+    position: absolute;
+    width: 149mm;
+    height: 152mm;
+    left: -76mm;
+    right: auto;
+    bottom: 28mm;
+    background-color: rgb(57, 51, 51);
+    transform: rotate(45deg);
+}
+.addline{
+    position: absolute;
+    height: 1mm;
+    width: 143mm;
+    top: 199mm;
+    left: -52mm;
+    right: auto;
+    background-color: black;
+    transform: rotate(45deg);
+}
+.line1{
+    position: absolute;
+    height: 1mm;
+    width: 143mm;
+    top: 186mm;
+    left: -52mm;
+    right: auto;
+    background-color: black;
+    transform: rotate(45deg);
+}
+.line2{
+    position: absolute;
+    height: 1mm;
+    width: 143mm;
+    top: 170mm;
+    left: -52mm;
+    right: auto;
+    background-color: rgb(216, 196, 13);
+    transform: rotate(45deg);
+}
+.line3{
+    position: absolute;
+    height: 1mm;
+    width: 290mm;
+    top: 131mm;
+    left: -64mm;
+    right: auto;
+    background-color: rgb(216, 196, 13);
+    transform: rotate(45deg);
+
+}
+.line4{
+    position: absolute;
+    height: 1mm;
+    width: 357mm;
+    top: 131mm;
+    left: -67mm;
+    right: 0mm;
+    background-color: rgb(31, 30, 26);
+    transform: rotate(45deg);
+
+}
+.line5{
+    position: absolute;
+    height: 1mm;
+    width: 357mm;
+    top: 141mm;
+    left: -72mm;
+    right: 0mm;
+    background-color: rgb(31, 30, 26);
+    transform: rotate(45deg);
+}   
+
+.certificate-title{ 
+    position: absolute;
+    top: 22mm;
+    left: 126mm;
+    right: 11mm;
+    font-size: 21mm;
+    text-align: center;
+    line-height: normal;
+    text-transform: uppercase;
+    color: black;
+
+}
+.apperciation-title{
+    position: absolute;
+    top: 45mm;
+    left: 191mm;
+    right: 28mm;
+    font-size: 9mm;
+    text-align: center;
+    line-height: normal;
+    text-transform: uppercase;
+    color: black;
+
+
+}
+.proudly{
+    position: absolute;
+    top: 74mm;
+    left: 153mm;
+    right: 18mm;
+    font-size: 9mm;
+    text-align: center;
+    line-height: normal;
+    color: black;
+    font-style: normal;
+    font-family: "Noto Sans JP", sans-serif;
+}
+.name{
+    position: absolute;
+    top: 90mm;
+    left: 187mm;
+    right: 18mm;
+    font-size: 9mm;
+    text-align: center;
+    line-height: normal;
+    text-transform: uppercase;
+    color: black;
+    font-style: normal;
+}
+.certificate-wrapper .line{
+    position: absolute;
+    height: 0.3mm;
+    width: 78mm;
+    top: 56mm;
+    left: 191mm;
+    right: auto;
+    background-color: black;
+}
+.pavan{
+    position: absolute;
+    top: 104mm;
+    left: 145mm;
+    right: 9mm;
+font-size: 5mm;
+text-align: center;
+line-height: normal;
+text-transform: uppercase;
+color: black;
+font-style: normal;
+}
+.rahul{
+position: absolute;
+    top: 114mm;
+    left: 145mm;
+    right: 24mm;
+font-size: 4mm;
+text-align: center;
+line-height: normal;
+color: black;
+font-style: normal;
+}
+.sign{
+    position: absolute;
+    top: 161mm;
+    left: 214mm;
+    right: 0mm;
+    font-size: 5mm;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+.date{
+    position: absolute;
+    top: 6mm;
+    left: 250mm;
+    right: auto;
+    font-size: 6mm;
+    color: black;
+
+}
+.image1{
+    position: absolute;
+    top: 149mm;
+    left: 245mm;
+    right: auto;
+
+
+}
+.image1 img {
+height: 10mm;
+width: 20mm;
+
+}
+.imagelogo{ 
+    position: absolute;
+    top: 32mm;
+    left: 30mm;
+    right: auto;
+z-index: 1;
+}
+.addres{
+    position: absolute;
+    top: 180mm;
+    left: 167mm;
+    right: 6mm;
+    font-size: 5mm;
+    text-align: center;
+}
+
+.director-line{
+    position: absolute;
+    height: 0.4mm;
+    width: 28mm;
+    top: 160mm;
+    left: 242mm;
+    right: auto;
+    background-color: black;
+}
+.present-image{
+    position: absolute;
+    top: 150mm;
+    left: 157mm;
+    right: auto;
+z-index: 1;
+}
+.present-image img{
+    height: 10mm;
+  width: 20mm;
+}
+.present-sign{
+    position: absolute;
+    top: 161mm;
+    left: 34mm;
+    right: 0mm;
+    font-size: 5mm;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+.present-line{
+    position: absolute;
+    height: 0.4mm;
+    width: 26mm;
+    top: 160mm;
+    left: 153mm;
+    right: auto;
+    background-color: black;
+}
+.company-logo{
+    position: absolute;
+    top: 165mm;
+    left: 61mm;
+    right: auto;
+z-index: 1;
+}
+.company-logo img{
+    height: 53mm;
+    width: 50mm;  
+}
+.certificate-no{
+    position: absolute;
+    top: 6mm;
+    left: 14mm;
+    right: auto;
+    font-size: 6mm;
+    color: black; 
+}
