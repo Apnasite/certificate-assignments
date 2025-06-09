@@ -1,0 +1,243 @@
+@media all{
+    body.printView, body.printView:before, body.printView:after{
+        border: none !important;
+}
+body {
+        position: absolute;
+        overflow: hidden;
+        margin: 2mm;
+        border: 8mm solid #b2b8b8;
+        left: 10mm;
+        top: 10mm;
+        width: 100mm;
+        height: 100mm;
+        box-shadow: 10px 35px 44px 10px rgb(126, 130, 130);
+      }
+.social-wraper{
+        overflow: hidden;
+        left: 0mm;
+        top: 0mm;
+        width: 100mm;
+        height: 100mm;
+        background-color:rgb(249 247 247);
+        position: absolute;
+}
+.fa{
+    position: absolute;
+    left: 29mm;
+    top: 5mm;
+    color: #1468ab;
+}
+.social-title{
+    position: absolute;
+    left: 34mm;
+    top: 5mm;
+    width: 36mm;
+    height: 1mm;
+    font-size: 4mm;
+    color:rgb(59 170 170);
+}
+.social-heading{
+    position: absolute;
+    left: 8mm;
+    top: 18mm;
+    width: 83mm;
+    height: 10mm;
+    font-size: 8mm;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(19 109 180);
+}
+.social-massage{
+    position: absolute;
+    text-align: justify;
+    left: 13mm;
+    top: 31mm;
+    width: 75mm;
+    height: 25mm;
+    color: rgb(4 125 85);
+    font-size: 3mm;
+}
+.price-s{
+     position: absolute;
+    text-align: justify;
+    left: 39mm;
+    top: 49mm;
+    width: 21mm;
+    height: 3mm;
+    font-size: 2.5mm;
+    font-weight: bold;
+    color: rgb(4 125 85);
+}
+.price{
+    position: absolute;
+    text-align: justify;
+    left: 39mm;
+    top: 52mm;
+    width: 21mm;
+    height: 3mm;
+    font-size: 3mm;
+    font-weight: bold;
+    color: rgb(19 86 208);
+}
+.fa-brands {
+    position: absolute;
+    left: 38mm;
+    top: 57mm;
+    color: #1468ab;
+
+}
+.fa-solid{
+    position: absolute;
+    left: 43mm;
+    top: 57mm;
+    color: #1468ab;
+}
+.fal{
+    position: absolute;
+    left: 48mm;
+    top: 57mm;
+    color: #1468ab;
+}
+.fas{
+    position: absolute;
+    left: 52mm;
+    top: 57mm;
+    color: #1468ab;
+}
+.star1top{
+    position: absolute;
+    left: 5mm;
+    top: 45mm; 
+    transform: rotate(45deg);
+}
+.star2top{
+    position: absolute;
+    left: 4mm;
+    top: 47mm; 
+    transform: rotate(45deg);
+}
+.star3bottom{
+    position: absolute;
+    left: 24mm;
+    top: 73mm; 
+    transform: rotate(-45deg);
+}
+.star4bottom{
+    position: absolute;
+    left: 24mm;
+    top: 76mm; 
+    transform: rotate(-45deg);
+}
+.star5topright{
+    position: absolute;
+    right: 11mm;
+    top: 46mm; 
+    transform: rotate(-45deg);
+}
+.star6topright{
+    position: absolute;
+    right: 9mm;
+    top: 47mm; 
+    transform: rotate(-45deg);
+}
+.star7bottomright{
+    position: absolute;
+    right: 24mm;
+    top: 73mm; 
+    transform: rotate(45deg);
+}
+.star8bottomright{
+    position: absolute;
+    right: 24mm;
+    top: 76mm; 
+    transform: rotate(45deg);
+}
+.stri-left1{
+    position: absolute;
+    left: -10mm;
+    top: 73mm;
+   width: 0mm;
+   height: 0mm;
+   border-left: 19mm solid transparent;
+   border-right: 19mm solid transparent;
+   border-bottom: 19mm solid #1c5288;
+   transform: rotate(90deg);
+}
+.stri-left2{
+    position: absolute;
+    left: -11mm;
+    top: 75mm;
+   width: 0mm;
+   height: 0mm;
+   border-left: 14mm solid transparent;
+   border-right: 14mm solid transparent;
+   border-bottom: 14mm solid #4386ca;
+   transform: rotate(90deg);
+}
+.stri-bottom1{
+    position: absolute;
+    bottom: 0mm;
+    left: 22mm;
+   width: 0mm;
+   height: 0mm;
+   border-left: 28mm solid transparent;
+   border-right: 28mm solid transparent;
+   border-bottom: 28mm solid #1c5288;
+   transform: rotate(0deg);
+}
+.stri-bottom2{
+    position: absolute;
+    bottom: 0mm;
+    left: 28mm;
+   width: 0mm;
+   height: 0mm;
+   border-left: 22mm solid transparent;
+   border-right: 22mm solid transparent;
+   border-bottom: 22mm solid #4386ca;
+   transform: rotate(0deg);
+}
+.stri-bottom3{
+    position: absolute;
+    left: 30mm;
+    bottom: 0mm;
+   width: 0mm;
+   height: 0mm;
+   border-left: 20mm solid transparent;
+   border-right: 20mm solid transparent;
+   border-bottom: 20mm solid #1c5288;
+   transform: rotate(0deg);
+}
+.stri-bottom4{
+    position: absolute;
+    left: 38mm;
+    bottom: 0mm;
+   width: 0mm;
+   height: 0mm;
+   border-left: 12mm solid transparent;
+   border-right: 12mm solid transparent;
+   border-bottom: 12mm solid #4386ca;
+   transform: rotate(0deg);
+}
+.stri-right1{
+    position: absolute;
+    right: -10mm;
+    bottom: 8mm;
+   width: 0mm;
+   height: 0mm;
+   border-left: 19mm solid transparent;
+   border-right: 19mm solid transparent;
+   border-bottom: 19mm solid#1c5288;
+   transform: rotate(-90deg);
+}
+.stri-right2{
+    position: absolute;
+    right: -10mm;
+    bottom: 10mm;
+   width: 0mm;
+   height: 0mm;
+   border-left: 14mm solid transparent;
+   border-right: 14mm solid transparent;
+   border-bottom: 14mm solid#4386ca;
+   transform: rotate(-90deg);
+}
+}
