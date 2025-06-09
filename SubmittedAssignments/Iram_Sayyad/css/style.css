@@ -67,7 +67,7 @@
 		width: 258mm;
 		height: 176mm;
 		overflow: hidden;
-		border: 3pt solid rgb(251 181 2 / 43%);
+		border: 3pt solid rgba(228, 226, 223, 0.43);
 		box-shadow: inset 0px 0px 20px 0px #8080804f;
 		z-index: 2;
 	}

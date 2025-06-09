@@ -1,0 +1,203 @@
+
+/* certificate new*/
+@font-face {
+	font-family: sub;
+	src: url("../fonts/AlexBrush-Regular.ttf");
+  }
+  @font-face {
+	font-family: cname;
+	src: url("../fonts/New Walt Disney.ttf");
+  }
+  .container {
+	position:absolute;
+	width: 100px;
+	height: 100px;
+	
+}
+
+.square1, .square2 {
+	position: absolute;
+	border: 5px solid;
+	width: 30px;
+	height: 30px;
+	padding-left:0 ;
+	margin-left: 70mm;
+	margin-top: 30px;
+}
+
+.square1 {
+	border-color: teal;
+	top: 0;
+	left: 0;
+}
+
+.square2 {
+	border-color: yellow;
+	top: 15px;
+	left: 15px;
+}
+  .companyname{
+	color: #c3ce2c;
+	text-decoration: underline;
+	text-decoration-color:rgb(96, 26, 224);
+  }
+  .text-yellow-500{
+	margin: -05mm 50mm;
+  }
+.certificate {
+	width: 800px;
+	height: 600px;
+	border:none;
+	padding: 20px;
+	position: relative;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.certificate-header {
+	text-align: center;
+}
+.certificate-title {
+	font-size: 36px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:10mm;
+	margin-top: 20mm;
+}
+.certificate-subtitle {
+	font-size: 18px;
+	margin-top: 10px;
+}
+.certificate-body {
+	text-align: center;
+	margin-top: 40px;
+}
+.certificate-name {
+	font-size:05mm;
+	font-family: 'Great Vibes', cursive;
+	margin-top: 20px;
+}
+.certificate-footer {
+	display: flex;
+	justify-content:flex-start;
+	margin-top: 40px;
+	margin-left: 200px;
+}
+.certificate-footer div {
+	text-align: center;
+}
+.certificate-footer .date,
+.certificate-footer .signature {
+	font-size: 18px;
+}
+.certificate-footer .signature-line {
+	margin-top:0;
+	margin-left:0;
+	border-top: 1px solid #a31010;
+	width:40mm ;
+	margin-left: 10mm;
+	margin-right: 10mm;
+	
+}
+.certificate-decoration {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border:none;
+	border-radius: 10px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.certificate-decoration::before,
+.certificate-decoration::after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+}
+.certificate-decoration::before {
+	top: -10mm;
+	left: -10mm;
+	border-width: 140mm 150px 20mm 30mm;
+	border-color: transparent transparent #174b3f transparent;
+}
+.certificate-decoration::after {
+	bottom: 0;
+	right: 0;
+	border-width: 100px 100px 142mm 50mm;
+	border-color: #004d40 transparent transparent transparent;
+}
+
+/* Corner Border (Top Left) */
+.corner-border {
+	position: absolute;
+	top: -600px;
+	left: 20px;
+	width: 100px;
+	height: 90px;
+	border-top: 2px solid #008080;
+	border-left: 2px solid #008080;
+	padding: 190px 20px
+}
+
+/*.corner-border:before {
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	right: 130px;
+	width: 20px;
+	height: 20px;
+	background-color: #008080;
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}*/
+.inner-border{
+	position: absolute;
+	top: -157mm;
+	left: 8mm;
+	width: 90px;
+	height: 70px;
+	border-top: 2px solid #f1dd25;
+	border-left: 2px solid #e9e63a;
+	padding: 190px 20px
+
+
+}
+
+/* Bottom Corner Decoration */
+.corner-bottom {
+	position: absolute;
+	margin-top: 500px;
+	bottom: 300px;
+	left: 10px;
+	width: 100px;
+	height: 30px;
+	background-color: #008080;
+	clip-path: polygon(0% 100%, 50% 0%, 100% 100% );
+}
+/* corner border right*/
+.Corner-border-right {
+	position: absolute;
+	top: -578px;
+	right: 30px;
+	width: 100px;
+	height: 120px;
+	border-bottom: 2px solid #f5e239;
+	border-right: 2px solid #eee242;
+	padding: 190px 20px
+	
+}
+
+
+
+.inner-border-right{
+	position:relative;
+	top: -155mm;
+	right: -177mm;
+	width: 70px;
+	height: 90px;
+	border-bottom: 2px solid #008080;
+	border-right: 2px solid #008080;
+	padding: 190px 20px
+
+
+}
