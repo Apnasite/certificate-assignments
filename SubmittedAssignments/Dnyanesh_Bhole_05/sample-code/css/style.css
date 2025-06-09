@@ -1,0 +1,213 @@
+body {
+	background-color: rgb(100, 111, 111);
+	z-index: -2;
+}
+
+@font-face {
+	font-family: sub;
+	src: url("../fonts/Parisienne-Regular.ttf");
+}
+
+@media all {
+
+	body.printView,
+	body.printView:before,
+	body.printView:after {
+		border: none !important;
+	}
+
+	.certificate-wrapper {
+		overflow: hidden;
+		width: 297mm;
+		height: 210mm;
+		position: relative;
+		background: #fbfdfe !important;
+		line-height: normal;
+		z-index: -1;
+	}
+
+	.recttop {
+		width: 297mm;
+		height: 8mm;
+		position: absolute;
+		background: rgb(149, 156, 156);
+		z-index: -1;
+	}
+
+	.tRectH {
+		position: absolute;
+		right: -15mm;
+		width: 100mm;
+		height: 30mm;
+		transform: skewx(135deg);
+	}
+
+	.tRectV {
+		position: absolute;
+		height: 42.43mm;
+		width: 42.43mm;
+		right: 78.4mm;
+		rotate: 45deg;
+		top: -21mm;
+	}
+
+	.bRectH {
+		position: absolute;
+		left: -15mm;
+		bottom: -0.9px;
+		width: 100mm;
+		height: 30.3mm;
+		transform: skewx(135deg);
+	}
+
+	.bRectV {
+		position: absolute;
+		height: 42.5mm;
+		width: 42.43mm;
+		left: 78.457mm;
+		rotate: 45deg;
+		bottom: -21.3mm;
+	}
+
+	.tricolor {
+		background: linear-gradient(#313131 33%, #ff0000 33%, #ff0000 66%, #313131 0);
+	}
+
+	.heading {
+		position: absolute;
+		left: 10mm;
+		top: 30mm;
+	}
+
+	.heading h1 {
+		font-size: 15mm;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.heading b {
+		font-size: 6mm;
+		color: #8d8c8c;
+	}
+
+	.cRect {
+		position: absolute;
+		width: 150mm;
+		height: 10mm;
+		right: -5mm;
+		top: 75mm;
+		background: #313131;
+		transform: skewx(45deg);
+	}
+
+	.content-div {
+		font-size: 5mm;
+		position: absolute;
+		width: 150mm;
+		height: 10mm;
+		right: -14mm;
+		top: 77mm;
+		color: #fbfdfe;
+	}
+
+	.gRect1 {
+		position: absolute;
+		width: 10mm;
+		height: 10mm;
+		right: 151mm;
+		top: 75mm;
+		z-index: 1;
+		transform: skewx(45deg);
+	}
+
+	.gRect2 {
+		position: absolute;
+		width: 10mm;
+		height: 10mm;
+		right: 168mm;
+		top: 75mm;
+		z-index: 1;
+		transform: skewx(45deg);
+	}
+
+	.grey {
+		background: #8d8c8c;
+	}
+
+	.whiterect {
+		position: absolute;
+		width: 20mm;
+		height: 10mm;
+		right: 0mm;
+		top: 75mm;
+		z-index: 1;
+		background: #fbfdfe;
+	}
+
+	.logo {
+		left: 9mm;
+		position: absolute;
+		height: 42.43mm;
+		width: 51.43mm;
+		bottom: 65mm;
+	}
+
+	.heading2 {
+		position: absolute;
+		left: 135mm;
+		top: 97mm;
+	}
+
+	.heading2 h1 {
+		font-weight: normal;
+		font-family: sub;
+		font-size: 18mm;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-left: 15mm;
+	}
+
+	.heading2 b {
+		font-size: 4mm;
+		color: #8d8c8c;
+	}
+
+	.text-box {
+		position: absolute;
+		border-top: solid;
+		border-top-color: #8d8c8c;
+		color: #8d8c8c;
+		text-align: center;
+		height: 22mm;
+		font-size: 8mm;
+		bottom: 8mm;
+		padding-top: 5mm;
+		padding-right: 5mm;
+		padding-left: 5mm;
+	}
+
+	.left {
+		right: 109mm;
+		width: 29mm;
+	}
+
+	.signature {
+		position: absolute;
+		bottom: 38mm;
+		width: 40mm;
+	}
+
+	.right {
+		right: 43mm;
+	}
+
+	.rectbtm {
+		width: 297mm;
+		height: 8mm;
+		bottom: 0mm;
+		position: absolute;
+		background: rgb(149, 156, 156);
+		z-index: -1;
+	}
+
+}
