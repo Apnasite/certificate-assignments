@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<title>Certificate of Achievement</title>
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10mm;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+.certificate-wrapper{
+    top:0mm;
+	left: 0mm;
+}
+/* ========================================
+   ANIMATIONS
+======================================== */
+.corner-top-left{
+	animation: slideInTopLeft 0.8s ease-out;
+}
+.corner-top-right{
+	animation: slideInTopRight 0.8s ease-out;
+}
+.corner-bottom-left{
+	animation: slideInBottomLeft 0.8s ease-out;
+}
+.corner-bottom-right {
+	animation: slideInBottomRight 0.8s ease-out;
+}
+@keyframes slideInTopLeft {
+    from {
+        transform: translate(-100mm, -100mm);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInTopRight {
+    from {
+        transform: translate(100mm, -100mm);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInBottomLeft {
+    from {
+        transform: translate(-100mm, 100mm);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInBottomRight {
+    from {
+        transform: translate(100mm, 100mm);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+</style>
+<body>
+	<!--Certificate Wrapper-->
+	<div class="certificate-wrapper">
+
+		<!--Certificate background-->
+		<div class="certificate-background">
+            <!-- Red Corner Triangles -->
+            <div class="corner-triangle corner-top-left"></div>
+            <div class="corner-triangle corner-top-right"></div>
+            <div class="corner-triangle corner-bottom-left"></div>
+            <div class="corner-triangle corner-bottom-right"></div>
+            <!-- Dark Horizontal Bars -->
+            <div class="dark-bar-top"></div>
+            <div class="dark-bar-bottom"></div>
+            <!-- Border Frames -->
+            <div class="outer-frame"></div>
+            <div class="inner-frame"></div>
+        </div>
+
+		<!--Content of Certificate-->
+		<div class="certificate-content">
+
+            <h1 class="title">CERTIFICATE</h1>
+            <div class="subtitle"><b>OF ACHIEVEMENT</b></div>
+            
+            <div class="initial-content">This Certificate is proudly presented to</div>
+            <div class="candidate-name">Name Surname</div>
+            <div class="sr-no">Certificate Number: 1234</div>
+            <div class="main-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem dicta natus doloribus quae. Optio, consectetur cumque tempora magni distinctio totam, labore impedit reiciendis deserunt officiis voluptatibus cupiditate? 
+            </div>
+            <div class="date">Date:26-07-2024 </div>
+            <div class="certificate-logo">
+                <img src="./img/certificate-logo.png" alt="Certificate emblem and decorative logo">
+            </div>
+            <img class="sign-president-img" src="./img/president.png" alt="President's signature (scanned)">
+            <div class="sign-president">Signature of President</div>
+            <img class="sign-director-img" src="./img/director.png" alt="Director's signature (scanned)">
+			<div class="sign-director">Signature of Director</div>
+
+            <div class="org-logo">
+                <img src="./img/org-logo.png" alt="Maha Mission Education and Career Council logo">
+			</div>
+
+			<div class="org-name">Maha Mission Education and Career Council</div>
+			<div class="org-address">
+				<p>Office No. 404, Vastu Viva, Besids Sanket Inn, Bhumkar Chowk</p>
+				<p>Wakad, Pune, Maharashtra - 411057</p>
+			</div>
+        </div>
+			
+	</div>
+</body>
+
+</html>

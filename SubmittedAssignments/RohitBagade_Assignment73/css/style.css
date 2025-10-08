@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Great+Vibes&family=Open+Sans:wght@400;600&display=swap');
+
+
+/* ========================================
+   RESET & BASE STYLES
+   ======================================== */
+
+.certificate-wrapper {
+	width: 297mm;
+	height: 210mm;
+	position: absolute;
+	background-color: rgb(218, 216, 216);
+	overflow:hidden;
+	
+}
+
+
+/* ========================================
+   CERTIFICATE CONTAINER
+   ======================================== */
+.certificate-container {
+    width: 297mm;
+    height: 210mm;
+    position: absolute;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+/* ========================================
+   BACKGROUND DECORATIVE ELEMENTS
+   ======================================== */
+
+/* Red Corner Triangles */
+.corner-triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: 3;
+    filter: drop-shadow(0mm 1mm 3mm rgba(0, 0, 0, 0.2));
+}
+
+.corner-top-left {
+    top: 0;
+    left: 0;
+    border-top: 65mm solid #d01b2a;
+    border-right: 70mm solid transparent;
+    
+	z-index: 0;
+}
+
+.corner-top-right {
+    top: 0;
+    right: 0;
+    border-top: 65mm solid #d01b2a;
+    border-left: 70mm solid transparent;
+    
+	z-index: 0;
+}
+
+.corner-bottom-left {
+    bottom: 0;
+    left: 0;
+    border-bottom: 65mm solid #d01b2a;
+    border-right: 70mm solid transparent;
+    
+	z-index: 0;
+}
+
+.corner-bottom-right {
+    bottom: 0;
+    right: 0;
+    border-bottom: 65mm solid #d01b2a;
+    border-left: 70mm solid transparent;
+    
+	z-index: 0;
+}
+
+/* Dark Horizontal Bars */
+.dark-bar-top {
+    position: absolute;
+    top: 0;
+    left: 42mm;
+    right: 42mm;
+    height: 12mm;
+    background: #2b2d42;
+    z-index: 2;
+}
+
+.dark-bar-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 42mm;
+    right: 42mm;
+    height: 12mm;
+    background: #2b2d42;
+    z-index: 2;
+}
+
+/* Border Frames */
+.outer-frame {
+    position: absolute;
+    top: 17mm;
+    left: 17mm;
+    right: 17mm;
+    bottom: 17mm;
+    border: 1mm solid rgb(218, 216, 216);;
+    z-index: 3;
+}
+
+.inner-frame {
+    position: absolute;
+    top: 12mm;
+    left: 12mm;
+    right: 12mm;
+    bottom: 12mm;
+    background-color: #ffffff;
+    z-index: 1;
+    border-radius: 0.5mm;
+    box-shadow: inset 0mm 0mm 5mm rgba(0, 0, 0, 0.1);
+}
+
+/* ========================================
+   CERTIFICATE CONTENT AREA
+   ======================================== */
+.certificate-content {
+    position: absolute;
+    top: -15mm;
+    left: 20mm;
+    right: 20mm;
+    bottom: 20mm;
+    padding-left: 30mm;
+    padding-right: 30mm;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* ========================================
+   TITLE & SUBTITLE
+   ======================================== */
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 44pt;
+    font-weight: 900;
+    color: #2b2d42;
+    letter-spacing: 5pt;
+    text-transform: uppercase;
+    margin-bottom: 2mm;
+    text-shadow: 1pt 1pt 2pt rgba(0, 0, 0, 0.1);
+    line-height: 1.2;
+	
+}
+
+.subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    font-weight: 600;
+    color: #6b6b6b;
+    letter-spacing: 4pt;
+    text-transform: uppercase;
+    margin-bottom: 18mm;
+    word-spacing: 2pt;
+}
+
+/* ========================================
+   INITIAL CONTENT
+   ======================================== */
+.initial-content {
+    background: #2b2d42;
+    color: #ffffff;
+    padding: 2.5mm 20mm;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 8pt;
+    font-weight: 600;
+    letter-spacing: 2pt;
+    text-transform: uppercase;
+    /* margin-bottom: 10mm; */
+    position: absolute;
+	top: 80mm;
+    
+}
+
+.initial-content::before,
+.initial-content::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    transform: translateY(-50%);
+}
+
+.initial-content::before {
+    left: -0.0mm;
+	top: -0.5mm;
+    border-width: 5mm 3.5mm 5mm 0;
+    border-color: transparent #ffffff transparent transparent;
+	transform: rotateY(180deg);
+
+}
+
+.initial-content::after {
+    right: -0.0mm;
+	top: -0.5mm;
+    border-width: 5mm 0 5mm 3.5mm;
+    border-color: transparent transparent transparent #ffffff;
+	transform: rotateY(180deg);
+}
+
+/* ========================================
+   CANDIDATE NAME
+   ======================================== */
+.candidate-name {
+    font-family: 'Great Vibes', cursive;
+    font-size: 52pt;
+    color: #2b2d42;
+    margin-bottom: 2mm;
+    line-height: 1.3;
+    text-shadow: 1pt 1pt 3pt rgba(0, 0, 0, 0.1);
+    letter-spacing: 1pt;
+}
+
+/* ========================================
+   SERIAL NUMBER
+   ======================================== */
+.sr-no {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 8pt;
+    font-weight: 600;
+    color: #2b2d42;
+    letter-spacing: 1pt;
+    margin-bottom: 5mm;
+    margin-top: -5mm;
+    text-transform: uppercase;
+}
+
+
+
+/* ========================================
+   DESCRIPTION TEXT
+   ======================================== */
+.main-content {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 9pt;
+    color: #5a5a5a;
+    line-height: 1.8;
+    max-width: 200mm;
+    margin-bottom: 18mm;
+    word-spacing: 1pt;
+    letter-spacing: 0.3pt;
+}
+
+
+
+/* ========================================
+   CENTER CERTIFICATE LOGO
+   ======================================== */
+.certificate-wrapper .certificate-content .certificate-logo {
+  position: absolute;
+  left: auto;
+  top: 145mm;
+  right: auto;
+  z-index: 1;
+}
+	
+.certificate-wrapper .certificate-content .certificate-logo img {
+  width: auto;
+  height: 30mm;
+  max-width: 60mm;
+}
+.sign-director-img{
+    top: 150mm;
+    left: 50mm;
+    width : 30mm;
+    height : 15mm;
+    position : absolute;
+}
+.sign-director{
+    font-family: "Poppins", sans-serif;
+    font-size: 14pt;
+    z-index: 22;
+    left: 40mm;
+    top:165mm;
+    position: absolute;
+    border-top: 2px solid black;
+    width: 50mm;
+    padding-top: 2mm;
+}
+.certificate-wrapper .certificate-content .sign-president-img
+	{
+		top: 150mm;
+        right: 50mm;
+		width : 30mm;
+		height : 15mm;
+		position : absolute;
+	}
+.sign-president {
+    font-family: "Poppins", sans-serif;
+    font-size: 14pt;
+    z-index: 22;
+    top:165mm;
+    position: absolute;
+    right: 40mm;
+    border-top: 2px solid black;
+    width: 50mm;
+    padding-top: 2mm;
+}
+
+/* ========================================
+   DATE
+   ======================================== */
+.date {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    color: #2b2d42;
+    position: absolute;
+    right: 10mm;
+    top: 35mm;
+    letter-spacing: 1pt;
+    font-weight: 600;
+}
+.org-logo{
+    position: absolute;
+    left: 45mm;
+    bottom: -3mm;
+    width: 30mm;
+    height: auto;
+}
+.org-logo img{
+    width: 100%;
+    height: 40mm;
+    background: transparent;
+}
+.org-name{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    font-weight: 1000;
+    color: #2b2d42;
+    position: absolute;
+    right: 25mm;
+    bottom: 20mm;
+    letter-spacing: 1pt;
+}
+.org-address{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 8pt;
+    color: #2b2d42;
+    position: absolute;
+    right: 20mm;
+    bottom: 10mm;
+    letter-spacing: 1pt;
+    font-weight: 600;
+}
+
+
