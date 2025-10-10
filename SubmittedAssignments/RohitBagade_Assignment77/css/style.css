@@ -1,0 +1,434 @@
+/* Certificate Wrapper */
+.certificate-wrapper {
+	width: 297mm;
+	height: 210mm;
+	position: relative;
+	background: white;
+}
+
+/* Certificate Background */
+.certificate-background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: white;
+}
+
+/* Corner Designs */
+.corner-design {
+	position: absolute;
+}
+
+.corner-design::before,
+.corner-design::after {
+	content: '';
+	position: absolute;
+}
+
+/* Top Left Corner - Navy Rectangle and Red Diagonal */
+.top-left {
+	top: 0;
+	left: 0;
+	width: 70mm;
+	height: 70mm;
+}
+
+.top-left::before {
+	width: 0;
+	height: 0;
+	border-left: 70mm solid #212b36;
+	border-bottom: 70mm solid transparent;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.top-left::after {
+	top: -50mm;
+	border-left: 80mm solid #e91a34;
+	border-bottom: 80mm solid transparent;
+	top: 0;
+	left: 15mm;
+	position: absolute;
+	
+}
+
+/* Top Right Corner - Red lines */
+.top-right {
+	top: 5mm;
+	right: 25mm;
+	width: 80mm;
+	height: 50mm;
+}
+
+.top-right::before {
+	width: 75mm;
+	height: 0;
+	border-top: 1.5pt solid #c59394;
+	top: 2mm;
+	right: -20mm;
+}
+
+.top-right::after {
+	width: 115mm;
+	height: 0;
+	border-top: 1.5pt solid #c59394;
+	top: 11mm;
+	right: -9mm;
+}
+
+/* Bottom Left Corner - Red lines */
+.bottom-left {
+	bottom: 10mm;
+	left: 25mm;
+	width: 80mm;
+	height: 50mm;
+}
+
+.bottom-left::before {
+	width: 115mm;
+	height: 0;
+	border-bottom: 1.5pt solid #c59394;
+	bottom: -3mm;
+	left: -20mm;
+}
+
+.bottom-left::after {
+	width: 65mm;
+	height: 0;
+	border-bottom: 1.5pt solid #c59394;
+	bottom: 6mm;
+	left: -10mm;
+}
+
+/* Bottom Right Corner - Navy Rectangle and Red Diagonal */
+.bottom-right {
+	bottom: 0;
+	right: 0;
+	width: 90mm;
+	height: 90mm;
+}
+
+.bottom-right::before {
+	width: 0;
+	height: 0;
+	border-right: 90mm solid #212b36;
+	border-top: 90mm solid transparent;
+	bottom: 0;
+	right: 0;
+	z-index: 2;
+}
+
+.bottom-right::after {
+	width: 0;
+	height: 0;
+	border-right: 85mm solid #e91a34;
+	border-top: 85mm solid transparent;
+	bottom: 0;
+	right: 25mm;
+}
+.left-v1{
+	position: absolute;
+	bottom: 7mm;
+	left: 5mm;
+	width: 1.5pt;
+	height: 37mm; 
+	background: #c59394;
+	z-index: 4;
+}
+.left-v2{
+	position: absolute;
+	bottom: 16mm;
+	left: 15mm;
+	width: 1pt;
+	height: 76mm; 
+	background: #c59394;
+	z-index: 4;
+}
+.left-v3{
+	position: absolute;
+	bottom: 44mm;
+	left: 30mm;
+	width: 1.5pt;
+	height: 65mm; 
+	background: #c59394;
+	z-index: 2;
+}
+.left-v4{
+	position: absolute;
+	bottom: 44mm;
+	left: 5mm;
+	width: 25mm;
+	height: 1.5pt; 
+	background: #c59394;
+	z-index: 1;
+}
+.left-vertical-blue{
+	position: absolute;
+	top: 5mm;
+	left: 0mm;
+	width: 15mm;
+	height: 120mm; 
+	background: #212b36;
+	transform: skewY(-40deg);
+	z-index: 3;
+
+}
+.left-vertical-red{
+	position: absolute;
+	top: 5mm;
+	left: 15mm;
+	width: 15mm;
+	height: 107mm; 
+	background: #930418;
+	transform: skewY(-40deg);
+}
+.right-v1{
+	position: absolute;
+	top: 7mm;
+	right: 5mm;
+	width: 1.5pt;
+	height: 37mm; 
+	background: #c59394;
+	z-index: 4;
+}
+.right-v2{
+	position: absolute;
+	top: 16mm;
+	right: 16mm;
+	width: 1pt;
+	height: 57mm; 
+	background: #c59394;
+	z-index: 4;
+
+}
+.right-v3{
+	position: absolute;
+	top: 44mm;
+	right: 30mm;
+	width: 1.5pt;
+	height: 44mm; 
+	background: #c59394;
+	z-index: 2;
+
+}
+.right-v4{
+	position: absolute;
+	top: 44mm;
+	right: 5mm;
+	width: 25mm;
+	height: 1.5pt; 
+	background: #c59394;
+	z-index: 1;
+
+}
+.right-vertical-blue{
+	position: absolute;
+	bottom: 5mm;
+	right: 0mm;
+	width: 16mm;
+	height: 140mm; 
+	background: #212b36;
+	transform: skewY(-40deg);
+	z-index: 3;
+
+}
+.right-vertical-red{
+	position: absolute;
+	bottom: 5mm;
+	right: 15mm;
+	width: 15mm;
+	height: 127mm; 
+	background: #930418;
+	transform: skewY(-40deg);
+}
+/* Certificate Content */
+.certificate-content {
+	position: relative;
+	z-index: 10;
+	text-align: center;
+	padding: 15mm;
+	background: transparent;
+	margin: 25mm 40mm;
+	height: calc(100% - 50mm);
+	
+}
+
+
+/* Title and Headers */
+.title {
+	position: relative;
+	font-size: 46pt;
+	font-weight: bold;
+	color: #2c3e50;
+	margin-bottom: 1mm;
+	font-family: 'Georgia', serif;
+	letter-spacing: 4pt;
+	text-transform: uppercase;
+	top: 15mm;
+}
+
+.sr-no {
+	position: absolute;
+	top: 12mm;
+	right: -20mm;
+	font-size: 9pt;
+	color: #333;
+}
+
+.date {
+	position: absolute;
+	top: 3mm;
+	right: -20mm;
+	font-size: 9pt;
+	color: #333;
+}
+
+.subtitle {
+	position: relative;
+	top: 16mm;
+	font-size: 12pt;
+	color: #999;
+	margin-bottom: 8mm;
+	font-family: 'Georgia', serif;
+	text-transform: uppercase;
+	letter-spacing: 1pt;
+}
+
+/* Crown and Stars */
+.certificate-logo {
+	margin: 3mm auto 8mm auto;
+	width: 40mm;
+	height: 40mm;
+	position: relative;
+	bottom: -80mm;
+}
+
+.certificate-logo img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+/* Content Text */
+.initial-content {
+	position: relative;
+	top: -28mm;
+	font-size: 13pt;
+	color: #999;
+	margin: 4mm 0 3mm 0;
+	text-transform: uppercase;
+	
+}
+
+.candidate-name {
+	position: relative;
+	top: -20mm;
+	font-size: 55pt;
+	color: #2c3e50;
+	font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
+	font-weight: normal;
+}
+
+.main-content {
+	position: relative;
+	top: -18mm;
+	font-size: 10pt;
+	color: #666;
+	line-height: 1.8;
+	margin: 8mm auto;
+	max-width: 140mm;
+}
+
+/* Signatures */
+.sign-president-img,
+.sign-director-img {
+	width: 35mm;
+	height: 15mm;
+	object-fit: contain;
+	margin-top: 8mm;
+}
+
+.sign-president-img {
+	position: absolute;
+	bottom: 32mm;
+	left: 28mm;
+}
+
+.sign-president {
+	position: absolute;
+	bottom: 25mm;
+	left: 22mm;
+	font-size: 9pt;
+	color: #333;
+	border-top: 0.75pt solid #999;
+	padding-top: 1.5mm;
+	width: 47mm;
+	text-align: center;
+}
+
+.sign-director-img {
+	position: absolute;
+	bottom: 32mm;
+	right: 28mm;
+}
+
+.sign-director {
+	position: absolute;
+	bottom: 25mm;
+	right: 22mm;
+	font-size: 9pt;
+	color: #333;
+	border-top: 0.75pt solid #999;
+	padding-top: 1.5mm;
+	width: 47mm;
+	text-align: center;
+}
+
+/* Organization Details */
+.org-logo {
+	position: absolute;
+	bottom: 1mm;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 35mm;
+	height: 35mm;
+	z-index: -1;
+}
+
+.org-logo img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.org-name {
+	position: absolute;
+	bottom: 8mm;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 10pt;
+	font-weight: bold;
+	color: #1a3a5c;
+	white-space: nowrap;
+}
+
+.org-address {
+	position: absolute;
+	bottom: -4mm;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 10pt;
+	color: #666;
+	text-align: center;
+	line-height: 1.3;
+}
+
+.org-address p {
+	margin: 0;
+	padding: 0;
+}
+

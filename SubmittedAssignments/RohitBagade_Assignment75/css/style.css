@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Great+Vibes&family=Open+Sans:wght@400;600&display=swap");
+
+@page {
+        size: A4 landscape;
+        margin: 0;
+    }
+
+
+/* ================================================
+   CERTIFICATE WRAPPER - A4 LANDSCAPE
+   ================================================ */
+.certificate-wrapper {
+    width: 297mm;
+    height: 210mm;
+    background-color: #ffffff;
+    position: absolute;
+    overflow: hidden;
+	
+	
+}
+
+/* ================================================
+   CERTIFICATE BACKGROUND - DESIGN 74 ELEMENTS
+   ================================================ */
+.certificate-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+        /* Top blue border */
+        .border-top {
+            position: absolute;
+            top: 0;
+			right: -30mm;
+            width: 200mm;
+            height: 10mm; 
+            background: #1e3a5f;
+			transform: skewX(70deg);
+        }
+		.top-golden{
+			position: absolute;
+            top: 0;
+			right: -30mm;
+            width: 220mm;
+            height: 10mm; 
+            background: #c9a961;
+			transform: skewX(70deg);
+			z-index: -1;
+
+		}
+
+        /* Bottom blue border */
+        .border-bottom {
+            position: absolute;
+            bottom: 0;
+			left: -30mm;
+            width: 200mm;
+            height: 10mm; 
+            background: #1e3a5f;
+			transform: skewX(70deg);
+        }
+		.bottom-golden{
+			position: absolute;
+            bottom: 0;
+			left: -30mm;
+            width: 220mm;
+            height: 10mm; 
+            background: #c9a961;
+			transform: skewX(70deg);
+			z-index: -1;
+
+		}
+		.bottom-right-horizontal{
+			position: absolute;
+            bottom: 0;
+			right: -10mm;
+            width: 115mm;
+            height: 10mm; 
+            background: #1e3a5f;
+			transform: skew(-70deg);
+			z-index: -2;
+		}
+		.bottom-right-vertical{
+			position: absolute;
+			bottom: -5mm;
+			right: 0mm;
+			width: 10mm;
+			height: 65mm; 
+			background: #1e3a5f;
+			transform: skewY(-40deg);
+		}
+
+        /* Navy blue corner - top right */
+        .corner-top-right {
+            position: absolute;
+            top: 1mm;
+            right: 0mm;
+            width: 10mm;
+            height: 60mm;
+			background: #1e3a5f;
+			transform: skewY(30deg);
+        
+        }
+
+        /* Gold accent - top right */
+        .accent-top-right {
+            position: absolute;
+            top: 1mm;
+            right: 0mm;
+            width: 10mm;
+            height: 70mm;
+			background: #c9a961 ;
+			z-index: -1;
+			transform: skewY(30deg);
+        }
+
+        /* Navy blue corner - bottom left */
+        .corner-bottom-left {
+            position: absolute;
+            bottom: 1mm;
+            left: 0mm;
+            width: 10mm;
+            height: 60mm;
+			background: #1e3a5f;
+			transform: skewY(30deg);
+            
+        }
+
+        /* Gold accent - bottom left */
+        .accent-bottom-left {
+            position: absolute;
+            bottom: 1mm;
+            left: 0mm;
+            width: 10mm;
+            height: 70mm;
+			background: #c9a961 ;
+			z-index: -1;
+			transform: skewY(30deg);
+        }
+		.golden-border-frame{
+			position: absolute;
+			top: 12mm;
+			left: 12mm;
+			right: 12mm;
+			bottom: 12mm;
+			border: 3pt solid #d4af37;
+			pointer-events: none;
+		}
+
+/* Certificate Content */
+        .certificate-content {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            padding: 20mm 20mm; 
+            text-align: center;
+        }
+
+        .title {
+            font-size: 15mm; 
+            font-weight: bold;
+            color: #b58922;
+            letter-spacing: 1mm; 
+			top: 30mm;
+			position: relative;
+			font-family: 'Georgia', serif;
+        }
+
+        .sr-no {
+            position: absolute;
+            top: 14.551mm; 
+            left: 15.875mm; 
+            font-size: 3.175mm; 
+            color: #666;
+        }
+
+        .date {
+            position: absolute;
+            top: 14.551mm; 
+            right: 15.875mm; 
+            font-size: 3.175mm; 
+            color: #666;
+        }
+
+        .subtitle {
+            font-size: 6mm; 
+            color: #664b0e;
+            margin-top: 1.323mm; 
+            margin-bottom: 3.969mm; 
+			top: 30mm;
+			position: relative;
+			font-weight: lighter;
+        }
+
+        .certificate-logo {
+			position: absolute;
+			margin: 3.969mm auto 5.292mm;
+			top: 20mm;
+			left: 45%;
+        }
+
+        .certificate-logo img {
+            width: 25mm; 
+            height: 25mm; 
+            object-fit: contain;
+        }
+
+        .initial-content {
+            font-size: 3.704mm; /* 14px -> 3.704mm */
+            color: #664b0e;
+            margin-bottom: 3.969mm; 
+			margin-top: 8mm;
+			position: relative;
+			top: 30mm;
+			text-transform: uppercase;
+        }
+
+        .candidate-name {
+            font-size: 13mm; 
+            color: #c9a961;
+            font-style: italic;
+            margin: 3.969mm 0 5.292mm; 
+            font-family: 'Brush Script MT', cursive;
+			position: relative;
+			top: 30mm;
+        }
+
+        .main-content {
+            font-size: 5mm; 
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 10.583mm; 
+			padding: 50mm 50mm;
+			top: -20mm;
+			position: relative;
+			z-index: 5;
+        }
+
+        /* Signatures */
+        .sign-president-img,
+        .sign-director-img {
+            position: absolute;
+            bottom: 47.625mm; 
+            width: 31.750mm; 
+            height: 15.875mm; 
+            object-fit: contain;
+        }
+
+        .sign-president-img {
+            left: 39.688mm; 
+        }
+
+        .sign-director-img {
+            right: 39.688mm; 
+        }
+
+        .sign-president,
+        .sign-director {
+            position: absolute;
+            bottom: 39.688mm; 
+            font-size: 3.175mm; 
+            color: #666;
+            padding-top: 1.323mm; 
+            border-top: 0.265mm solid #999;
+            width: 47.625mm; 
+        }
+
+        .sign-president {
+            left: 31.750mm; 
+        }
+
+        .sign-director {
+            right: 31.750mm; 
+        }
+
+        /* Organization details */
+        .org-logo {
+            position: absolute;
+            bottom: 30.167mm; 
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .org-logo img {
+            width: 40mm; 
+            height: 50mm; 
+            object-fit: contain;
+			z-index: -4;
+        }
+
+        .org-name {
+            position: absolute;
+            bottom: 43mm; 
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 3.704mm; 
+            font-weight: bold;
+            color: #333;
+            white-space: nowrap;
+        }
+
+        .org-address {
+            position: absolute;
+            bottom: 30mm; 
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 3mm; 
+            color: #666;
+            text-align: center;
+        }
+
+        .org-address p {
+            margin: 0.529mm 0; 
+        }
