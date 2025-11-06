@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'DM-SERIF';
+  src: url('../fonts/DMSerifText-Regular.ttf') format('truetype'); /* Replace with the actual file path */
+}
+@font-face {
+  font-family: 'DynaLight'; 
+  src: url('../fonts/DynaLight.ttf') format('truetype'); 
+}
+body{
+  background-color: black;
+  margin-top: 5mm;
+  margin-left: 80mm;
+}
+.container{
+  width: 260mm;
+  height: 180mm;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+.box{
+  position: absolute;
+width: 230mm;
+height: 150mm;
+margin-top: 10mm;
+margin-left: 10mm;
+border: 5mm solid red;
+}
+.rect{
+  position: relative;
+}
+.rect1{
+  position: absolute;
+  top: -7mm;
+  left: 13%;
+  width: 25mm;
+  height: 96mm;
+  background-color: #D12725;
+  transform: skewy(-30deg);
+}
+.rect2{
+  position: absolute;
+  top: -7mm;
+  left: 22.6%;
+  width: 25mm;
+  height: 96mm;
+  background-color: #B31F1F;
+  transform: skewy(30deg); 
+}
+.award{
+  position: absolute;
+  top: 12mm;
+  left: 27mm;
+  width: 65mm;
+  height: 65mm;
+  z-index: 1;
+}
+.title{
+  position: absolute;
+  top: 4%;
+  margin-left: 34%;
+  font-size: 17mm;
+  color: #434345;
+}
+.subtitle{
+  position: absolute;
+  top: 16%;
+  margin-left: 35%;
+  font-size: 10mm;
+  color: #5D5D5F;
+}
+.initial-content{
+  color: whitesmoke;
+  font-size: 6.5mm;
+  position: absolute;
+  margin-left: 35%;
+  top: 27%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.candidate-name{
+  position: absolute;
+  top: 35%;
+  margin-left: 35%;
+  font-size: 23mm;
+  font-family: 'DynaLight';
+}
+.main-content{
+  margin-top: 88mm;
+  margin-left: 19mm;
+  margin-right: 19mm;
+}
+.date{
+  position: absolute;
+  top: 87%;
+  left: 40mm;
+  font-size: 6mm;
+  color: #6A6A6A;
+}
+.org-logo{
+  position: absolute;
+  top: 80%;
+  left: 107mm;
+  height: 15mm;
+  width: 15mm;
+  z-index: 1;
+}
+.org-name{
+  position: absolute;
+  font-size: 5mm;
+  top: 92%;
+  left: 95mm;
+  color: #6E6E6E;
+}
+.signature{
+  position: absolute;
+  top: 87%;
+  left: 165mm;
+  font-size: 6mm;
+  color: #6A6A6A;
+}
