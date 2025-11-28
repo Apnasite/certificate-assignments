@@ -1,0 +1,265 @@
+@font-face {
+	font-family: myFont;
+	src: url("../fonts/playball.ttf");
+}
+
+@font-face {
+	font-family: myFont2;
+	src: url("../fonts/Philosopher-Regular.ttf");
+}
+
+@font-face {
+	font-family: myFont3;
+	src: url("../fonts/roadgeek\ 2005\ transport\ medium.ttf");
+}
+
+  
+  @media all{
+
+    .certificate-wrapper {
+      overflow: hidden;
+      left: 5%;
+      right: 50mm;
+      top: 30mm;
+      width: 392mm;
+      height: 285mm;
+      position: relative;
+      background: white ;
+      line-height: normal;
+      border: 2pt solid rgb(247, 245, 245) ;
+      box-shadow: -3pt 44pt 50pt -35pt rgba(0,0,0,0.45); 
+    }
+
+    .certificate-wrapper .certificate-background .upper-left-box {
+      position: absolute;
+      width: 45mm;
+      height: 250mm;
+      top: 0mm;
+      left: 30mm;
+      background-color: black;
+    }
+
+    .certificate-wrapper .certificate-content .title {
+      position: absolute;
+      letter-spacing: 5px;
+      /* left: mm; */
+      right: 242mm;
+      top: 105mm;
+      color: white;
+      font-size: 100px;
+      font-family: 'Times New Roman', Times, serif;
+      transform: rotate(270deg);
+      text-orientation: mixed;
+      
+    }
+
+    .certificate-wrapper .certificate-background .curve {
+      position: absolute;
+      top: -30%;
+      left: 18%;
+      transform: translate(-50%, -50%);
+      height: 600px;
+      width: 800px;
+      border-radius: 100px 950px 0 0;
+      transform: rotate(90deg);
+      background-color: #F26D34;
+    }
+    .certificate-wrapper .certificate-content .certificate-symbol {
+      left: 100mm;
+      top: 5mm;
+      height: 250mpx;
+      width: 250px;
+      position: absolute;
+      /* z-index: 1; */
+    }
+    .certificate-wrapper .certificate-background .square2 {
+      left: 110mm;
+      top: 14mm;
+      height: 140px;
+      width: 140px;
+      background-color: white;
+      position: absolute;
+      /* z-index: 1; */
+    }
+    
+    .certificate-wrapper .certificate-content .certificate-symbol2 {
+      right: -50mm;
+      top: -15mm;
+      height: auto;
+      width: auto;
+      color: black;
+      transform: rotate(80deg);
+      position: absolute;
+      z-index: 1;
+    }
+
+    .certificate-wrapper .certificate-content .certificate-symbol3 {
+      right: 65mm;
+      top: 90mm;
+      height: auto;
+      width: auto;
+      /* background-color: #132531; */
+      transform: rotate(215deg);
+      position: absolute;
+      z-index: 1;
+    }
+    .certificate-wrapper .certificate-content .certificate-symbol3_2 {
+      left: -10mm;
+      bottom: -80mm;
+      height: auto;
+      width: auto;
+      /* background-color: #2c6890; */
+      transform: rotate(-165deg);
+      position: absolute;
+      z-index: 1;
+    }
+    .certificate-wrapper .certificate-content .certificate-symbol3_3 {
+      right: -40mm;
+      bottom: 115mm;
+      height: auto;
+      width: auto;
+      /* background-color: #2c6890; */
+      transform: scaleX(-1) rotate(330deg);
+      position: absolute;
+      z-index: 1;
+    }
+
+    .certificate-wrapper .certificate-content .org-name {
+      position: absolute;
+      left: 105mm;
+      top: 53mm;
+      color: white;
+      font-size: 40px;
+      font-family: 'Gill Sans', Calibri, sans-serif;     
+    }
+
+    .certificate-wrapper .certificate-content .subtitle {
+      position: absolute;
+      font-size: 18pt;
+      font-family: "myFont3";
+      letter-spacing: 1.2mm;
+      width: 100mm;
+      top: 65mm;
+      left: 105mm;
+      color: white;
+    }
+    
+    .certificate-wrapper .certificate-content .org-logo {
+      position: absolute;
+      left: auto;
+      top: 10mm;
+      right: 15mm;
+      position: absolute;
+      z-index: 1;
+    }
+
+    .certificate-wrapper .certificate-content .org-logo img {
+      position: absolute;
+      height: 62mm;
+      width: 63mm;
+      top: 20mm;	
+      right: 50mm;
+    }
+    
+    .certificate-wrapper .certificate-content .initial-content {
+      position: absolute;
+      font-size: 18pt;
+      font-family: "myFont2";
+      width: 200mm;
+      top: 120mm;
+      left: 97mm;
+      color: #808388;
+    }
+
+    .certificate-wrapper .certificate-content .candidate-name {
+      position: absolute;
+      top: 134mm;
+      left: 85mm;
+      width: 150mm;
+	    font-family: cname;
+	    font-size: 50pt;
+	    color: black !important;
+	    text-align: center;
+	    margin: auto;
+      letter-spacing: 1.5px;
+	    /* font-family:'Brush Script MT', cursive; */
+    }
+
+    .certificate-wrapper .certificate-content .line {
+      position: absolute;
+      width: 37%;
+      height: 4px;
+      background-color: #EC8E78;
+      left: 98mm;
+      top: 160mm;
+    }
+   
+    .certificate-wrapper .certificate-content .main-content  {
+      position: absolute;
+      font-size: 16pt;
+      top: 170mm;
+      left: 98mm;
+      width: 250mm;
+      color: #94979C;
+    }
+
+   
+    /* .certificate-wrapper .certificate-content .sign-president-img {
+      top : 205mm;
+      left: 50mm;
+      height : 12mm;
+      position : absolute;
+    } */
+    .certificate-wrapper .certificate-content .sign-president {
+      left: 98mm;
+      bottom: 45mm;
+      font-size: 18pt;
+      border-top: 2pt solid;
+      width: 50mm;
+      padding: 15px;
+      line-height : 0.5mm;
+      color: #636466;
+      position: absolute;
+    }
+    
+    /* .certificate-wrapper .certificate-content .sign-director-img {
+    	top : 197mm;
+	   left: 150mm;
+	   width : 25mm;
+	   height : 12mm;
+	    position : absolute;
+    } */
+	  .certificate-wrapper .certificate-content .sign-director {
+	    left: 250mm;
+      bottom: 45mm;
+      font-size: 18pt;
+      border-top: 2pt solid;
+      width: 50mm;
+      padding: 15px;
+      line-height : 0.5mm;
+      color: #636466;
+      position: absolute;
+    }
+
+    .certificate-wrapper .certificate-background .square {
+      bottom: -5mm;
+      right: 0mm;
+      height: 160px;
+      width: 160px;
+      background-color: #132531;
+      transform: rotate(5deg);
+      position: absolute;
+
+    }   
+
+    .certificate-wrapper .certificate-background .circle {
+      bottom: 30mm;
+      right: 30mm;
+      height: 100px;
+      width: 100px;
+      background-color: #DE492B;
+      border-radius: 100%;
+      position: absolute;
+    }
+  }
+
