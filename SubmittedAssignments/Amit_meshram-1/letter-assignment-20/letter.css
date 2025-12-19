@@ -1,0 +1,215 @@
+@font-face {
+  font-family: cname;
+  src: url("ITCEDSCR.ttf");
+}
+
+@media all{
+    body.printView, body.printView:before, body.printView:after { 
+        border : none !important;
+    }
+    body {
+      position: absolute;
+      left: 10mm;
+      top: 10mm;
+      width: 226mm;
+      height: 295mm;
+      box-shadow: 24px 20px 21px 7px rgb(131 136 138);
+    }
+  body .letter-wrapper {
+    margin: auto;
+    overflow: hidden;
+    left: 0mm;
+    top: 0mm;
+    width: 226mm;
+    height: 295mm;
+    background-color: rgb(241, 243, 241);
+    position: absolute;
+    /*.main-letter*/
+  }
+  /* HTML: <div class="hexagon"></div> */
+.hexagon {
+  position: absolute;
+  left: 35.5mm;
+  top: 14mm;
+  --b: 10mm; /* adjust to control the border  */
+  height: 10mm; /* adjust to control the size  */
+  aspect-ratio: 1/cos(30deg);
+  clip-path: 
+    polygon(0 50%,50% -50%,100% 50%,50% 150%,0 50%,
+    var(--b) 50%,
+    calc(25% + var(--b)*cos(60deg)) calc(100% - var(--b)*sin(60deg)),
+    calc(75% - var(--b)*cos(60deg)) calc(100% - var(--b)*sin(60deg)),
+    calc(100% - var(--b)) 50%,
+    calc(75% - var(--b)*cos(60deg)) calc(var(--b)*sin(60deg)),
+    calc(25% + var(--b)*cos(60deg)) calc(var(--b)*sin(60deg)),
+    var(--b) 50%);
+  background: #10adef;
+}
+.hexagon-small {
+  position: absolute;
+  left: 38.5mm;
+  top: 17mm;
+  --b: 5mm; /* adjust to control the border  */
+  height: 5mm; /* adjust to control the size  */
+  aspect-ratio: 1/cos(30deg);
+  clip-path: 
+    polygon(0 50%,50% -50%,100% 50%,50% 150%,0 50%,
+    var(--b) 50%,
+    calc(25% + var(--b)*cos(60deg)) calc(100% - var(--b)*sin(60deg)),
+    calc(75% - var(--b)*cos(60deg)) calc(100% - var(--b)*sin(60deg)),
+    calc(100% - var(--b)) 50%,
+    calc(75% - var(--b)*cos(60deg)) calc(var(--b)*sin(60deg)),
+    calc(25% + var(--b)*cos(60deg)) calc(var(--b)*sin(60deg)),
+    var(--b) 50%);
+  background: #10adef;
+}
+  .design{
+    left: 48mm;
+    top: 12mm;
+    width: 40mm;
+    height: 10mm;
+    font-size: 8mm;
+    position: absolute;
+  }
+  .design-v{
+    position: absolute;
+    left: 48mm;
+    top: 21mm;
+    width: 55mm;
+    font-size: 4mm;
+    height: 6mm;
+    }
+  .letter-date {
+    position: absolute;
+    left: 152mm;
+    top: 70mm;
+    width: 45mm;
+    height: 5mm;
+     }
+  .letter-body-subject{
+    position: absolute;
+    left: 18mm;
+    top: 52mm;
+    width: 79mm;
+    height: 30mm;
+    font-size: 13pt;
+     }
+  .letter-body-message{
+    position: absolute;
+    overflow: hidden;
+    left: 15mm;
+    top: 90mm;
+    width: 180mm;
+    height: 150mm;
+    font-size: 12pt;
+    margin: 2mm;
+    text-align: justify;
+  }
+  .sign{
+    position: absolute;
+    left: 16mm;
+    top: 205mm;
+    font-family: cname;
+    font-size: 8mm;
+    font-weight: bold;
+  }
+  .sign-a{
+    position: relative;
+    left: 18mm;
+    top: 215mm;
+    width: 30mm;
+    height: 10mm;
+  }
+  .letter-footer {
+    position: absolute;
+    overflow: hidden;
+    left: 0mm;
+    top: 230mm;
+    width: 226mm;
+    height: 66mm;
+  }
+  .letter-org-phone{
+    position: absolute;
+    left: 10mm;
+    bottom: 42mm;
+    width: 38mm;
+    height: 10mm;
+  }
+  .letter-org-email{
+    position: absolute;
+    left: 10mm;
+    bottom: 34mm;
+    width: 63mm;
+    height: 10mm;
+  }
+  .letter-org-address{
+    position: absolute;
+    left: 10mm;
+    bottom: 24mm;
+    width: 77mm;
+    height: 10mm;
+  }
+  .tri-agle{
+    position: absolute;
+			   left: 0mm;
+         top: 52mm;
+			   width:203mm;
+			   height:13mm;
+			   background-color:rgb(12, 6, 6);
+			   transform: skewx(0deg);
+  }
+  .triangle-up {
+    position: absolute;
+       left: 158mm;
+       top: 1mm;
+      width: 0mm;
+      height: 13mm;
+      border-left: 18mm solid transparent;
+      border-right: 21mm solid transparent;
+      border-bottom: 21mm solid #b2afaf;
+      transform: rotate(-39deg);
+    }
+  .triangle-down {
+    position: absolute;
+       left: 188mm;
+       top: 6mm;
+      width: 0mm;
+      height: 12mm;
+      border-left: 18mm solid transparent;
+      border-right: 21mm solid transparent;
+      border-bottom: 21mm solid #3b6ba4;
+      transform: rotate(10deg);
+    }
+    .triangle-left {
+      position: absolute;
+         left: 180mm;
+         top: 18mm;
+        width: 0mm;
+        height: 9mm;
+        border-left: 23mm solid transparent;
+        border-right: 16mm solid transparent;
+        border-bottom: 33mm solid #5197dd;
+        transform: rotate(57deg);
+      }
+      .triangle-right {
+        position: absolute;
+           left: 182mm;
+           top: 26mm;
+          width: 0mm;
+          height: 12mm;
+          border-left: 23mm solid transparent;
+          border-right: 23mm solid transparent;
+          border-bottom: 33mm solid #1c5288;
+          transform: rotate(10deg);
+}
+.tri-right {
+  position: absolute;
+     left: 206mm;
+     top: 11mm;
+    width: 0mm;
+    height: 9mm;
+    border-left: 10mm solid transparent;
+    border-right: 28mm solid transparent;
+    border-bottom: 44mm solid black;
+    transform: rotate(32deg);
+}}
