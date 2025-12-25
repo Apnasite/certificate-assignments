@@ -1,0 +1,307 @@
+@font-face{
+    font-family: barlow;
+    src: url("fonts/Barlow/Barlow-Medium.ttf");
+}
+
+.certificate-background{
+    height: 150mm;
+    width: 200mm;
+    /* background-color: gray; */
+    border: 1px solid gray;
+    position: relative;
+    /* left: 50mm; */
+    bottom: 0mm;
+    top: 0mm;
+    left: 50mm;
+    overflow: hidden;
+}
+
+
+
+.recttop{
+    
+    position: absolute;
+    left: -102.5mm;
+    width: 141.5mm;
+    height: 7.5mm;
+    background-color:rgb(200, 131, 47);
+    position: relative;
+    transform: skewX(-50deg);
+    /* border: 1px solid white; */
+}
+
+.tri1{
+
+    position: absolute;
+    left: -17mm;
+    top: 7mm;
+    width: 32mm;
+    height: 36mm;
+    background-color:rgb(0, 134, 154);
+    transform: skewX(-403deg);
+    border: 1px solid black;
+}
+.tri2{
+    position: absolute;
+    height: 131mm;
+    width: 12mm;
+    border: 1px solid orangered;
+    transform: skewX(137deg);
+    left: -4mm;
+    bottom: 25mm;
+}
+
+
+.tri3{
+    height: 5mm;
+    width: 72mm;
+    background-color:rgb(7, 177, 195);
+    position: absolute;
+    left: 62mm;
+    transform: skewX(-42deg);
+    bottom: 145mm;
+}
+.rectleft{
+
+    width: 12.6mm;
+    height: 87mm;
+    top: -0.5mm;
+    background-color:rgb(5, 176, 196);
+    position: absolute;
+    transform: skew(137deg);
+    left: -1mm;
+}
+
+.tri4{
+    height: 8mm;
+    width: 7mm;
+    background-color: rgb(200, 131, 47);
+    position: absolute;
+    left: 139mm;
+    bottom: 145mm;
+    transform: skewX(-47deg);
+}
+
+.boxx{
+    position: relative;
+    left: 14mm;
+    top:0mm;
+    width: 20mm;
+    height: 50mm;
+    opacity: 0.2;
+    position: relative;
+    border: 2p xsolid black;
+}
+
+
+
+/* triangle bottom */
+
+.rectbtm {
+
+    position: absolute;
+    top: 143mm;
+    left: 164.5mm;
+    width: 141.5mm;
+    height: 6.5mm;
+    transform: skewX(-50deg);
+    background-color:rgb(200, 131, 47) !important;
+    border: 1px solid white;
+}    
+
+
+/* .rectright{
+    position: absolute;
+    height: 33mm;
+    width: 27mm;
+    top: 20mm;
+    left: 60mm;
+    bottom: -8mm;
+    background-color: pink;
+    transform: skewX(-401deg);
+} */
+
+.rectright{
+	/* width: 0mm;
+	height: 0mm;
+	border-left: 117px solid transparent;
+	border-right: 53px solid transparent;
+	border-bottom: 102px solid #555;
+    /* background-color: darkslategray; */
+    /* transform: skewY(1deg);
+    position: absolute;
+    left: 169mm;
+    top: 117mm; */ 
+
+    height: 51mm;
+    width: 50mm;
+    background-color: rgb(6, 58, 58);
+    position: absolute;
+    top: 93mm;
+    /* transform: skewX(20deg); */
+    left: 194mm;
+    transform: skewX(134deg);
+}
+
+
+.tri5{
+
+    height: 72mm;
+    width: 18mm;
+    background-color:rgb(5, 176, 196);
+    border: 1px solid black;
+    position: absolute;
+    left: 182mm;
+    top: 80mm;
+    transform: skewX(130deg);
+    overflow: hidden;
+}
+
+.boxtop{
+    height: 170mm;
+    width: 11mm;
+    /* background-color: red; */
+    border: 1px solid orangered;
+    position: absolute;
+    left: 161mm;
+    transform: skewX(-50deg);
+    top: 39mm;
+}
+
+
+.boxbtm1{
+
+    height: 5mm;
+    width: 70mm;
+    background-color:rgb(5, 176, 196);
+    position: absolute;
+    top: 145mm;
+    left: 63mm;
+    transform: skewX(-51deg);
+}
+
+
+.boxbtm2{
+    height: 7mm;
+    width: 8mm;
+    background-color: rgb(200, 131, 47);
+    position: absolute;
+    top: 144mm;
+    left: 50mm;
+    transform: skewX(-52deg);   
+}
+
+
+/* certificate content */
+
+.title{
+    position: absolute;
+    left: -45mm;
+    right: 0mm;
+    top: 15mm;
+    font-size: 26pt;
+    text-align: center;
+    margin: auto;
+    font-family: 'barlow' ;
+
+
+}
+
+.subtitle{
+    position: absolute;
+    font-size: 15pt;
+    text-align: center;
+    top: 27mm;
+    left: 128mm;
+    color: gray;
+    font-family: 'barlow' ;
+
+}
+
+.textbox{
+    height: 7mm;
+    width: 109mm;
+    /* background-color: aqua; */
+    border: 2px solid skyblue;
+    position: absolute;
+    top: 42mm;
+    left: 95mm;
+}
+
+.textbox p{
+    position: absolute;
+    top: -3mm;
+    left: 20mm;
+    color: gray;
+}
+
+.candidate-name{
+    position: absolute;
+    top: 65mm;
+    left: 126mm;
+    border-bottom: 2PX SOLID skyblue;
+    font-size: 18pt;
+}
+
+
+.maincontent{
+    position: absolute;
+    top: 74mm;
+    left: 85mm;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.secondtitle{
+    position: absolute;
+    top: 95mm;
+    left: 130mm;
+    font-size: 14pt;
+
+}
+
+
+.secondsubtitle{
+    position: absolute;
+    top: 102mm;
+    left: 140mm;
+    font-size: 9pt;
+}
+
+
+.borderleft{
+    height: 20mm;
+    width: 35mm;
+    /* background-color:black; */
+    border-bottom: 2px solid skyblue;
+    position: absolute;
+    left: 100mm;
+    top: 100mm;
+}
+
+
+.borderleft P{
+position: absolute;
+TOP: 20MM;
+left: 1mm;
+font-size: 10PT;
+}
+
+
+.borderright{
+    height: 20mm;
+    width: 35mm;
+    /* background-color:black; */
+    border-bottom: 2px solid skyblue;
+    position: absolute;
+    top: 100mm;
+    left: 155mm;
+}
+
+.borderright P{
+    position: absolute;
+    TOP: 20MM;
+    left: 9mm;
+    font-size: 10PT;
+    }
