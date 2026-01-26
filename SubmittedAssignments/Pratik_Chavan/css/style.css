@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 11pt;
+  background-color: #fafafa;
+}
+
+.certificate-wrapper {
+  /* border: 2px solid #000; */
+  padding: 5mm;
+  width: 190mm;
+  height: 150mm;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5pt 10pt 0 #c6c4c2;
+  background-color: #fff;
+  z-index: -2;
+  overflow: hidden;
+}
+
+.certificate-content {
+  border: 2pt solid #b7919e;
+  height: 130mm;
+  width: 170mm;
+  margin: auto;
+  position: relative;
+  position: 2;
+  background-color: #f7f7f7;
+  z-index: 99;
+  padding: 5pt 10pt;
+}
+
+img {
+  height: 9mm;
+}
+
+.title {
+  margin-top: 17mm;
+  font-size: 25pt;
+  letter-spacing: 4pt;
+  font-weight: 600;
+  margin-bottom: 5pt;
+  text-transform: uppercase;
+  color: #4a4a4a;
+  font-family: "Playfair Display", serif;
+}
+
+.subtitle {
+  font-size: 12pt;
+  margin-bottom: 8mm;
+  text-transform: uppercase;
+  letter-spacing: 2pt;
+  color: #5d5d5d;
+  font-family: "Bona Nova SC", serif;
+}
+
+.sr-no,
+.date {
+  position: absolute;
+  top: 2mm;
+  color: #919191;
+}
+
+.date {
+  right: 4mm;
+}
+
+.certificate-logo {
+  position: absolute;
+  bottom: 10mm;
+  left: 70mm;
+}
+
+.certificate-logo img {
+  height: 20mm;
+}
+
+.initial-content {
+  margin-bottom: 4mm;
+  font-size: 11pt;
+  letter-spacing: -1pt;
+  word-spacing: 2pt;
+  text-transform: uppercase;
+  color: #bbbbbb;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.candidate-name {
+  font-family: "Alex Brush";
+  font-size: 40pt;
+  letter-spacing: 2pt;
+  margin-bottom: 2mm;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #515151;
+}
+
+.org-logo img {
+  height: 33mm;
+  /* mix-blend-mode: darker; */
+  mix-blend-mode: color-burn;
+  position: absolute;
+  top: -9mm;
+  left: 70mm;
+}
+
+.main-content,
+.org-address {
+  color: #bbb;
+  font-family: "Noto Sans";
+}
+
+.sign-president,
+.sign-director,
+.sign-president-img,
+.sign-director-img {
+  position: absolute;
+}
+
+.sign-director,
+.sign-president {
+  bottom: 12mm;
+  font-size: 11pt;
+  color: #919191;
+}
+
+.sign-president {
+  left: 16mm;
+}
+
+.sign-director {
+  right: 19mm;
+}
+
+.sign-director-img,
+.sign-president-img {
+  bottom: 17mm;
+  height: 10mm;
+  mix-blend-mode: darken;
+}
+
+.sign-president-img {
+  left: 17mm;
+}
+
+.sign-director-img {
+  right: 28mm;
+}
+
+.org-name {
+  font-weight: bold;
+  margin: 4pt 0;
+  font-size: 13pt;
+  line-height: 20pt;
+  color: #7e7e7e;
+  word-spacing: 2pt;
+  text-transform: uppercase;
+  font-family: "Bodoni Moda SC", serif;
+}
+
+.org-address {
+  position: absolute;
+  bottom: 1mm;
+  right: 1mm;
+  font-size: 7pt;
+}
+
+/* certificate styling */
+
+/* Outer Styling */
+
+.recttop,
+.rectbtm,
+.rectleft,
+.rectright,
+.boxx,
+.tri1,
+.tri2,
+.tri3,
+.tri4,
+.tri5,
+.tri6,
+.boxbtm,
+.boxtop,
+.boxleft,
+.boxright {
+  position: absolute;
+  /* left: 0; */
+}
+
+.recttop,
+.rectbtm,
+.rectright,
+.rectleft {
+  background-image: linear-gradient(#f8b58b 80%, #f3b78b);
+}
+
+.recttop,
+.rectbtm {
+  height: 10mm;
+  width: 59mm;
+}
+
+.recttop {
+  top: 0;
+  right: 0;
+}
+
+.rectbtm {
+  bottom: 0;
+  left: 0;
+}
+
+.rectleft {
+  height: 100mm;
+  width: 10mm;
+  left: 0;
+  bottom: 0;
+  transform: skewY(-25deg);
+}
+
+.rectright {
+  height: 64mm;
+  width: 10mm;
+  right: 0;
+  top: 0;
+  transform: skewY(-25deg);
+}
+
+.tri1 {
+  background: linear-gradient(#a83a57, #a93c54, #ab3c4d);
+  height: 22mm;
+  width: 18mm;
+  transform: rotate(20deg) skewX(-40deg);
+  left: -16mm;
+  top: 68mm;
+}
+
+.tri2 {
+  height: 15mm;
+  width: 15mm;
+  background-color: #7b3a4e;
+  bottom: 30mm;
+  z-index: 2;
+  left: -8mm;
+  transform: rotate(45deg);
+}
+
+.tri3 {
+  /* background-color: #000;
+  height: 10mm;
+  width: 10mm; */
+  z-index: 2;
+  border-top: 3mm solid #ef8970;
+  border-right: 3mm solid transparent;
+  border-left: 3mm solid transparent;
+  bottom: 7mm;
+  left: 31.4mm;
+}
+
+.tri4 {
+  height: 22mm;
+  width: 18mm;
+  background: linear-gradient(#a63b5c, #a83b58);
+  z-index: 2;
+  top: 30mm;
+  right: -16mm;
+  transform: rotate(-24deg) skewX(40deg);
+}
+
+.tri5,
+.tri6 {
+  background: #8f8f8f;
+  height: 2pt;
+  width: 14mm;
+  z-index: 100;
+}
+
+.tri5 {
+  top: 45mm;
+  left: 50mm;
+}
+
+.tri6 {
+  top: 45mm;
+  right: 50mm;
+}
+
+.boxleft {
+  height: 40mm;
+  width: 10mm;
+  bottom: 10mm;
+  left: 0;
+  transform: skewY(-25deg);
+  background: linear-gradient(#aa3d55 10%, #a63b5a 20%, #7b3a4e 40%);
+}
+
+.boxright {
+  height: 17mm;
+  width: 30mm;
+  background-color: #000;
+  top: 4mm;
+  z-index: 2;
+  right: -8mm;
+  transform: rotate(-25deg);
+  background: linear-gradient(#a83c53, #a03a4d);
+}
+
+.boxbtm {
+  width: 17.4mm;
+  height: 10mm;
+  bottom: 0;
+  left: 17mm;
+  background-image: linear-gradient(#aa3b54, #a73b52);
+}
+
+.boxtop {
+  width: 17.8mm;
+  height: 10mm;
+  top: 0;
+  right: 14mm;
+  background-image: linear-gradient(#d34a55, #d14b54);
+}
+
+.boxx {
+  height: 31mm;
+  width: 14mm;
+  background: linear-gradient(#793c4d, #7c3b4f);
+  top: -21mm;
+  right: 0;
+  z-index: 3;
+  transform: skewY(27deg);
+}
